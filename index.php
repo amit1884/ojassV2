@@ -11,7 +11,7 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Jura|Rock+Salt" rel="stylesheet">
-  <link rel ="stylesheet" href ="animate.css">
+  <link rel ="stylesheet" href ="css/animate.css">
     <link rel ="stylesheet" href= "css/style.css">
     <link rel ="stylesheet" href= "css/bootstrap.min.css">
     <script type ="text/javascript" src ="js/jquery.js"></script>
@@ -86,7 +86,7 @@
 </div><br><br>
 <center>
   <a href ="#about-id">
-    <i class="fa fa-angle-double-down animated bounce"></i></a>
+    <i class="fa fa-angle-double-down animated bounce "></i></a>
 </center>
 </div>
 <br><br>
