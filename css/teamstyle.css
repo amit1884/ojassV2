@@ -1,0 +1,123 @@
+
+.back {
+	background-color: black;
+	/*overflow: hidden;*/
+}
+
+
+.color {
+	color: white;
+}
+
+#h {
+	color: white;
+	margin-top: 30px;
+	margin-left: 40px;
+	font-size: 3.5em;
+}
+
+#cls {
+	background-color: grey;
+	/*margin-right: 100px;*/
+}
+
+.jumbotron {
+	margin-top: 10px;
+	margin-left: 55px;
+}
+
+.card {
+	margin: 100px 0;
+	background-color: #eee;
+	cursor: pointer;
+	text-align: center;
+	width: 100%;
+	border: none;
+	outline: none;
+	transition: 0.45sec;
+}
+
+#size {
+	font-size: 40px;
+	/*margin: 40px;*/
+	margin: 30px;
+	background-color: grey;
+	color: white;
+}
+
+.modal {
+  text-align: center;
+}
+
+/*@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}*/
+
+.modal-dialog {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background-color: black;
+}
+
+#head {
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+	border: none;
+	color: white;
+}
+
+.modal-body {
+	text-align: center;
+	background-color: black;
+	border: none;
+}
+
+.modal-footer {
+	text-align: center;
+	background-color: black;
+	border: none;
+}
+
+
+h3 {
+	color: red;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-size: 2rem;
+	height: 40px;
+	margin-bottom: 60px;
+}
+
+p {
+	color: white;
+	text-align: center;
+}
+
+.card-body {
+	background-color: black;
+}
+
+.card {
+	border: none;
+	width: 100%;
+
+}
+
+.carousel-indicators {
+	margin-top: 3px;
+}
+
+button {
+	width: 100%;
+	/*transform: translateX(-25px);*/
+}
