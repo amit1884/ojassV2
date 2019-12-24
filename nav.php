@@ -28,7 +28,7 @@
 		<div class="nav__content">
 			<ul class="nav__list">
 				<li class="nav__list-item active-nav"><a href="index.php" class="hover-target">HOME</a></li>
-				<li class="nav__list-item"><a href="events.php" class="hover-target">Events</a></li>
+				<li class="nav__list-item"><a href="event2.php" class="hover-target">Events</a></li>
 				<li class="nav__list-item"><a href="notification.php" class="hover-target">NOTIFICATION</a></li>
                 <li class="nav__list-item"><a href="faq.php" class="hover-target">FAQs</a></li>
                 <li class="nav__list-item"><a href="sponsors.php" class="hover-target">SPONSORS</a></li>

@@ -22,14 +22,10 @@
     Alatsi|Alfa+Slab+One|Bitter|Inria+Serif|Lakki+Reddy|
     Lobster|Merriweather|Playfair+Display|Righteous&display=swap" rel="stylesheet"> 
     <title>OJASS'20</title>
-
-</head>
-<body>
-   
-
 <style>
     body{
         background-color: #1f2029;
+        overflow-x:hidden;
     }
     html{
         scroll-behavior:smooth;
@@ -72,7 +68,8 @@
     color:white;
   }
   </style>
-
+  </head>
+  <body>
 <br><br>
   <div class ="main-header-20">
   <div class ="head">OJASS'20</div>
