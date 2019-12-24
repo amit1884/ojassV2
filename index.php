@@ -34,7 +34,7 @@
     font-size:15px;
     color:white;
     text-align:center;
-    margin-left:-2%;
+    /* margin-left:-2%; */
     
 
   }
