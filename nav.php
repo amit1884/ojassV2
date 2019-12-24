@@ -10,7 +10,7 @@
     <!-- <title>Document</title> -->
 </head>
 <link rel ="stylesheet" href ="css/navstyle.css">
-<body>
+<body style ="overflow-x:hidden;">
     <header class="cd-header" style ="margin-bottom:10px;">
 		<div class="header-wrapper">
 		<a href ="index.php"><img src ="images/logo.png" width ="70" height ="60" align="left" style ="cursor:pointer;margin-top:10px;"></a>

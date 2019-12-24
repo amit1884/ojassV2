@@ -9,7 +9,9 @@
 
     <title>Events | OJASS</title>
     <style>
-        
+        body{
+          overflow-x:hidden;
+        }
         .major_events{
               width:30%;
               margin:5px;

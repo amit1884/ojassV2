@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="images/logo.png" type="image" sizes="40px">
+    <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Jura|Rock+Salt" rel="stylesheet">
   <link rel ="stylesheet" href ="animate.css">
@@ -86,7 +86,7 @@
   <center>
   <h1 class="ml2">INDIC ERUDITION</h1>
 </center>
-</div>
+</div><br><br>
 <center>
   <a href ="#about-id">
     <i class="fa fa-angle-double-down animated bounce"></i></a>
@@ -131,7 +131,7 @@ anime.timeline({loop: false})
     </script>
 
   </center>
-<h2 id  ="about-id"><center><u>ABOUT</u><center></h2>
+<h2 id  ="about-id" style ="  font-family: 'Play', sans-serif; color:white"><center><u>ABOUT</u><center></h2>
 <p class= "about" >
 Ojass is the annual techno-management fest of NIT Jamshedpur. Started in the year 2004, Ojass assembles a wide range of events comprising every genre of engineering, management and even film-making with the aim to foster and boost cogent engineering practices in the nation and stimulate the future generation to dream big. Certified Workshops in diversed fields are conducted every year before the fest to help students understand the different technology trends in the market.
 A three-day spectacle, Ojass also organizes many motivating guest lectures under the event cluster "Guru Gyan". Since its inception, Ojass has been receiving immense participation from the student community from all over India with the 2018 edition accounting for over 4000 participants. The prize money for this edition was ₹18 Lac. OJASS 19 is slated to kick-off from 5th April 2019 and the grandeur will prevail for the next two days. Save these dates, for we are all set to make it Bigger and Better, than ever!

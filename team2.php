@@ -19,6 +19,9 @@
       width: 96%;
       height:300px;
   }
+  .carousel-inner{
+    margin:2%;
+  }
   #btn-team{
       width:96%;
       margin:2%;
