@@ -1,3 +1,4 @@
+<link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
   <!--footer-->
           <div class="container-fluid text-center footer" style="background:#514e56bd;width:100%;overflow:hidden;">
     <footer style="padding-top: 10px;">
@@ -5,7 +6,7 @@
         <div class="row ">
           <div class="col text-center">
             <ul class="list-inline" >
-              <p class="text-light" style="font-size:18px; font-family: 'Jura', sans-serif;">Ojass'19</p>
+              <p class="text-light" style="font-size:18px; color:white;font-family:  font-family: 'Play', sans-serif;">Ojass'19</p>
             </ul>
           </div>
           <div class="col">
@@ -23,7 +24,7 @@
             <a href="https://www.youtube.com/user/ojassnitjsr" class="fa fa-youtube-square" style="font-size: 36px; margin-left: 12px;color:white !important" target="_blank"></a>
             <a href="https://www.instagram.com/ojass_techfest/" class="fa fa-instagram" style="font-size: 36px; margin-left: 12px;color:white !important" target="_blank"></a>
             
-            <p style="font-size: 14px; margin: 0; padding: 10px 0;"> <a class="text-light" style="text-decoration:none;color:white" href="Developers.php" target= "_blank">© Ojass Web Team</a> </p>
+            <p style="font-size: 14px; margin: 0; padding: 10px 0;"> <a class="text-light" style="text-decoration:none;color:white" href="developers.php">© Ojass Web Team</a> </p>
 
         </center>
     </footer>

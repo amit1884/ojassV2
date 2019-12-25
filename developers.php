@@ -1,4 +1,4 @@
-
+<?php include_once 'nav.php';?>
     <!-- <link rel ="stylesheet" href= "style.css"> -->
     <!-- <link rel ="stylesheet" href= "bootstrap.min.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
@@ -10,19 +10,6 @@
 	<link rel ="stylesheet" href= "css/bootstrap.min.css">
     <title>Developers | OJASS</title>
 <style type="text/css">
-	@media(max-width: 992px){
-			.member{
-				border-radius: 10px;
-				width:90%;
-				margin: 10px;
-				text-align: center;
-				padding-bottom: 5px;
-				background-color:#000;
-				box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-							0px 8px 13px rgba(0,0,0,0.1),
-							0px 18px 23px rgba(0,0,0,0.1);
-		}
-		}
 		@media(min-width: 992px){
 			.member{
 				border-radius: 10px;
@@ -60,8 +47,7 @@
 		font-family: 'times new roman';
 	}
 </style>
-<body style ="background-color:black">
-<a href ="index.php"><img src ="images/logo.png" width ="70" height ="60" align="left"style ="margin-top:5%;cursor:pointer"></a>
+<body>
 	<h1 class='header'>
 		  Developers
 	</h1>

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/logo.png" type="image" sizes="40px">
+	<link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel ="stylesheet" href ="css/bootstrap.min.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -42,8 +44,8 @@
 	<div class='cursor2' id="cursor2"></div>
 	<div class='cursor3' id="cursor3"></div>
 
-<audio id="link" src="http://ivang-design.com/svg-load/menu/link.mp3" preload="auto"></audio>
-<audio id="hover-audio" src="http://ivang-design.com/svg-load/menu/hover.mp3" preload="auto"></audio>
+<!-- <audio id="link" src="http://ivang-design.com/svg-load/menu/link.mp3" preload="auto"></audio> -->
+<!-- <audio id="hover-audio" src="http://ivang-design.com/svg-load/menu/hover.mp3" preload="auto"></audio> -->
 <script>
 (function($) { "use strict";
 		

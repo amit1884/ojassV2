@@ -41,7 +41,7 @@
       <br><br><br>
     <h1 id='events_header'>Major Events</h1>
     <div class ="main-event">
-<div class='major_events' data-aos="flip-lfet"><img src='svg\eventsIcons\armageddon.svg'><h5>Armageddon</h5></div>
+<div class='major_events' data-aos="flip-left"><img src='svg\eventsIcons\armageddon.svg'><h5>Armageddon</h5></div>
     <div class='major_events' data-aos="fade-down"><img src='svg\eventsIcons\arthashastra.svg'><h5>Arthashastra</h5></div>
     <div class='major_events' data-aos="fade-down-left"><img src='svg\eventsIcons\akriti.svg'><h5>Aakriti</h5></div>
     <div class='major_events' data-aos="flip-right"><img src='svg\eventsIcons\avartan.svg'><h5>Avartan</h5></div>
