@@ -60,8 +60,8 @@
 
     .swiper-slide .details h3 {
         margin: 0;
-        padding: 0;
-        font-size: 30px;
+        padding: 2px auto;
+        font-size: 28px;
         text-align: center;
         line-height: 20px;
     }
