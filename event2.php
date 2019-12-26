@@ -63,7 +63,7 @@
         padding: 2px auto;
         font-size: 28px;
         text-align: center;
-        line-height: 20px;
+        /*line-height: 20px;*/
     }
 
     .swiper-slide .details h3 span {
