@@ -60,7 +60,7 @@
 
     .swiper-slide .details h3 {
         margin: 0;
-        padding:2px auto;
+        padding: 0;
         font-size: 30px;
         text-align: center;
         line-height: 20px;
@@ -200,7 +200,7 @@
                             <img src="Events Page/rise_of_machines.svg" alt="">
                         </div>
                         <div class="details">
-                            <h3>Rise of Machines<br></h3>
+                            <h3>Rise of<br> Machines</h3>
                         </div>
                   </div>
                   <div class="swiper-slide">
@@ -216,7 +216,7 @@
                             <img src="Events Page/vishwacodegenesis.svg" alt="">
                         </div>
                         <div class="details">
-                            <h3>Vishwa Code Genesis<br></h3>
+                            <h3>Vishwa Code<br> Genesis</h3>
                         </div>
                   </div>
                   <div class="swiper-slide">
