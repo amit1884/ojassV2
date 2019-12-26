@@ -36,7 +36,7 @@
     background-size: cover;
     width: 270px;
     height: 300px;
-    background: rgb(207, 193, 29);
+    background: linear-gradient(to right, #a8c0ff, #3f2b96);
     border-radius: 50px;
   }
 
