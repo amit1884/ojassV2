@@ -5,18 +5,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href ="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link rel="stylesheet" href="style.css"> -->
     <style>
-        * {
-    background-color: black;
-        }
-
         body {
-            /* width: 100%; */
-            /* background-color: black; */
-            width: 100%;
-            height: 100%;
+    background-color:#1f2029;
         }
 
         #h {
@@ -66,10 +59,10 @@
 
     <title>Team|OJASS'20</title>
 </head>
-<body><br><br><br>
+<body><br><br>
     <div class="container">
-
-            <h1 class="text-center animated fadeIn" id="h"><i class="fa fa-users"></i> TEAM</h1>
+    <!-- <i class="fa fa-users"></i> -->
+            <h1 class="text-center animated fadeIn" id="h"><u>TEAM</u></h1>
     <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary btn-lg" id="modbtn" data-toggle="modal" data-target="#exampleModalCenter1">
             Core Team
@@ -828,10 +821,56 @@
                                                 
         
     </div>
+    
+
+<!--footer style-->
+
+<link href ="css/bootstrap.min.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<style>
+
+    .foo-ter{
+        background-color:#514e56bd;
+        margin:0;
+        padding:0;
+    }
+    .foo-ter h2{
+        font-family: 'Play', sans-serif;
+        color:white;
+    }
+    .foo-li li{
+        display:inline-block;
+        /* margin:5px */
+    }
+     i{
+        color:red;
+    }
+    </style>
+
+<!--footer style-->
+    
+<div class ="container-fluid foo-ter">
+    <h2><center>OJASS'20</center></h2>
+    <ul class ="foo-li"style="list-style-type:none">
+            <li><i class="fa fa-map-marker text-light" style="font-size: 15px;color:red;text-decoration:none;"><a style="font-family: 'Jura', sans-serif;color:#fff;"> NIT Jamshedpur</a></i></li>&nbsp;&nbsp;
+            <li><a class="fa fa-envelope text-light" style="font-size: 16px;color:red;"><a class="text-light" style="font-family: 'Jura', sans-serif;color:#fff;text-decoration:none;" href="mailto:ojass@nitjsr.ac.in"> ojass@nitjsr.ac.in</a> </i></li>
+          </ul>
+          <center>
+            <a href="https://www.facebook.com/Ojassnitjamshedpur/" ><i class="fa fa-facebook-official" style="font-size: 36px; color:white !important" target="_blank"></i></a>
+            <a href="https://www.youtube.com/user/ojassnitjsr" class="fa fa-youtube-square" style="font-size: 36px; margin-left: 12px;color:white !important" target="_blank"></a>
+            <a href="https://www.instagram.com/ojass_techfest/" class="fa fa-instagram" style="font-size: 36px; margin-left: 12px;color:white !important" target="_blank"></a>
+            
+            <p style="font-size: 14px; margin: 0; padding: 10px 0;"> <a class="text-light" style="text-decoration:none;color:white" href="developers.php">© Ojass Web Team</a> </p>
+
+        </center>
+</div>
+
+
+
+
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<?php include_once 'footer.php';?>
 
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>

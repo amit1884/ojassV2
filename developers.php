@@ -1,9 +1,13 @@
 <?php include_once 'nav.php';?>
+<html>
+	<head>
+		<title>DEVELOPER|OJASS'20</title>
+
+<link rel ="stylesheet" href ="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <title>Developers | OJASS</title>
 <style type="text/css">
 		@media(min-width: 992px){
 			.member{
@@ -44,6 +48,7 @@
 		font-family: 'times new roman';
 	}
 </style>
+</head>
 <body style ="background-color: #1f2029;"><br><br><br>
 	<h1 class='header'>
 		  Developers

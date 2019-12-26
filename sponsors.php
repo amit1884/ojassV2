@@ -1,11 +1,13 @@
 <?php 
 include_once 'nav.php';
 ?>
-<body>
-<link rel = "stylesheet" href = "css/style_sponsors.css"><br><br><br>
+<link rel = "stylesheet" href = "css/style_sponsors.css">
+<!-- <link rel = "stylesheet" href = "css/bootstrap.min.css"> -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<h2 class="text-center" ><span class="page_title" style="color:white; font-family:algerian;font-size:50px;text-decoration: underline;">SPONSORS</span></h2>
+<body>
+<br><br><br>
+<h2 class="text-center" ><span class="page_title" style="color:white; font-family:algerian;font-size:50px;text-decoration: underline;"><center>SPONSORS</center></span></h2>
 <br><br> 
 
       <div class="card" data-aos="flip-left">
@@ -75,12 +77,10 @@ include_once 'nav.php';
           </div>
        </div>
 
-       <br>
+       <?php include_once 'footer2.php';?>
        <script type ="text/javascript">
     AOS.init({
   duration: 700,
 })
 </script>
-       
-<?php include_once 'footer.php';?>
 

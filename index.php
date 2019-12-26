@@ -63,7 +63,7 @@
     text-decoration:none;
     
   }
-  .fa-angle-double-down{
+ #about-id .fa-angle-double-down{
     font-size:40px;
     color:white;
   }
@@ -86,7 +86,7 @@
 </div><br><br>
 <center>
   <a href ="#about-id">
-    <i class="fa fa-angle-double-down animated bounce "></i></a>
+    <i class="fa fa-angle-double-down animated bounce " styel ="font-size:40px;color:white;"></i></a>
 </center>
 </div>
 <br><br>
@@ -128,11 +128,11 @@ anime.timeline({loop: false})
     </script>
 
   </center>
-<h2 id  ="about-id" style ="  font-family: 'Play', sans-serif; color:white"><center><u>ABOUT</u><center></h2>
+<h2 id  ="about-id" style ="  font-family: 'Play', sans-serif; color:white;"><center><u>ABOUT</u><center></h2>
 <p class= "about" >
 Ojass is the annual techno-management fest of NIT Jamshedpur. Started in the year 2004, Ojass assembles a wide range of events comprising every genre of engineering, management and even film-making with the aim to foster and boost cogent engineering practices in the nation and stimulate the future generation to dream big. Certified Workshops in diversed fields are conducted every year before the fest to help students understand the different technology trends in the market.
 A three-day spectacle, Ojass also organizes many motivating guest lectures under the event cluster "Guru Gyan". Since its inception, Ojass has been receiving immense participation from the student community from all over India with the 2018 edition accounting for over 4000 participants. The prize money for this edition was ₹18 Lac. OJASS 19 is slated to kick-off from 5th April 2019 and the grandeur will prevail for the next two days. Save these dates, for we are all set to make it Bigger and Better, than ever!
 </p>
-<?php include_once 'footer.php';?>
+<?php include_once 'footer2.php';?>
 </body>
 </html>

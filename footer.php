@@ -1,3 +1,4 @@
+
 <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
   <!--footer-->
           <div class="container-fluid text-center footer" style="background:#514e56bd;width:100%;overflow:hidden;">
@@ -6,7 +7,7 @@
         <div class="row ">
           <div class="col text-center">
             <ul class="list-inline" >
-              <p class="text-light" style="font-size:18px; color:white;font-family:  font-family: 'Play', sans-serif;">Ojass'19</p>
+              <p class="text-light" style="font-size:18px; color:white;font-family: 'Play', sans-serif;">Ojass'19</p>
             </ul>
           </div>
           <div class="col">

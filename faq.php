@@ -62,7 +62,7 @@
 </div>
 </div>
 <div class ="foo-ter">
-    <?php include_once 'footer.php';?>
+    <?php include_once 'footer2.php';?>
 </div>
 </div>
 

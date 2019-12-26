@@ -6,7 +6,6 @@
 	<link rel="icon" href="images/logo.png" type="image" sizes="40px">
 	<link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link rel ="stylesheet" href ="css/bootstrap.min.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src ="js/jquery.js"></script>
     <!-- <title>Document</title> -->
@@ -34,7 +33,7 @@
 				<li class="nav__list-item"><a href="notification.php" class="hover-target" style ="text-decoration:none;">NOTIFICATION</a></li>
                 <li class="nav__list-item"><a href="faq.php" class="hover-target" style ="text-decoration:none;">FAQs</a></li>
                 <li class="nav__list-item"><a href="sponsors.php" class="hover-target" style ="text-decoration:none;">SPONSORS</a></li>
-                <li class="nav__list-item"><a href="team2.php" class="hover-target" style ="text-decoration:none;">TEAM</a></li>
+                <li class="nav__list-item"><a href="team.php" class="hover-target" style ="text-decoration:none;">TEAM</a></li>
 			</ul>
 		</div>
 	</div>		

@@ -68,20 +68,20 @@
 #head {
 	align-items: center;
 	justify-content: center;
-	background-color: black;
+	background: black;
 	border: none;
 	color: white;
 }
 
 .modal-body {
 	text-align: center;
-	background-color: black;
+	background: black;
 	border: none;
 }
 
 .modal-footer {
 	text-align: center;
-	background-color: black;
+	background: black;
 	border: none;
 }
 
