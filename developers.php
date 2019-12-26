@@ -3,7 +3,7 @@
 	<head>
 		<title>DEVELOPER|OJASS'20</title>
 
-<link rel ="stylesheet" href ="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<!-- <link rel ="stylesheet" href ="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -13,8 +13,8 @@
 			.member{
 				border-radius: 10px;
 				width:38%;
-				margin-left:10%;
-				margin-top:5%;
+				/* margin-left:10%; */
+				/* margin-top:5%; */
 				text-align: center;
 				float:left;
 				box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
@@ -36,22 +36,19 @@
 		
 			
 	}
-		body{
-			background-color: #1f2029 !important;
-		}
 	.header{
 		margin-top: 0;
 		text-align: center;
 		padding:10px;
 		font-size: 10vw;
 		color:white;
-		font-family: 'times new roman';
+		font-family: 'Play', sans-serif;;
 	}
 </style>
 </head>
 <body style ="background-color: #1f2029;"><br><br><br>
 	<h1 class='header'>
-		  Developers
+		  <center><u>Developers</u></center>
 	</h1>
 	<div class='container'>
 		<div class='member' data-aos='fade-left'>
@@ -74,7 +71,7 @@
 </body>
 
 <!--footer-->
-<?php include_once 'footer.php';?>
+<?php include_once 'footer2.php';?>
   
 <script type="text/javascript">
 	AOS.init({

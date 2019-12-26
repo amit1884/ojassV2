@@ -34,9 +34,6 @@
     font-size:15px;
     color:white;
     text-align:center;
-    /* margin-left:-2%; */
-    
-
   }
   .head{
       color:#fff;
@@ -49,11 +46,8 @@
   }
  
   .about-btn{
-    width:100px;
-    height:auto;
-    
-    color:black;
-    /* margin:10px; */
+   font-size:40px;
+    color:white;
   }
   .main-header-20{
    min-height:90vh;
@@ -86,7 +80,7 @@
 </div><br><br>
 <center>
   <a href ="#about-id">
-    <i class="fa fa-angle-double-down animated bounce " styel ="font-size:40px;color:white;"></i></a>
+    <i class="fa fa-angle-double-down animated bounce about-btn"></i></a>
 </center>
 </div>
 <br><br>

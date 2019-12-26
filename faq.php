@@ -6,12 +6,12 @@
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <script src ="js/jquery.js"></script>
 </head>
-<body>
+<body style ="background-color: #1f2029;">
 
 <br><br><br>
 <h1 style ="font-family: 'Play', sans-serif;"><center><u>FAQs</u></center></h1>
 <div class ="faq-wrapper">
-<div class="accordion js-accordion">
+<div class="accordion js-accordion" style ="margin-left:2px;margin-right:2px;">
   <div class="accordion__item js-accordion-item">
     <div class="accordion-header js-accordion-header">Panel 1</div> 
   <div class="accordion-body js-accordion-body">
