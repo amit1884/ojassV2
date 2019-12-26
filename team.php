@@ -32,13 +32,13 @@
         }
 
         .modal-title {
-            color: white;
+            color: black;
             font-weight: bolder;
             font-size: 1.5rem;
         }
 
         #closed {
-            color: white;
+            color: black;
         }
 
         .carousel-indicators {
