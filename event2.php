@@ -29,7 +29,7 @@
   .swiper-container {
     width: 100%;
     padding-top: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
   }
   .swiper-slide {
     background-position: center;
