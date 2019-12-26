@@ -6,10 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <style>
   /* Make the image fully responsive */
   body{
@@ -32,6 +30,7 @@
       outline:none;
       border-radius:10px;
       align-self:center;
+      color:black;
   }
   .tc1,.tc2,.tc3,.tc4,.tc5,.tc6,.tc7,.tc8{
       display:none;
