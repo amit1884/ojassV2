@@ -68,7 +68,7 @@
 		</div>
 		<div class='member' data-aos='fade-right'>
 			<img src="images/4.jpg">
-			<h4>Masood Masu, EE</h4>
+			<h4>Masood, EE</h4>
 		</div>
 	</div>
 </body>
