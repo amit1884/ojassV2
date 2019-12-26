@@ -29,12 +29,12 @@
 	<div class="nav">
 		<div class="nav__content">
 			<ul class="nav__list">
-				<li class="nav__list-item active-nav"><a href="index.php" class="hover-target">HOME</a></li>
-				<li class="nav__list-item"><a href="event2.php" class="hover-target">Events</a></li>
-				<li class="nav__list-item"><a href="notification.php" class="hover-target">NOTIFICATION</a></li>
-                <li class="nav__list-item"><a href="faq.php" class="hover-target">FAQs</a></li>
-                <li class="nav__list-item"><a href="sponsors.php" class="hover-target">SPONSORS</a></li>
-                <li class="nav__list-item"><a href="team2.php" class="hover-target">TEAM</a></li>
+				<li class="nav__list-item active-nav"><a href="index.php" class="hover-target" style ="text-decoration:none;">HOME</a></li>
+				<li class="nav__list-item"><a href="event2.php" class="hover-target" style ="text-decoration:none;">Events</a></li>
+				<li class="nav__list-item"><a href="notification.php" class="hover-target" style ="text-decoration:none;">NOTIFICATION</a></li>
+                <li class="nav__list-item"><a href="faq.php" class="hover-target" style ="text-decoration:none;">FAQs</a></li>
+                <li class="nav__list-item"><a href="sponsors.php" class="hover-target" style ="text-decoration:none;">SPONSORS</a></li>
+                <li class="nav__list-item"><a href="team2.php" class="hover-target" style ="text-decoration:none;">TEAM</a></li>
 			</ul>
 		</div>
 	</div>		
