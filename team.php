@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel ="stylesheet" href ="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
         body {
@@ -18,6 +19,7 @@
             font-weight: bolder;
             font-size: 2.8rem;
             color: white;
+            font-family: 'Play', sans-serif;
         }
 
         #modbtn {
@@ -62,7 +64,7 @@
 <body><br><br>
     <div class="container">
     <!-- <i class="fa fa-users"></i> -->
-            <h1 class="text-center animated fadeIn" id="h"><u>TEAM</u></h1>
+            <h1 class="text-center animated fadeIn" id="h"><u>Team</u></h1>
     <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary btn-lg" id="modbtn" data-toggle="modal" data-target="#exampleModalCenter1">
             Core Team

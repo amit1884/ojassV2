@@ -63,7 +63,7 @@
     text-decoration:none;
     
   }
- #about-id .fa-angle-double-down{
+ .fa-angle-double-down{
     font-size:40px;
     color:white;
   }

@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Events Page</title>
@@ -80,7 +81,7 @@
 </head>
 <body>
 <br><br>
-    <h1><u>Major Events</u></h1>
+    <h1 style =" font-family: 'Play', sans-serif;"><u>Major Events</u></h1>
     <!-- Swiper -->
         <div class="swiper-container">
                 <div class="swiper-wrapper">
