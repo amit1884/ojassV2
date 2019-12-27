@@ -118,7 +118,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                <!-- <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</!--> -->
+                <!-- <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</!-->
                 </div>
             </div>
             </div>
