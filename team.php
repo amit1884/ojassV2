@@ -34,13 +34,13 @@
         }
 
         .modal-title {
-            color: black;
+            color: white;
             font-weight: bolder;
             font-size: 1.5rem;
         }
 
         #closed {
-            color: black;
+            color: white;
         }
 
         .carousel-indicators {
@@ -55,6 +55,10 @@
 
         .close {
             width: 20%;
+        }
+
+        .modal-content {
+            background-color: black;
         }
     </style>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
