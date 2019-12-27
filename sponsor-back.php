@@ -1,9 +1,14 @@
-<?php include_once 'nav.php';?>
-<link rel = "stylesheet" href = "css/back_sponsors.css">
-<div class='bg'></div>
+<?php 
+include_once 'nav.php';
+?>
+<body>
 <link rel = "stylesheet" href = "css/style_sponsors.css"><br><br><br>
-
-<h2 class="text-center content " ><span class="page_title" style="color:white; font-family:algerian;font-size:50px;text-decoration:none;"><?php include_once 'title_sponsors.php';?><!-- SPONSORS --></span></h2>
+<!-- <h2 class="text-center" ><span class="page_title" style="color:white; font-family:algerian;font-size:50px;text-decoration: underline;">SPONSORS</span></h2> -->
+<div style="background-attachment: fixed;background-repeat: no-repeat;">
+<?php 
+include_once 'back.php';
+?>
+</div>
 <br><br> 
 
       <div class="card">
@@ -74,12 +79,6 @@
        </div>
 
        <br>
-       <div class="page_title" style="position:relative;margin:0%;width:100%;">
-       <?php include 'footer.php';?>
-       </div>
-      
-          
-       </body>
-
        
-      
+<?php include_once 'footer.php';?>
+
