@@ -124,7 +124,7 @@
   <center>
   <h1 class="ml2">INDIC ERUDITION</h1>
 </center>
-</div><br><br><br>
+</div><br><br>
 <center>
   <a href ="#about-id">
     <i class="fa fa-angle-double-down animated bounce about-btn"></i></a>
