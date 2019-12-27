@@ -77,7 +77,8 @@
 
 @media screen and (max-width: 1000px) {
   body {
-    padding: 0.3em;
+    padding: 0;
+    margin:0;
   }
   
   .accordion {

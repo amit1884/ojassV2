@@ -3,6 +3,7 @@
 <style>
 
     .foo-ter{
+        width:100%;
         background-color:#514e56bd;
         margin:0;
         padding:0;

@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Jura|Rock+Salt" rel="stylesheet">
   <link rel ="stylesheet" href ="css/animate.css">
     <link rel ="stylesheet" href= "css/style.css">
+    <link rel ="stylesheet" href= "css/loader.css">
     <link rel ="stylesheet" href= "css/bootstrap.min.css">
     <script type ="text/javascript" src ="js/jquery.js"></script>
     <script type ="text/javascript" src ="js/index.js"></script>
@@ -34,9 +35,6 @@
     font-size:15px;
     color:white;
     text-align:center;
-    /* margin-left:-2%; */
-    
-
   }
   .head{
       color:#fff;
@@ -49,11 +47,8 @@
   }
  
   .about-btn{
-    width:100px;
-    height:auto;
-    
-    color:black;
-    /* margin:10px; */
+   font-size:40px;
+    color:white;
   }
   .main-header-20{
    min-height:90vh;
@@ -63,13 +58,59 @@
     text-decoration:none;
     
   }
- #about-id .fa-angle-double-down{
+ .fa-angle-double-down{
     font-size:40px;
     color:white;
+  }
+  .about-sec{
+    display:none;
   }
   </style>
   </head>
   <body>
+
+<!-- 
+  <div id="loader-wrapper" style="overflow: hidden">
+        <div id="main-loader">
+            <div class="ring el-1"></div>
+            <div class="ring el-2"></div>
+            <div class="ring el-3"></div>
+            <div class="ring el-4"></div>
+            <div class="ring el-5"></div>
+            <div class="ring el-6"></div>
+            <div class="ring el-7"></div>
+            <div class="ring el-8"></div>
+            <div class="ring el-9"></div>
+            <div class="ring el-10"></div>
+            <div class="ring el-11"></div>
+            <div class="ring el-12"></div>
+            <div class="ring el-13"></div>
+            <div class="ring el-14"></div>
+            <div class="ring el-15"></div>
+        </div>
+        <div id="oasis-text">
+            <div id="oasis-title">
+                <ul>
+                    <li class="oasis-li li-1">O</li>
+                    <li class="oasis-li li-2">J</li>
+                    <li class="oasis-li li-3">A</li>
+                    <li class="oasis-li li-4">S</li>
+                    <li class="oasis-li li-5">S</li>
+                    <li class="oasis-li li-6">'</li>
+                    <li class="oasis-li li-7">2</li>
+                    <li class="oasis-li li-8">0</li>
+                </ul>
+            </div>
+            <div id="oasis-slogan">
+                INDIC ERUDITION
+            </div>
+        </div>
+        <div id="oasis-date">
+            19<sup>th</sup> Jan - 23<sup>rd</sup> Jan
+        </div>
+    </div> -->
+
+
 <br><br>
   <div class ="main-header-20">
   <div class ="head">OJASS'20</div>
@@ -78,7 +119,7 @@
         <embed src="ojasslogo.svg">
       </center>
 </object>
-<!--theme-->
+<!--theme--><br>
 <div class ="theme">
   <center>
   <h1 class="ml2">INDIC ERUDITION</h1>
@@ -86,7 +127,7 @@
 </div><br><br>
 <center>
   <a href ="#about-id">
-    <i class="fa fa-angle-double-down animated bounce " styel ="font-size:40px;color:white;"></i></a>
+    <i class="fa fa-angle-double-down animated bounce about-btn"></i></a>
 </center>
 </div>
 <br><br>
@@ -128,11 +169,22 @@ anime.timeline({loop: false})
     </script>
 
   </center>
+  <div id="abt">
 <h2 id  ="about-id" style ="  font-family: 'Play', sans-serif; color:white;"><center><u>ABOUT</u><center></h2>
 <p class= "about" >
 Ojass is the annual techno-management fest of NIT Jamshedpur. Started in the year 2004, Ojass assembles a wide range of events comprising every genre of engineering, management and even film-making with the aim to foster and boost cogent engineering practices in the nation and stimulate the future generation to dream big. Certified Workshops in diversed fields are conducted every year before the fest to help students understand the different technology trends in the market.
 A three-day spectacle, Ojass also organizes many motivating guest lectures under the event cluster "Guru Gyan". Since its inception, Ojass has been receiving immense participation from the student community from all over India with the 2018 edition accounting for over 4000 participants. The prize money for this edition was ₹18 Lac. OJASS 19 is slated to kick-off from 5th April 2019 and the grandeur will prevail for the next two days. Save these dates, for we are all set to make it Bigger and Better, than ever!
 </p>
+
 <?php include_once 'footer2.php';?>
+</div>
+<!-- <script>
+  $(document).ready(function() {
+window.onload = function () {
+$('#loader-wrapper').fadeOut(3500, function(){ $('#loader-wrapper').remove();
+ } );
+}
+});
+  </script> -->
 </body>
 </html>
