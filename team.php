@@ -34,13 +34,13 @@
         }
 
         .modal-title {
-            color: black;
+            color: white;
             font-weight: bolder;
             font-size: 1.5rem;
         }
 
         #closed {
-            color: black;
+            color: white;
         }
 
         .carousel-indicators {
@@ -55,6 +55,10 @@
 
         .close {
             width: 20%;
+        }
+
+        .modal-content {
+            background-color: black;
         }
     </style>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -118,7 +122,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</!-->
                 </div>
             </div>
             </div>
@@ -176,7 +180,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                    <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button> -->
                     </div>
                 </div>
                 </div>
@@ -234,7 +238,7 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                        <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button> -->
                         </div>
                     </div>
                     </div>
@@ -292,7 +296,7 @@
                                 </div>
                             </div>
                             <div class="modal-footer">
-                            <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
+                            <!-- <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button> -->
                             </div>
                         </div>
                         </div>
@@ -350,7 +354,7 @@
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
+                                <!-- <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button> -->
                                 </div>
                             </div>
                             </div>
@@ -409,7 +413,7 @@
                                         </div>
                                     </div>
                                     <div class="modal-footer">
-                                    <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
+                                    <!-- <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button> -->
                                     </div>
                                 </div>
                                 </div>
@@ -467,7 +471,7 @@
                                             </div>
                                         </div>
                                         <div class="modal-footer">
-                                        <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
+                                        <!-- <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button> -->
                                         </div>
                                     </div>
                                     </div>
@@ -525,7 +529,7 @@
                                                 </div>
                                             </div>
                                             <div class="modal-footer">
-                                            <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
+                                            <!-- <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button> -->
                                             </div>
                                         </div>
                                         </div>
@@ -583,7 +587,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="modal-footer">
-                                                <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
+                                                <!-- <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button> -->
                                                 </div>
                                             </div>
                                             </div>
@@ -641,7 +645,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="modal-footer">
-                                                    <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
+                                                    <!-- <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button> -->
                                                     </div>
                                                 </div>
                                                 </div>
@@ -699,7 +703,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="modal-footer">
-                                                        <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
+                                                        <!-- <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button> -->
                                                         </div>
                                                     </div>
                                                     </div>
@@ -757,7 +761,7 @@
                                                                 </div>
                                                             </div>
                                                             <div class="modal-footer">
-                                                            <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
+                                                            <!-- <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button> -->
                                                             </div>
                                                         </div>
                                                         </div>
@@ -815,7 +819,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="modal-footer">
-                                                                <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
+                                                                <!-- <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button> -->
                                                                 </div>
                                                             </div>
                                                             </div>
