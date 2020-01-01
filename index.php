@@ -70,64 +70,24 @@
     height:400px;
     margin-left:-15px;
   }
-  .abt-foo{
+  /* .abt-foo{
     display:none;
-  }
+  } */
   </style>
   </head>
   <body>
-
-  <div id="loader-wrapper" style="overflow: hidden">
-        <div id="main-loader">
-            <div class="ring el-1"></div>
-            <div class="ring el-2"></div>
-            <div class="ring el-3"></div>
-            <div class="ring el-4"></div>
-            <div class="ring el-5"></div>
-            <div class="ring el-6"></div>
-            <div class="ring el-7"></div>
-            <div class="ring el-8"></div>
-            <div class="ring el-9"></div>
-            <div class="ring el-10"></div>
-            <div class="ring el-11"></div>
-            <div class="ring el-12"></div>
-            <div class="ring el-13"></div>
-            <div class="ring el-14"></div>
-            <div class="ring el-15"></div>
-        </div>
-        <div id="ojass-text">
-            <div id="ojass-title">
-                <ul class ="animated fadeInLeft">
-                    <li class="oasis-li li-1">O</li>
-                    <li class="oasis-li li-2">J</li>
-                    <li class="oasis-li li-3">A</li>
-                    <li class="oasis-li li-4">S</li>
-                    <li class="oasis-li li-5">S</li>
-                    <li class="oasis-li li-6">'</li>
-                    <li class="oasis-li li-7">2</li>
-                    <li class="oasis-li li-8">0</li>
-                </ul>
-            </div>
-        </div>
-        <div id="ojass-theme" class ="animated fadeInRight">
-        INDIC ERUDITION<br>
-            <!-- 28<sup>th</sup> Feb - 2<sup>nd</sup> Mar -->
-        </div>
-    </div>
-
-
 <br><br>
   <div class ="main-header-20">
   <div class ="head">OJASS'20</div>
   <center>
 <img src ="images/newlogo.png" class ="logo-20">
 </center>
-<!--theme--><br>
+<!--theme-->
 <div class ="theme">
   <center>
   <h1 class="ml2">INDIC ERUDITION</h1>
 </center>
-</div><br><br>
+</div>
 <center>
   <a href ="#about-id">
     <i class="fa fa-angle-double-down animated bounce about-btn"></i></a>
@@ -182,20 +142,14 @@ A three-day spectacle, Ojass also organizes many motivating guest lectures under
 <?php include_once 'footer2.php';?>
 </div>
 <script>
-//   $(document).ready(function() {
-// window.onload = function () {
-// $('#loader-wrapper').fadeOut(3500, function(){ $('#loader-wrapper').remove();
-//  } );
-// }
+// jQuery(document).ready(function($) {  
+
+// $(window).load(function(){
+// 	$('#loader-wrapper').fadeOut('slow',function(){$(this).remove();$('#abt').removeClass('abt-foo')});
+//   $('#abt').remove(this);
 // });
-jQuery(document).ready(function($) {  
 
-$(window).load(function(){
-	$('#loader-wrapper').fadeOut('slow',function(){$(this).remove();$('#abt').removeClass('abt-foo')});
-  $('#abt').remove(this);
-});
-
-});
+// });
   </script>
 </body>
 </html>
