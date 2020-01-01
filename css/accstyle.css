@@ -12,14 +12,14 @@
 }
 
 .accordion-header {
-  padding: 1.5em 1.5em;
+  padding: 1em 1em;
   background: #123;
   color: white;
   cursor: pointer;
   font-size: .7em;
   letter-spacing: .1em;
   transition: all .3s;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .accordion__item {
@@ -43,8 +43,8 @@
 }
 
 .accordion-body__contents {
-  padding: 1.5em 1.5em;
-  font-size: .85em;
+  padding: 1em 1em;
+  font-size: .80em;
 }
 
 .accordion__item.active:last-child .accordion-header {

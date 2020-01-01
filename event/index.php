@@ -107,66 +107,37 @@
         <div class="container-fluid">
         <nav class="navbar navbar-expand-lg"> 
           <a class="navbar-brand page-scroll animation" href="../" data-animation="fadeInDown" data-animation-delay="1s"> 
-                  <img class="logo_light" src="../img/small.png" alt="logo" />
+                  <img class="logo_light" src="img/logo.png" alt="logo" />
                 </a>
                 <span id="event_title"><?php echo str_replace("_"," ",$_GET['branch']) ?></span>
                 <button class="navbar-toggler animation" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-animation="fadeInDown" data-animation-delay="1.1s"> 
                     <span class="ion-android-menu"></span> 
                 </button>
-          <div class="collapse navbar-collapse pull-right" id="navbarSupportedContent">
-              <div id="navbar-menu">
-                <ul class="navbar-nav m-auto">
-                    <li class="animation"><a class="nav-link page-scroll nav_item" href="../">Home</a></li>
-                    <li class="animation"><a class="nav-link page-scroll nav_item" href="../#about">About</a></li>
-                    <li class="animation"><a class="nav-link page-scroll nav_item  active" href="../event/">Events</a></li>
-                    <li class="animation"><a class="nav-link page-scroll nav_item" href="../#celebrities">Celebrities</a></li>
-                    <li class="animation"><a class="nav-link page-scroll nav_item" href="../#guest">Guest Lectures</a></li>
-                    <li class="animation"><a class="nav-link page-scroll nav_item" href="../#workshops">Workshops</a></li>
-                    <li class="animation"><a class="nav-link page-scroll nav_item" href="../#roadmap">Roadmap</a></li>
-                    <li class="animation"><a class="nav-link page-scroll nav_item" href="../#team">Team</a></li>
-                    <li class="animation"><a class="nav-link page-scroll nav_item" href="../#sponsors">Sponsors</a></li>
-                    <li class="animation"><a class="nav-link page-scroll nav_item" href="../#faq">FAQ</a></li>
-                </ul>
-              </div>
-          </div>
-        </nav>
-      </div>
-</header>
-
-
-    <section style="overflow-x: hidden; height: inherit;" id="home_section" class="section_banner section_gradiant3">
-    <canvas id="banner_canvas" class="transparent_effect"></canvas>
-      
+        </div>
+</header> 
+<br><br><br> 
     <a class="backtotop" href="#top"></a>
     <div class="container-fluid" ng-controller="demoCtrl">
-      <div>
-      
-
-        <div class="row img-row">
-          <div class="col-md-12 text-center imm"></div>
-        </div>
-        
+      <div>        
         <div ng-repeat="event in events" class="event-wrapper" id="{{event.name.split(' ').join('') | removeBrackets}}" style="display:none;">
         <div class="row">
-          <div class="col-md-3 sidebar">
-            <nav class="menu-navigation-dark sidebarmenu" style="position: absolute;left:20px;">
+          <div class="col-xs-12 sidebar">
+            <nav class="menu-navigation-dark sidebarmenu">
               
-              <a href="#" style="position: relative;right:26px;" name='about'><i class="fa fa-address-book-o" ></i><span >About</span></a><br>
-                  <a href="#" style="position: relative;right:26px;" name='detail'><i class="fa fa-info"></i><span>Details</span></a><br>
-                  <a href="#" style="position: relative;right:26px;" name='prizes'><i class="fa fa-trophy"></i><span>Prizes</span></a><br>
-                  <a href="#" style="position: relative;right:26px;" name='rules'><i class="fa fa-book"></i><span>Rules</span></a><br>
-                  <a href="#" style="position: relative;right:26px;" name='coordinators'><i class="fa fa-users"></i><span>Co-ordinators</span></a><br>
-
-           
+              <a href="#" name='about' style ="font-size:30px; width:68px;padding:5px;"><i class="fa fa-address-book-o" ></i></a>
+                  <a href="#" name='detail' style ="font-size:30px;width:68px;padding:5px;"><i class="fa fa-info"></i></a>
+                  <a href="#" name='prizes' style ="font-size:30px;width:68px;padding:5px;"><i class="fa fa-trophy"></i></a>
+                  <a href="#" name='rules' style ="font-size:30px;width:68px;padding:5px;"><i class="fa fa-book"></i></a>
+                  <a href="#" name='coordinators' style ="font-size:30px;width:68px;padding:5px;"><i class="fa fa-users"></i></a>
           </nav>
           </div>
-          <div class="col-md-9 mainarea">
+          <div class="col-xs-12 mainarea">
             <div class="row text-center">
-              <div class="col-md-12" id='stuffname'></div>
+              <div class="col-xs-12" id='stuffname'></div>
             </div>
             <div class="row">
             
-              <div class="col-md-12">
+              <div class="col-xs-12">
                 <div class="details">
                   
                   <!-- Tabs for 1st Sub Event -->
@@ -284,21 +255,21 @@
           </div>
         </div>
       </div>
-
         <div class="row" >
-          <div class="col-md-1"></div>
-          <div class="col-md-9" style="position: fixed;bottom:30px;left:200px;">
+          <!-- <div class="col-md-1"></div> -->
+          <div class="col-xs-12" style="position:absolute;bottom:10px;">
             <br>
             <nav class="menu-navigation-dark" id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
                     <a style="word-wrap: break-word;" ng-repeat="event in events" href="#" class="event-name" name="{{event.name.split(' ').join('').split('.').join('')}}">
                       <span >{{ event.name }}</span></a>
             </nav>
-            <center style="position: relative;top:20px;">
-              
+            <center>
+              <div style ="margin-left:150px">
               <h4 class="fade-element-in" ng-if="!flag"><span>Loading...</span> 
                 <br>
                 <img src="img/loader.svg">
               </h4>
+        </div>
             </center>
           </div>
           <div class="col-md-1"></div>

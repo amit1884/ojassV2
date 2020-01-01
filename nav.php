@@ -32,7 +32,7 @@
 				<li class="nav__list-item"><a href="event2.php" class="hover-target" style ="text-decoration:none;">Events</a></li>
 				<li class="nav__list-item"><a href="notification.php" class="hover-target" style ="text-decoration:none;">NOTIFICATION</a></li>
                 <li class="nav__list-item"><a href="faq.php" class="hover-target" style ="text-decoration:none;">FAQs</a></li>
-                <li class="nav__list-item"><a href="sponsors.php" class="hover-target" style ="text-decoration:none;">SPONSORS</a></li>
+                <li class="nav__list-item"><a href="sponsor.php" class="hover-target" style ="text-decoration:none;">SPONSORS</a></li>
                 <li class="nav__list-item"><a href="team.php" class="hover-target" style ="text-decoration:none;">TEAM</a></li>
 			</ul>
 		</div>
@@ -43,8 +43,6 @@
 	<div class='cursor2' id="cursor2"></div>
 	<div class='cursor3' id="cursor3"></div>
 
-<!-- <audio id="link" src="http://ivang-design.com/svg-load/menu/link.mp3" preload="auto"></audio> -->
-<!-- <audio id="hover-audio" src="http://ivang-design.com/svg-load/menu/hover.mp3" preload="auto"></audio> -->
 <script>
 (function($) { "use strict";
 		

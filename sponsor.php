@@ -2,11 +2,13 @@
 include_once 'nav.php';
 ?>
 <body>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <link rel = "stylesheet" href = "css/style_sponsors.css"><br><br><br>
-<!-- <h2 class="text-center" ><span class="page_title" style="color:white; font-family:algerian;font-size:50px;text-decoration: underline;">SPONSORS</span></h2> -->
-<div style="background-attachment: fixed;background-repeat: no-repeat;">
+<center>
+<h2 class="text-center" ><span class="page_title" style="color:white; font-family: 'Play', sans-serif;font-size:50px;text-decoration: underline;">Sponsors</span></h2></center>
 <?php 
-include_once 'back.php';
+// include_once 'back.php';
 ?>
 </div>
 <br><br> 
@@ -80,5 +82,5 @@ include_once 'back.php';
 
        <br>
        
-<?php include_once 'footer.php';?>
+<?php include_once 'footer2.php';?>
 

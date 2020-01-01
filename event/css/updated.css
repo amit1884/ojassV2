@@ -8,7 +8,7 @@
   font-family: Raleway;
   background-color: transparent;
   box-sizing: border-box;
-  width: 136px;
+  width: auto;
   margin: 0 auto;
   padding: 12px 8px;
   white-space: nowrap;
@@ -58,19 +58,21 @@
 
 .txtdetail{
   max-height: 280px;
-  xborder-bottom: 1px solid black;
+  border-bottom: 1px solid black;
   overflow: auto;
 }
 
 .details{
   font-family:Lato;
-  xmargin-right: 100px;
+  /* margin-right: 100px; */
   background: rgba(0,0,0,0.2);
-  position: relative;
-  right: 138px;
-  height: 360px;
-  overflow: hidden;
+  /* position: relative; */
+  /* right: 138px; */
+  height: auto;
+  width:100%;
+  /* overflow: hidden; */
   padding: 0 32px;
+  margin-bottom:10%;
 }
 
 #bottomMenu > a{
