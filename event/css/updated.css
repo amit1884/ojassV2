@@ -64,13 +64,8 @@
 
 .details{
   font-family:Lato;
-  /* margin-right: 100px; */
-  background: rgba(0,0,0,0.2);
-  /* position: relative; */
-  /* right: 138px; */
   height: auto;
   width:100%;
-  /* overflow: hidden; */
   padding: 0 32px;
   margin-bottom:10%;
 }

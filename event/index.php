@@ -1,28 +1,18 @@
 <!DOCTYPE html>
 <html lang='en'>
 <head>
-  <title>Ojass'19 | Events</title>
+  <title>Ojass'20 | Events</title>
   <meta charset="utf-8">
-  <link rel="shortcut icon" href="../img/small_black.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../img/logo.png">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/updated.css">
-    <link rel="stylesheet" type="text/css" href="css/scroll/clean-scrollbar.css">
-    <link rel="stylesheet" type="text/css" href="css/scroll/dabblet.css">
     <link rel="stylesheet" type="text/css" href="css/events.css">
-    
-    
-    <link rel="stylesheet" href="../assets/css/animate.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/responsive.css">
-    <link id="layoutstyle" rel="stylesheet" href="../assets/color/theme.css">
 
     <style>
-    .section_banner {
-        padding : 120px 0px 100px !important;
-    }
     .logo_light {
         width: 50px;
     }
@@ -90,7 +80,6 @@
 </head>
 <body ng-app="eventApp" style="color: #fff;">
     <!-- particles.js container -->
-
     <div id="loader-wrapper">
     <div id="loading-center-absolute">
         <div class="object" id="object_four"></div>
@@ -255,9 +244,9 @@
           </div>
         </div>
       </div>
+      <!--events sidebar-->
         <div class="row" >
-          <!-- <div class="col-md-1"></div> -->
-          <div class="col-xs-12" style="position:absolute;bottom:10px;">
+          <div class="col-xs-12">
             <br>
             <nav class="menu-navigation-dark" id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
                     <a style="word-wrap: break-word;" ng-repeat="event in events" href="#" class="event-name" name="{{event.name.split(' ').join('').split('.').join('')}}">
@@ -272,13 +261,11 @@
         </div>
             </center>
           </div>
-          <div class="col-md-1"></div>
         </div>
-        
+        <!--events sidebar-->
       </div>
     </div>
 
-    </section>
 
   
 	<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
