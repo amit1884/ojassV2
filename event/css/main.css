@@ -6,6 +6,7 @@ html{
 body{
     margin:0;
     overflow-y: hidden;
+    background-color:#1f2029;
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{
     display:block

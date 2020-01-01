@@ -4,7 +4,8 @@
   <title>Ojass'20 | Events</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="../img/logo.png">
+  <link rel="shortcut icon" href="../img/small_black.png">
+  <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -98,7 +99,7 @@
           <a class="navbar-brand page-scroll animation" href="../" data-animation="fadeInDown" data-animation-delay="1s"> 
                   <img class="logo_light" src="img/logo.png" alt="logo" />
                 </a>
-                <span id="event_title"><?php echo str_replace("_"," ",$_GET['branch']) ?></span>
+                <span id="event_title"style =" font-family: 'Play', sans-serif;"><?php echo str_replace("_"," ",$_GET['branch']) ?></span>
                 <button class="navbar-toggler animation" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-animation="fadeInDown" data-animation-delay="1.1s"> 
                     <span class="ion-android-menu"></span> 
                 </button>
@@ -113,11 +114,11 @@
           <div class="col-xs-12 sidebar">
             <nav class="menu-navigation-dark sidebarmenu">
               
-              <a href="#" name='about' style ="font-size:30px; width:68px;padding:5px;"><i class="fa fa-address-book-o" ></i></a>
-                  <a href="#" name='detail' style ="font-size:30px;width:68px;padding:5px;"><i class="fa fa-info"></i></a>
-                  <a href="#" name='prizes' style ="font-size:30px;width:68px;padding:5px;"><i class="fa fa-trophy"></i></a>
-                  <a href="#" name='rules' style ="font-size:30px;width:68px;padding:5px;"><i class="fa fa-book"></i></a>
-                  <a href="#" name='coordinators' style ="font-size:30px;width:68px;padding:5px;"><i class="fa fa-users"></i></a>
+              <a href="#" name='about' style ="font-size:30px; width:72px;padding:5px;"><i class="fa fa-address-book-o" ></i></a>
+                  <a href="#" name='detail' style ="font-size:30px;width:72px;padding:5px;"><i class="fa fa-info"></i></a>
+                  <a href="#" name='prizes' style ="font-size:30px;width:72px;padding:5px;"><i class="fa fa-trophy"></i></a>
+                  <a href="#" name='rules' style ="font-size:30px;width:72px;padding:5px;"><i class="fa fa-book"></i></a>
+                  <a href="#" name='coordinators' style ="font-size:30px;width:72px;padding:5px;"><i class="fa fa-users"></i></a>
           </nav>
           </div>
           <div class="col-xs-12 mainarea">
@@ -161,7 +162,7 @@
 
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} prizes" style="display:none;">
                 
-                    <h4 class="text-center" style="text-decoration: underline;">Prizes</h4>
+                    <h4 class="text-center" style="text-decoration: underline;text-align:center;margin-left:150px;">Prizes</h4>
                    
                         
                    
@@ -231,11 +232,11 @@
                   </div>
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} coordinators" style="display:none;">
                   
-                    <h4 class="text-center" style="text-decoration: underline;">Co-ordinators</h4>
+                    <h4 class="text-center" style="text-decoration: underline;margin-left:40px;">Co-ordinators</h4>
                     
                     <div class="row text-center" ng-repeat="c in event.coordinators">
-                      <div class="col-md-6">{{c.name}}</div>
-                      <div class="col-md-6">{{c.phone}}</div>
+                      <div class="col-xs-6" style ="padding:15px;margin-left:10px;">{{c.name}}</div>
+                      <div class="col-xs-6" style ="padding:15px;margin-left:10px;">{{c.phone}}</div>
                     </div>
                   </div>
 </div>
@@ -244,9 +245,8 @@
           </div>
         </div>
       </div>
-      <!--events sidebar-->
         <div class="row" >
-          <div class="col-xs-12">
+          <div class="col-xs-12" style="position:fixed;bottom:10px;">
             <br>
             <nav class="menu-navigation-dark" id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
                     <a style="word-wrap: break-word;" ng-repeat="event in events" href="#" class="event-name" name="{{event.name.split(' ').join('').split('.').join('')}}">
@@ -262,7 +262,7 @@
             </center>
           </div>
         </div>
-        <!--events sidebar-->
+        
       </div>
     </div>
 
