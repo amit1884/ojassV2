@@ -65,11 +65,18 @@
   .about-sec{
     display:none;
   }
+  .logo-20{
+    width:400px;
+    height:400px;
+    margin-left:-15px;
+  }
+  .abt-foo{
+    display:none;
+  }
   </style>
   </head>
   <body>
 
-<!-- 
   <div id="loader-wrapper" style="overflow: hidden">
         <div id="main-loader">
             <div class="ring el-1"></div>
@@ -88,9 +95,9 @@
             <div class="ring el-14"></div>
             <div class="ring el-15"></div>
         </div>
-        <div id="oasis-text">
-            <div id="oasis-title">
-                <ul>
+        <div id="ojass-text">
+            <div id="ojass-title">
+                <ul class ="animated fadeInLeft">
                     <li class="oasis-li li-1">O</li>
                     <li class="oasis-li li-2">J</li>
                     <li class="oasis-li li-3">A</li>
@@ -101,24 +108,20 @@
                     <li class="oasis-li li-8">0</li>
                 </ul>
             </div>
-            <div id="oasis-slogan">
-                INDIC ERUDITION
-            </div>
         </div>
-        <div id="oasis-date">
-            19<sup>th</sup> Jan - 23<sup>rd</sup> Jan
+        <div id="ojass-theme" class ="animated fadeInRight">
+        INDIC ERUDITION<br>
+            <!-- 28<sup>th</sup> Feb - 2<sup>nd</sup> Mar -->
         </div>
-    </div> -->
+    </div>
 
 
 <br><br>
   <div class ="main-header-20">
   <div class ="head">OJASS'20</div>
-  <object>
-    <center>
-        <embed src="ojasslogo.svg">
-      </center>
-</object>
+  <center>
+<img src ="images/newlogo.png" class ="logo-20">
+</center>
 <!--theme--><br>
 <div class ="theme">
   <center>
@@ -169,7 +172,7 @@ anime.timeline({loop: false})
     </script>
 
   </center>
-  <div id="abt">
+  <div id="abt" class ="abt-foo">
 <h2 id  ="about-id" style ="  font-family: 'Play', sans-serif; color:white;"><center><u>ABOUT</u><center></h2>
 <p class= "about" >
 Ojass is the annual techno-management fest of NIT Jamshedpur. Started in the year 2004, Ojass assembles a wide range of events comprising every genre of engineering, management and even film-making with the aim to foster and boost cogent engineering practices in the nation and stimulate the future generation to dream big. Certified Workshops in diversed fields are conducted every year before the fest to help students understand the different technology trends in the market.
@@ -178,13 +181,21 @@ A three-day spectacle, Ojass also organizes many motivating guest lectures under
 
 <?php include_once 'footer2.php';?>
 </div>
-<!-- <script>
-  $(document).ready(function() {
-window.onload = function () {
-$('#loader-wrapper').fadeOut(3500, function(){ $('#loader-wrapper').remove();
- } );
-}
+<script>
+//   $(document).ready(function() {
+// window.onload = function () {
+// $('#loader-wrapper').fadeOut(3500, function(){ $('#loader-wrapper').remove();
+//  } );
+// }
+// });
+jQuery(document).ready(function($) {  
+
+$(window).load(function(){
+	$('#loader-wrapper').fadeOut('slow',function(){$(this).remove();$('#abt').removeClass('abt-foo')});
+  $('#abt').remove(this);
 });
-  </script> -->
+
+});
+  </script>
 </body>
 </html>
