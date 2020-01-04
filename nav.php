@@ -12,13 +12,13 @@
     	.nav-colored {
     	 	background-color : orange;
     	 	animation-name: fadeIn;
-    	 	animation-duration: 0.5s;
+    	 	animation-duration: 0.4s;
     	 }
 
 		.nav-transparent { 
 			background-color:transparent;
 			animation-name: fadeOut;
-    	 	animation-duration: 0.5s;
+    	 	animation-duration: 0.3s;
 		}
 	@keyframes fadeIn {
    		0% {opacity: 0;}
