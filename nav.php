@@ -80,6 +80,7 @@
         $('.nav__list nav__list-item a').each(function(){
             if ($(this).prop('href') == window.location.href) {
             	console.log(this);
+            	console.log('nav changed');
                 $(this).parents('li').addClass('active-nav');
             }
         });
