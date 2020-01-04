@@ -7,11 +7,11 @@ include_once 'nav.php';
 
 <link rel = "stylesheet" href = "css/style_sponsors.css">
 <style>
-  .imgBx img {
+  .imgS img {
   -webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */
   filter: grayscale(90%);
 }
-.imgBx img:hover{
+.imgS img:hover{
 -webkit-filter: grayscale(0%);
 filter: grayscale(0%);
 }
@@ -27,7 +27,7 @@ filter: grayscale(0%);
 <br><br> 
 
       <div class="card">
-        <div class="imgBx">
+        <div class="imgS">
             <img src="images/sponsors/oyo.png" alt="images">
         </div>
         <div class="details">
@@ -38,7 +38,7 @@ filter: grayscale(0%);
         <br><br> 
 
        <div class="card">
-         <div class="imgBx">
+         <div class="imgS">
             <img src="images/sponsors/Picture2.png" alt="images">
          </div>
          <div class="details">
@@ -49,7 +49,7 @@ filter: grayscale(0%);
        <br><br>
 
        <div class="card">
-         <div class="imgBx">
+         <div class="imgS">
             <img src="images/sponsors/Picture3.png" alt="images">
          </div>
          <div class="details">
@@ -58,7 +58,7 @@ filter: grayscale(0%);
        </div>
        <br><br>
        <div class="card">
-         <div class="imgBx">
+         <div class="imgS">
             <img src="images/sponsors/Picture4.png" alt="images">
          </div>
          <div class="details">
@@ -67,7 +67,7 @@ filter: grayscale(0%);
        </div>
        <br><br>
        <div class="card">
-         <div class="imgBx">
+         <div class="imgS">
             <img src="images/sponsors/Picture5.png" alt="images">
          </div>
          <div class="details">
@@ -76,7 +76,7 @@ filter: grayscale(0%);
        </div>
        <br><br>
        <div class="card">
-         <div class="imgBx">
+         <div class="imgS">
             <img src="images/sponsors/Picture6.png" alt="images">
          </div>
          <div class="details">
@@ -85,7 +85,7 @@ filter: grayscale(0%);
        </div>
        <br><br>
        <div class="card">
-         <div class="imgBx">
+         <div class="imgS">
             <img src="images/sponsors/Picture14.png" alt="images">
          </div>
          <div class="details">
