@@ -81,6 +81,7 @@ $(document).ready(function() {
 
 	var pathname = window.location.pathname;
 	$('.nav__list .nav__list-item  a[href="'+pathname+'"]').parent().addClass('active-nav');
+	console.log('.nav__list .nav__list-item  a[href="'+pathname+'"]');
 });
 
 	// $(function(){
