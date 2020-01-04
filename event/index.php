@@ -9,9 +9,9 @@
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" type="text/css" href="css/updated.css">
-    <link rel="stylesheet" type="text/css" href="css/events.css">
+  <link rel="stylesheet" href="css/e-detail.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/updated.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/events.css"> -->
 
     <style>
     .logo_light {
@@ -21,7 +21,7 @@
     #navbar-top {
         height: 85px;
         padding: 10px 0px;
-        background-color: black;
+        background-color: #f5f8fd;
     }
     .navbar-brand {
         padding: 0 15px;
@@ -79,7 +79,7 @@
 
         </script>
 </head>
-<body ng-app="eventApp" style="color: #fff;">
+<body ng-app="eventApp" style="color: #000;">
     <!-- particles.js container -->
     <div id="loader-wrapper">
     <div id="loading-center-absolute">
@@ -97,9 +97,9 @@
         <div class="container-fluid">
         <nav class="navbar navbar-expand-lg"> 
           <a class="navbar-brand page-scroll animation" href="../" data-animation="fadeInDown" data-animation-delay="1s"> 
-                  <img class="logo_light" src="img/logo.png" alt="logo" />
+                  <img class="logo_light" src="img/newlogo.png" alt="logo" />
                 </a>
-                <span id="event_title"style =" font-family: 'Play', sans-serif;"><?php echo str_replace("_"," ",$_GET['branch']) ?></span>
+                <span id="event_title"style =" font-family: 'Play', sans-serif;color:#000"><?php echo str_replace("_"," ",$_GET['branch']) ?></span>
                 <button class="navbar-toggler animation" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-animation="fadeInDown" data-animation-delay="1.1s"> 
                     <span class="ion-android-menu"></span> 
                 </button>
@@ -302,16 +302,16 @@
         <script type="text/javascript" src="js/events.js"></script>
         <script type="text/javascript" src="js/newng.js"></script>
 
-        <script src="../assets/js/popper.min.js"></script>
+        <!-- <script src="../assets/js/popper.min.js"></script> -->
         <script src="../assets/bootstrap/js/bootstrap.min.js"></script> 
 
         <!-- parallax js  --> 
-        <script src="../assets/js/parallax.js"></script> 
+        <!-- <script src="../assets/js/parallax.js"></script>  -->
         <!-- particles min js  --> 
-        <script src="../assets/js/particles.min.js"></script> 
-        <script src="../assets/js/jquery.dd.min.js"></script> 
+        <!-- <script src="../assets/js/particles.min.js"></script>  -->
+        <!-- <script src="../assets/js/jquery.dd.min.js"></script>  -->
         <!-- modern_canvas js --> 
-        <script src="../assets/js/modern_canvas.js"></script> 
+        <!-- <script src="../assets/js/modern_canvas.js"></script>  -->
         <!-- scripts js --> 
         <script src="../assets/js/scripts.js"></script>
 

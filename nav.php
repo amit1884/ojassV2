@@ -35,7 +35,7 @@
 <body style ="overflow-x:hidden;">
     <header class="cd-header" style ="margin-bottom:10px;">
 		<div class="header-wrapper">
-		<a href ="index.php"><img src ="images/logo.png" width ="70" height ="60" align="left" style ="cursor:pointer;margin-top:10px;"></a>
+		<a href ="index.php"><img src ="images/newlogo.png" width ="70" height ="70" align="left" style ="cursor:pointer;margin-top:10px;"></a>
 			<div class="nav-but-wrap">
 				<div class="menu-icon hover-target" id="menu-button">
 					<span class="menu-icon__line menu-icon__line-left"></span>
@@ -49,7 +49,7 @@
 	<div class="nav">
 		<div class="nav__content">
 			<ul class="nav__list">
-				<li class="nav__list-item"><a href="index.php" class="hover-target" style ="text-decoration:none;">HOME</a></li>
+				<li class="nav__list-item active-nav"><a href="index.php" class="hover-target" style ="text-decoration:none;">HOME</a></li>
 				<li class="nav__list-item"><a href="event2.php" class="hover-target" style ="text-decoration:none;">EVENTS</a></li>
 				<li class="nav__list-item"><a href="notification.php" class="hover-target" style ="text-decoration:none;">NOTIFICATION</a></li>
                 <li class="nav__list-item"><a href="faq.php" class="hover-target" style ="text-decoration:none;">FAQs</a></li>
