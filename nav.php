@@ -77,9 +77,9 @@
 });
 
 	$(function(){
-        $('li a').each(function(){
+        $('.nav__list nav__list-item a').each(function(){
             if ($(this).prop('href') == window.location.href) {
-                $(this).parents('li').addClass('active');
+                $(this).parents('li').addClass('active-nav');
             }
         });
     });
