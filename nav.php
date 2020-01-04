@@ -9,9 +9,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src ="js/jquery.js"></script>
     <style>
-    	.nav-colored { background-color:orange; 
-    		transition:all ease 1s;}
-.nav-transparent { background-color:transparent;}
+    	.nav-colored {
+    	 	background-color : orange;
+    	 	animation-name: fadeIn;
+    	 	animation-duration: 2s;
+    	 }
+
+		.nav-transparent { 
+			background-color:transparent;
+			animation-name: fadeOut;
+    	 	animation-duration: 2s;
+		}
+	@keyframes fadeIn {
+   		0% {opacity: 0;}
+   		100% {opacity: 1;}
+	} 
+	@keyframes fadeOut {
+   		0% {opacity: 1;}
+   		100% {opacity: 0;}
+	} 
     </style>
     <!-- <title>Document</title> -->
 </head>
@@ -58,7 +74,10 @@
     	 $('.cd-header').removeClass('nav-colored');
     $('.cd-header').addClass('nav-transparent');
     }
-});0
+});
+ 
+
+
 (function($) { "use strict";
 		
 	//Page cursors
