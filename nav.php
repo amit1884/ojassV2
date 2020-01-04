@@ -10,7 +10,7 @@
     <script src ="js/jquery.js"></script>
     <style>
     	.nav-colored {
-    	 	background-color : orange;
+    	 	background-color :  #c4ebed ;
     	 	animation-name: fadeIn;
     	 	animation-duration: 0.4s;
     	 }
@@ -78,7 +78,8 @@
 
 $(document).ready(function() {
   $('li .active-nav').removeClass('active-nav');
-  $('a[href="' + window.location.pathname + '"]').closest('li').addClass('active-nav'); 
+  console.log(window.location.pathname);
+  $('a[href="' + window.location.pathname + '"]').parent().addClass('active-nav'); 
 });
 
 // $(document).ready(function() {
