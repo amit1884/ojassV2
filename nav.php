@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src ="js/jquery.js"></script>
     <style>
-    	.nav-colored { background-color:#000; }
+    	.nav-colored { background-color:orange; }
 .nav-transparent { background-color:transparent;}
     </style>
     <!-- <title>Document</title> -->
@@ -48,18 +48,16 @@
 	<div class='cursor3' id="cursor3"></div>
 
 <script>
-	var myNav = document.getElementByClassName('cd-header');
-	window.onscroll = function () { 
-    "use strict";
-    if (document.body.scrollTop >= 100 ) {
-        myNav.classList.add("nav-colored");
-        myNav.classList.remove("nav-transparent");
-    } 
-    else {
-        myNav.classList.add("nav-transparent");
-        myNav.classList.remove("nav-colored");
+	$(window).scroll(function() {
+    if ($(this).scrollTop() >= 100) {
+    $('.cd-header').addClass('nav-colored');
+    $('.cd-header').removeClass('nav-transparent');
     }
-};
+    else{
+    	 $('.cd-header').removeClass('nav-colored');
+    $('.cd-header').addClass('nav-transparent');
+    }
+});
 (function($) { "use strict";
 		
 	//Page cursors
