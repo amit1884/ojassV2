@@ -87,10 +87,31 @@
         color:#123;
         font-weight:600;
     }
+
+    #particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+    }
+
+    #particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+    }
     </style>
 </head>
 <body>
 <br><br>
+    <div id="particles-js"></div>
     <h1 style =" font-family: 'Play', sans-serif;"><u>Major Events</u></h1>
     <!-- Swiper -->
         <div class="swiper-container">
@@ -265,6 +286,8 @@
           },
         });
     </script>
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
     <?php include_once 'footer2.php';?>
 </body>
 </html>
