@@ -36,7 +36,7 @@
   .about{
     font-size:15px;
     color:black;
-    margin:10px;
+    /* margin:10px; */
     text-align:center;
   }
   @font-face {
