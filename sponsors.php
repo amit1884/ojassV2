@@ -75,7 +75,7 @@
 
        <br>
        <div class="page_title" style="position:relative;margin:0%;width:100%;">
-       <?php include 'footer.php';?>
+       <?php include 'footer2.php';?>
        </div>
       
           
