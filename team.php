@@ -1,4 +1,4 @@
-<?php include_once 'nav.php';?>;
+<?php include_once 'nav.php';?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
         body {
-    background-color:#1f2029;
+    background-color:#f5f8fd;
         }
 
         #h {
@@ -18,7 +18,7 @@
             margin-bottom: 38px;
             font-weight: bolder;
             font-size: 2.8rem;
-            color: white;
+            color: black;
             font-family: 'Play', sans-serif;
         }
 

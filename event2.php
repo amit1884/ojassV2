@@ -15,16 +15,16 @@
     <link rel="stylesheet" href="css/swiper.min.css">
     <style>
         body {
-    background: #000;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color:#000;
     margin: 0;
     padding: 0;
+    background:#f5f8fd;
   }
 
     h1 {
-        color: white;
+        color: #000;
         text-align: center;
         padding-top: 20px;
         font-size: 2.7rem;
@@ -96,7 +96,7 @@
         <div class="swiper-container">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                      <a href ="event/index.php?branch=AAKRITI" style ="text-decoration:none;"><div class="imgBx">
+                      <a href ="event/index.php?branch=AAKRITI" target="_blank" style ="text-decoration:none;"><div class="imgBx">
                           <img src="Events Page/akriti.svg" alt="">
                       </div>
                       <div class="details">
@@ -104,7 +104,7 @@
                       </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=Armageddon" style ="text-decoration:none;"><div class="imgBx">
+                  <a href ="event/index.php?branch=Armageddon" target="_blank" style ="text-decoration:none;"><div class="imgBx">
                             <img src="Events Page/armageddon.svg" alt="">
                         </div>
                         <div class="details">
@@ -112,7 +112,7 @@
                         </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=Arthashastra" style ="text-decoration:none;"> <div class="imgBx">
+                  <a href ="event/index.php?branch=Arthashastra" target="_blank" style ="text-decoration:none;"> <div class="imgBx">
                             <img src="Events Page/arthashastra.svg" alt="">
                         </div>
                         <div class="details">
@@ -120,7 +120,7 @@
                         </div></a>
                    </div>
                    <div class="swiper-slide">
-                   <a href ="event/index.php?branch=Avartan" style ="text-decoration:none;"> <div class="imgBx">
+                   <a href ="event/index.php?branch=Avartan" target="_blank" style ="text-decoration:none;"> <div class="imgBx">
                             <img src="Events Page/avartan.svg" alt="">
                         </div>
                         <div class="details">
@@ -128,7 +128,7 @@
                         </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=Circuit_House" style ="text-decoration:none;"> <div class="imgBx">
+                  <a href ="event/index.php?branch=Circuit_House" target="_blank" style ="text-decoration:none;"> <div class="imgBx">
                             <img src="Events Page/circuit_house.svg" alt="">
                         </div>
                         <div class="details">
@@ -136,7 +136,7 @@
                         </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=Deus-X-Machina" style ="text-decoration:none;"> <div class="imgBx">
+                  <a href ="event/index.php?branch=Deus-X-Machina" target="_blank" style ="text-decoration:none;"> <div class="imgBx">
                             <img src="Events Page/deus_x_machina.svg" alt="">
                         </div>
                         <div class="details">
@@ -144,7 +144,7 @@
                         </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=Exposicion" style ="text-decoration:none;"><div class="imgBx">
+                  <a href ="event/index.php?branch=Exposicion" target="_blank" style ="text-decoration:none;"><div class="imgBx">
                             <img src="Events Page/exposicion.svg" alt="">
                         </div>
                         <div class="details">
@@ -152,7 +152,7 @@
                         </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=Live CS" style ="text-decoration:none;">  <div class="imgBx">
+                  <a href ="event/index.php?branch=Live CS" target="_blank" style ="text-decoration:none;">  <div class="imgBx">
                             <img src="Events Page/live_cs.svg" alt="">
                         </div>
                         <div class="details">
@@ -160,7 +160,7 @@
                         </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=Neo Drishti" style ="text-decoration:none;"> <div class="imgBx">
+                  <a href ="event/index.php?branch=Neo Drishti" target="_blank" style ="text-decoration:none;"> <div class="imgBx">
                             <img src="Events Page/neodrishti.svg" alt="">
                         </div>
                         <div class="details">
@@ -168,7 +168,7 @@
                         </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=No Ground Zone" style ="text-decoration:none;"> <div class="imgBx">
+                  <a href ="event/index.php?branch=No Ground Zone" target="_blank" style ="text-decoration:none;"> <div class="imgBx">
                             <img src="Events Page/no_ground_zone.svg" alt="">
                         </div>
                         <div class="details">
@@ -176,7 +176,7 @@
                         </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=NSCET" style ="text-decoration:none;"> <div class="imgBx">
+                  <a href ="event/index.php?branch=NSCET" target="_blank" style ="text-decoration:none;"> <div class="imgBx">
                             <img src="Events Page/nscet.svg" alt="">
                         </div>
                         <div class="details">
@@ -184,7 +184,7 @@
                         </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=Paraphernalia" style ="text-decoration:none;"><div class="imgBx">
+                  <a href ="event/index.php?branch=Paraphernalia" target="_blank" style ="text-decoration:none;"><div class="imgBx">
                             <img src="Events Page/paraphernalia.svg" alt="">
                         </div>
                         <div class="details">
@@ -192,7 +192,7 @@
                         </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=Prayas" style ="text-decoration:none;"><div class="imgBx">
+                  <a href ="event/index.php?branch=Prayas" target="_blank" style ="text-decoration:none;"><div class="imgBx">
                             <img src="Events Page/prayas.svg" alt="">
                         </div>
                         <div class="details">
@@ -200,7 +200,7 @@
                         </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=Produs" style ="text-decoration:none;"><div class="imgBx">
+                  <a href ="event/index.php?branch=Produs" target="_blank" style ="text-decoration:none;"><div class="imgBx">
                             <img src="Events Page/produs.svg" alt="">
                         </div>
                         <div class="details">
@@ -208,7 +208,7 @@
                         </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=Rise Of Machine" style ="text-decoration:none;"><div class="imgBx">
+                  <a href ="event/index.php?branch=Rise Of Machine" target="_blank" style ="text-decoration:none;"><div class="imgBx">
                             <img src="Events Page/rise_of_machines.svg" alt="">
                         </div>
                         <div class="details">
@@ -216,7 +216,7 @@
                         </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=Silicon Valley" style ="text-decoration:none;"><div class="imgBx">
+                  <a href ="event/index.php?branch=Silicon Valley" target="_blank" style ="text-decoration:none;"><div class="imgBx">
                             <img src="Events Page/silicon_valley.svg" alt="">
                         </div>
                         <div class="details">
@@ -224,7 +224,7 @@
                         </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=VishwaCodegenesis" style ="text-decoration:none;"><div class="imgBx">
+                  <a href ="event/index.php?branch=VishwaCodegenesis" target="_blank" style ="text-decoration:none;"><div class="imgBx">
                             <img src="Events Page/vishwacodegenesis.svg" alt="">
                         </div>
                         <div class="details">
@@ -232,7 +232,7 @@
                         </div></a>
                   </div>
                   <div class="swiper-slide">
-                  <a href ="event/index.php?branch=School Events" style ="text-decoration:none;"><div class="imgBx">
+                  <a href ="event/index.php?branch=School Events" target="_blank" style ="text-decoration:none;"><div class="imgBx">
                             <img src="Events Page/school_events.svg" alt="">
                         </div>
                         <div class="details">

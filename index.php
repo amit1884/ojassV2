@@ -19,36 +19,43 @@
     <script type ="text/javascript" src ="js/index.js"></script>
 
     <!--fonts-->
+    
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|
     Alatsi|Alfa+Slab+One|Bitter|Inria+Serif|Lakki+Reddy|
     Lobster|Merriweather|Playfair+Display|Righteous&display=swap" rel="stylesheet"> 
     <title>OJASS'20</title>
 <style>
     body{
-        background-color: #1f2029;
         overflow-x:hidden;
+        color:#fff;
+        background:#f5f8fd;
     }
     html{
         scroll-behavior:smooth;
     }
   .about{
     font-size:15px;
-    color:white;
+    color:black;
+    margin:10px;
     text-align:center;
   }
+  @font-face {
+  font-family: batman;
+  src: url(batmfa__.ttf) format('truetype');
+}
   .head{
-      color:#fff;
+      color:#000;
       font-size:50px;
       text-align:center;
       font-weight:200px;
       /* font-family:'Merriweather'; */
-      font-family:'Alfa Slab One';
+      font-family:"batman", sans-serif;
       
   }
  
   .about-btn{
    font-size:40px;
-    color:white;
+    color:#000;
   }
   .main-header-20{
    min-height:90vh;
@@ -60,23 +67,20 @@
   }
  .fa-angle-double-down{
     font-size:40px;
-    color:white;
+    color:#000;
   }
   .logo-20{
     width:350px;
     height:350px;
     margin-left:-15px;
   }
-  .abt-foo{
-    display:none;
-  }
   </style>
   </head>
   <body>
     
-    <div id ="loader-wrapper">
-    <?php include_once 'loader.php';?>
-</div>
+    <!-- <div id ="loader-wrapper">
+    <?php //include_once 'loader.php';?>
+</div> -->
 
 
 <br><br>
@@ -136,7 +140,7 @@ anime.timeline({loop: false})
 
   </center>
   <div id="abt" class ="abt-foo">
-<h2 id  ="about-id" style ="  font-family: 'Play', sans-serif; color:white;"><center><u>ABOUT</u><center></h2>
+<h2 id  ="about-id" style ="  font-family:batman, sans-serif;color:#000;"><center><u>ABOUT</u><center></h2>
 <p class= "about" >
 Ojass is the annual techno-management fest of NIT Jamshedpur. Started in the year 2004, Ojass assembles a wide range of events comprising every genre of engineering, management and even film-making with the aim to foster and boost cogent engineering practices in the nation and stimulate the future generation to dream big. Certified Workshops in diversed fields are conducted every year before the fest to help students understand the different technology trends in the market.
 A three-day spectacle, Ojass also organizes many motivating guest lectures under the event cluster "Guru Gyan". Since its inception, Ojass has been receiving immense participation from the student community from all over India with the 2018 edition accounting for over 4000 participants. The prize money for this edition was ₹18 Lac. OJASS 19 is slated to kick-off from 5th April 2019 and the grandeur will prevail for the next two days. Save these dates, for we are all set to make it Bigger and Better, than ever!
@@ -145,14 +149,14 @@ A three-day spectacle, Ojass also organizes many motivating guest lectures under
 <?php include_once 'footer2.php';?>
 </div>
 <script>
-jQuery(document).ready(function($) {  
+// jQuery(document).ready(function($) {  
 
-$(window).load(function(){
-	$('#loader-wrapper').fadeOut('slow',function(){$(this).remove();$('#abt').removeClass('abt-foo')});
-  $('#abt').remove(this);
-});
+// $(window).load(function(){
+// 	$('#loader-wrapper').fadeOut('slow',function(){$(this).remove();$('#abt').removeClass('abt-foo')});
+//   $('#abt').remove(this);
+// });
 
-});
+// });
   </script>
 </body>
 </html>
