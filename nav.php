@@ -10,7 +10,7 @@
     <script src ="js/jquery.js"></script>
     <style>
     	.nav-colored { background-color:orange; 
-    		transition:all 1s;}
+    		transition:all ease 1s;}
 .nav-transparent { background-color:transparent;}
     </style>
     <!-- <title>Document</title> -->
