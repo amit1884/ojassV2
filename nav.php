@@ -8,6 +8,27 @@
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src ="js/jquery.js"></script>
+    <style>
+    	.nav-colored {
+    	 	background-color :  #c4ebed ;
+    	 	animation-name: fadeIn;
+    	 	animation-duration: 0.4s;
+    	 }
+
+		.nav-transparent { 
+			background-color:transparent;
+			animation-name: fadeOut;
+    	 	animation-duration: 0.3s;
+		}
+	@keyframes fadeIn {
+   		0% {opacity: 0;}
+   		100% {opacity: 1;}
+	} 
+	@keyframes fadeOut {
+   		0% {opacity: 1;}
+   		100% {opacity: 0;}
+	} 
+    </style>
     <!-- <title>Document</title> -->
 </head>
 <link rel ="stylesheet" href ="css/navstyle.css">
@@ -44,6 +65,43 @@
 	<div class='cursor3' id="cursor3"></div>
 
 <script>
+	$(window).scroll(function() {
+    if ($(this).scrollTop() >= 100) {
+    $('.cd-header').addClass('nav-colored');
+    $('.cd-header').removeClass('nav-transparent');
+    }
+    else{
+    	 $('.cd-header').removeClass('nav-colored');
+    $('.cd-header').addClass('nav-transparent');
+    }
+});
+
+$(document).ready(function() {
+  $('li .active-nav').removeClass('active-nav');
+  console.log(window.location.pathname);
+  $('a[href="' + window.location.pathname + '"]').parent().addClass('active-nav'); 
+});
+
+// $(document).ready(function() {
+// 	// get current URL path and assign 'active' class
+
+// 	var pathname = window.location.pathname;
+// 	$('.nav__list .nav__list-item  a[href="'+pathname+'"]').parent().addClass('active-nav');
+// 	console.log('.nav__list .nav__list-item  a[href="'+pathname+'"]');
+// });
+
+	// $(function(){
+ //        $('.nav__list nav__list-item a').each(function(){
+ //            if ($(this).prop('href') == window.location.href) {
+ //            	console.log(this);
+ //            	console.log('nav changed');
+ //                $(this).parents('li').addClass('active-nav');
+ //            }
+ //        });
+ //    });
+ 
+
+
 (function($) { "use strict";
 		
 	//Page cursors

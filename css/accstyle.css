@@ -24,6 +24,7 @@
 
 .accordion__item {
     border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
 }
 
 .accordion__item .accordion__item {
