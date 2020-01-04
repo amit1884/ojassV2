@@ -32,7 +32,7 @@
     <!-- <title>Document</title> -->
 </head>
 <link rel ="stylesheet" href ="css/navstyle.css">
-<body style ="overflow-x:hidden;">
+<body style ="overflow-x:hidden; margin:0!important;">
     <header class="cd-header" style ="margin-bottom:10px;">
 		<div class="header-wrapper">
 		<a href ="index.php"><img src ="images/newlogo.png" width ="70" height ="70" align="left" style ="cursor:pointer;margin-top:10px;"></a>
