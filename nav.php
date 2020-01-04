@@ -77,12 +77,17 @@
 });
 
 $(document).ready(function() {
-	// get current URL path and assign 'active' class
-
-	var pathname = window.location.pathname;
-	$('.nav__list .nav__list-item  a[href="'+pathname+'"]').parent().addClass('active-nav');
-	console.log('.nav__list .nav__list-item  a[href="'+pathname+'"]');
+  $('li .active-nav').removeClass('active-nav');
+  $('a[href="' + window.location.pathname + '"]').closest('li').addClass('active-nav'); 
 });
+
+// $(document).ready(function() {
+// 	// get current URL path and assign 'active' class
+
+// 	var pathname = window.location.pathname;
+// 	$('.nav__list .nav__list-item  a[href="'+pathname+'"]').parent().addClass('active-nav');
+// 	console.log('.nav__list .nav__list-item  a[href="'+pathname+'"]');
+// });
 
 	// $(function(){
  //        $('.nav__list nav__list-item a').each(function(){
