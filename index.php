@@ -44,7 +44,7 @@
   src: url(batmfa__.ttf) format('truetype');
 }
   .head{
-      color:#000;
+      color:#413e66;
       font-size:50px;
       text-align:center;
       font-weight:200px;
@@ -97,7 +97,7 @@
 </div>
 <center>
   <a href ="#about-id">
-    <i class="fa fa-angle-double-down animated bounce about-btn"></i></a>
+    <i class="fa fa-angle-double-down animated bounce about-btn" style="font-size:40px;"></i></a>
 </center>
 </div>
 <br><br>
