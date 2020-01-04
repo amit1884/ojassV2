@@ -76,11 +76,11 @@
     }
 });
 
-$(document).ready(function() {
-  $('li .active-nav').removeClass('active-nav');
-  console.log(window.location.pathname);
-  $('a[href="' + window.location.pathname + '"]').parent().addClass('active-nav'); 
-});
+// $(document).ready(function() {
+//   $('li .active-nav').removeClass('active-nav');
+//   console.log(window.location.pathname);
+//   $('a[href="' + window.location.pathname + '"]').parent().addClass('active-nav'); 
+// });
 
 // $(document).ready(function() {
 // 	// get current URL path and assign 'active' class
@@ -90,15 +90,15 @@ $(document).ready(function() {
 // 	console.log('.nav__list .nav__list-item  a[href="'+pathname+'"]');
 // });
 
-	// $(function(){
- //        $('.nav__list nav__list-item a').each(function(){
- //            if ($(this).prop('href') == window.location.href) {
- //            	console.log(this);
- //            	console.log('nav changed');
- //                $(this).parents('li').addClass('active-nav');
- //            }
- //        });
- //    });
+	$(function(){
+        $('.nav__list .nav__list-item a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+            	console.log(this);
+            	console.log('nav changed');
+                $(this).parents('li').addClass('active-nav');
+            }
+        });
+    });
  
 
 
