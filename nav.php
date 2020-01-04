@@ -10,7 +10,7 @@
     <script src ="js/jquery.js"></script>
     <style>
     	.nav-colored {
-    	 	background-color :  #c4ebed ;
+    	 	background-color :  #b6caec ;
     	 	animation-name: fadeIn;
     	 	animation-duration: 0.4s;
     	 }
