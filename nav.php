@@ -9,7 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src ="js/jquery.js"></script>
     <style>
-    	.nav-colored { background-color:orange; }
+    	.nav-colored { background-color:orange; 
+    		transition-delay: 1s;}
 .nav-transparent { background-color:transparent;}
     </style>
     <!-- <title>Document</title> -->
@@ -57,7 +58,7 @@
     	 $('.cd-header').removeClass('nav-colored');
     $('.cd-header').addClass('nav-transparent');
     }
-});
+});0
 (function($) { "use strict";
 		
 	//Page cursors
