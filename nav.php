@@ -55,6 +55,7 @@
                 <li class="nav__list-item"><a href="faq.php" class="hover-target" style ="text-decoration:none;">FAQs</a></li>
                 <li class="nav__list-item"><a href="sponsor.php" class="hover-target" style ="text-decoration:none;">SPONSORS</a></li>
                 <li class="nav__list-item"><a href="team.php" class="hover-target" style ="text-decoration:none;">TEAM</a></li>
+				<li class="nav__list-item"><a href="contact.php" class="hover-target" style ="text-decoration:none;">Contact Us</a></li>
 			</ul>
 		</div>
 	</div>		
