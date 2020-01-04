@@ -97,7 +97,7 @@
 </div>
 <center>
   <a href ="#about-id">
-    <i class="fa fa-angle-double-down animated bounce about-btn"></i></a>
+    <i class="fa fa-angle-double-down animated bounce about-btn" style="font-size:40px;"></i></a>
 </center>
 </div>
 <br><br>

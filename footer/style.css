@@ -17,7 +17,7 @@
 
 body {
   font-family: "Archivo Narrow", sans-serif;
-  font-size: 14px; }
+  }
 
 h1,
 h2,
@@ -33,7 +33,6 @@ h6 {
 p {
   font-family: "Archivo Narrow", sans-serif;
   color: #5f5f5f;
-  font-size: 15px;
   line-height: 2;
   font-weight: 400; }
 
@@ -46,7 +45,6 @@ a:focus {
   outline: 0 solid transparent;
   color: #000000;
   font-weight: 700;
-  font-size: 16px;
   font-family: "Archivo Narrow", sans-serif; }
 
 ul,
