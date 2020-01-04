@@ -44,7 +44,7 @@
   src: url(batmfa__.ttf) format('truetype');
 }
   .head{
-      color:#000;
+      color:#413e66;
       font-size:50px;
       text-align:center;
       font-weight:200px;
