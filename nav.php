@@ -81,7 +81,7 @@
             if ($(this).prop('href') == window.location.href) {
             	console.log(this);
             	console.log('nav changed');
-                $(this).parents('li').addClass('active-nav');
+                $(this).parents('li').addClass('nav-active');
             }
         });
     });
