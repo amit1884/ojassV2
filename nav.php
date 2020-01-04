@@ -10,7 +10,7 @@
     <script src ="js/jquery.js"></script>
     <style>
     	.nav-colored {
-    	 	background-color :  #c3d0e6 ;
+    	 	background-color :  #8ec1da ;
     	 	animation-name: fadeIn;
     	 	animation-duration: 0.4s;
     	 }
@@ -55,7 +55,7 @@
                 <li class="nav__list-item"><a href="faq.php" class="hover-target" style ="text-decoration:none;">FAQs</a></li>
                 <li class="nav__list-item"><a href="sponsor.php" class="hover-target" style ="text-decoration:none;">SPONSORS</a></li>
                 <li class="nav__list-item"><a href="team.php" class="hover-target" style ="text-decoration:none;">TEAM</a></li>
-				<li class="nav__list-item"><a href="contact.php" class="hover-target" style ="text-decoration:none;">Contact Us</a></li>
+				<li class="nav__list-item"><a href="contact.php" class="hover-target" style ="text-decoration:none;">CONTACT US</a></li>
 			</ul>
 		</div>
 	</div>		
