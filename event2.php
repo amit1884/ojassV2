@@ -41,7 +41,7 @@
     background-size: cover;
     width: 270px;
     height: 300px;
-    background: linear-gradient(to right, #a8c0ff, #3f2b96);
+    background: linear-gradient(to right, #3366ff -7%, #00ffff 100%);
     border-radius: 50px;
   }
 
