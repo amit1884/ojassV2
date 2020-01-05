@@ -11,6 +11,7 @@ include_once 'nav.php';
     position:static!important; 
     width:60%!important; 
     margin:10px auto;
+    height:250px;
 /*position: absolute;*/
 background: white;
 box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
@@ -20,6 +21,7 @@ padding: 10px;
   width: 100%;
 }
   .imgS img {
+        height: -webkit-fill-available;
   -webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */
   filter: grayscale(90%);
   width:100%;
@@ -49,7 +51,7 @@ filter: grayscale(0%);
 
        <div class='sponsor-card'>
          <div class="imgS white-panel">
-            <img src="images/sponsors/Picture2.png" alt="images">
+            <img src="images/sponsors/dayal.png" alt="images">
          </div>
            </div>
        
