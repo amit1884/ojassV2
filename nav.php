@@ -77,25 +77,10 @@
     }
 });
 
-// $(document).ready(function() {
-//   $('li .active-nav').removeClass('active-nav');
-//   console.log(window.location.pathname);
-//   $('a[href="' + window.location.pathname + '"]').parent().addClass('active-nav'); 
-// });
-
-// $(document).ready(function() {
-// 	// get current URL path and assign 'active' class
-
-// 	var pathname = window.location.pathname;
-// 	$('.nav__list .nav__list-item  a[href="'+pathname+'"]').parent().addClass('active-nav');
-// 	console.log('.nav__list .nav__list-item  a[href="'+pathname+'"]');
-// });
 
 	$(function(){
         $('.nav__list .nav__list-item a').each(function(){
             if ($(this).prop('href') == window.location.href) {
-            	console.log(this);
-            	console.log('nav changed');
                 $(this).parents('li').addClass('active-nav');
             }
         });
