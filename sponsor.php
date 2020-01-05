@@ -24,7 +24,7 @@ padding: 10px;
         height: -webkit-fill-available;
   -webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */
   filter: grayscale(90%);
-  width:100%;
+  max-width:100%;
 }
 .imgS img:hover{
 -webkit-filter: grayscale(0%);
