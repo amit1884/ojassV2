@@ -10,7 +10,7 @@ include_once 'nav.php';
   .white-panel {
     position:static!important; 
     width:60%!important; 
-    margin:10px auto;
+    margin:7px auto;
     height:250px;
 /*position: absolute;*/
 background: white;
