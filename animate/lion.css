@@ -79,6 +79,7 @@ body {
   position: absolute;
   top: 8px;
   left: 10px;
+  right: 10px;
   box-shadow: -4px 3px 0 -1px gray, 4px 2px 0 -1px gray, -2px -6px 0 -1px gray;
 }
 .stars {
@@ -115,16 +116,16 @@ body {
 }
 @keyframes moonOrbit {
   0% {
-    transform: translate(-250px, 0);
+    transform: translate(-180px, 0);
     z-index: 10;
   }
   20% {
     z-index: -1;
   }
   50% {
-    transform: translate(250px, 0);
+    transform: translate(120px, 0);
   }
   100% {
-    transform: translate(-250px, 0);
+    transform: translate(-180px, 0);
   }
 }
