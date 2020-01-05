@@ -16,23 +16,23 @@
             </div>
         </div>
         
-                   <center style="color:#524F4D;">
+                   <center style="color:#413E66">
                    <ul class="list-inline" >
-              <p style="font-size:20px;font-family: 'Play', sans-serif;font-color:#524F4D;">Ojass'20</p>
+              <p style="font-size:25px;font-family: 'Play', sans-serif;font-color:#413E66;font-weight:900;"><img src="logo1.png" width="40" height="40">Ojass'20</p>
             </ul>
                    <ul class="list-inline" style="list-style-type:none">
-            <li><i class="fa fa-map-marker text-light" style="font-size: 16px;"><a style="font-family: 'Jura', sans-serif;color:#524F4D;"> NIT Jamshedpur</a></i></li>
-            <li><a class="fa fa-envelope text-light" style="font-size: 16px;"><a style="font-family: 'Jura', sans-serif;color:#524F4D;" href="mailto:ojass@nitjsr.ac.in"> ojass@nitjsr.ac.in</a> </i></li>
+            <li><i class="fa fa-map-marker " style="font-size: 16px;"><a style="font-family: 'Jura', sans-serif;color:#413E66;font-weight:700;"> NIT Jamshedpur</a></i></li>
+            <li><a class="fa fa-envelope " style="font-size: 16px;"><a style="font-family: 'Jura', sans-serif;color:#413E66;font-weight:700;" href="mailto:ojass@nitjsr.ac.in"> ojass@nitjsr.ac.in</a> </i></li>
           </ul>
                     <div>
                         <ul>
                         <li>           
-            <a href="https://www.facebook.com/Ojassnitjamshedpur/" ><i class="fa fa-facebook-official" style="font-size: 36px;color:#524F4D;" target="_blank"></i></a>
-            <a href="https://www.youtube.com/user/ojassnitjsr" class="fa fa-youtube-square" style="font-size: 36px; margin-left: 12px;color:#524F4D;" target="_blank"></a>
-            <a href="https://www.instagram.com/ojass_techfest/" class="fa fa-instagram" style="font-size: 36px; margin-left: 12px;color:#524F4D;" target="_blank"></a>
+            <a href="https://www.facebook.com/Ojassnitjamshedpur/" ><img  src="images/facebook.png" width="35" height="35" style="font-size: 36px;color:#413E66;font-weight:700;" target="_blank"></a>
+            <a href="https://www.youtube.com/user/ojassnitjsr" ><img  src="images/youtube.png" width="35" height="35"  style="font-size: 36px; margin-left: 12px;color:#413E66;" target="_blank"></a>
+            <a href="https://www.instagram.com/ojass_techfest/" ><img  src="images/instagram.png" width="35" height="35" style="font-size: 36px; margin-left: 12px;color:#413E66;" target="_blank"></a>
             <br>
             
-            <p style="font-size: 14px; margin: 0;"> <a  style="text-decoration:none;color:#524F4D;" href="developers.php">© Ojass Web Team</a> </p>
+            <p style="font-size: 18px; margin: 0;">© copyright <a  style="text-decoration:none;color:#0B98C0;" href="developers.php"> Ojass Web Team</a> </p>
             
         </li>
         
