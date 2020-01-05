@@ -81,7 +81,7 @@
 </head>
 <body ng-app="eventApp" style="color: #000;">
     <!-- particles.js container -->
-    <div id="loader-wrapper">
+    <!-- <div id="loader-wrapper">
     <div id="loading-center-absolute">
         <div class="object" id="object_four"></div>
         <div class="object" id="object_three"></div>
@@ -91,7 +91,7 @@
     <div class="loader-section section-left"></div>
     <div class="loader-section section-right"></div>
 
-    </div>
+    </div> -->
 
     <header id="navbar-top" class="header_wrap fixed-top" style="border-bottom:1px solid #000;">
         <div class="container-fluid">
@@ -106,9 +106,8 @@
         </div>
 </header> 
 <br><br><br> 
-    <a class="backtotop" href="#top"></a>
-    <div class="container-fluid" ng-controller="demoCtrl">
-      <div>        
+    <!-- <a class="backtotop" href="#top"></a> -->
+    <div class="container-fluid" ng-controller="demoCtrl">       
         <div ng-repeat="event in events" class="event-wrapper" id="{{event.name.split(' ').join('') | removeBrackets}}" style="display:none;">
         <div class="row">
           <div class="col-xs-12 sidebar">
@@ -304,16 +303,7 @@
 
         <!-- <script src="../assets/js/popper.min.js"></script> -->
         <script src="../assets/bootstrap/js/bootstrap.min.js"></script> 
-
-        <!-- parallax js  --> 
-        <!-- <script src="../assets/js/parallax.js"></script>  -->
-        <!-- particles min js  --> 
-        <!-- <script src="../assets/js/particles.min.js"></script>  -->
-        <!-- <script src="../assets/js/jquery.dd.min.js"></script>  -->
-        <!-- modern_canvas js --> 
-        <!-- <script src="../assets/js/modern_canvas.js"></script>  -->
-        <!-- scripts js --> 
-        <script src="../assets/js/scripts.js"></script>
+        <!-- <script src="../assets/js/scripts.js"></script> -->
 
 
 </html>

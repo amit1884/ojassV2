@@ -88,19 +88,19 @@
 
 <br><br>
   <div class ="main-header-20">
-  <div class ="head">OJASS'20</div>
+  <div class ="head" style ="display:none">OJASS'20</div>
   <center>
-<img src ="images/newlogo.png" class ="logo-20">
+<img src ="images/newlogo.png" class ="logo-20" style ="display:none;">
 </center>
 <!--theme-->
-<div class ="theme">
+<div class ="theme" style ="display:none;">
   <center>
   <h1 class="ml2">INDIC ERUDITION</h1>
 </center>
 </div>
 <center>
   <a href ="#pseudo-div">
-    <i class="fa fa-angle-double-down animated bounce about-btn" style ="font-size:40px;"></i></a>
+    <i class="fa fa-angle-double-down animated bounce about-btn" style ="font-size:40px;display:none"></i></a>
 </center>
 </div>
 <br><br>
@@ -120,33 +120,37 @@
   </style>
   <script>
 
-var textWrapper = document.querySelector('.ml2');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: false})
+$(document).ready(function(){
+    $(".logo-20").fadeIn(800);
+    $(".head").fadeIn(2500);
+    $(".theme").fadeIn(3500);
+    $(".about-btn").fadeIn(4000);
+});
+setTimeout(function(){
+  var textWrapper = document.querySelector('.ml2');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+  anime.timeline({loop: false})
   .add({
     targets: '.ml2 .letter',
     scale: [4,1],
     opacity: [0,1],
     translateZ: 0,
     easing: "easeOutExpo",
-    duration: 950,
+    duration: 2000,
     delay: (el, i) => 70*i
-  }).add({
-    targets: '.ml2',
-    opacity: 1,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
+  })
+
+},900);
     </script>
   </center>
-  <div id ="pseudo-div" style ="height:90px;"></div>
+  <div id ="pseudo-div" style ="height:90px;">
+<?php include_once 'cat.php';?></div>
   <div id="abt" class ="abt-foo">
 <h2 id  ="about-id" style ="  font-family:batman, sans-serif;color:#000;"><center><u>ABOUT</u><center></h2>
 <p class= "about" >
 Ojass is the annual techno-management fest of NIT Jamshedpur. Started in the year 2004, Ojass assembles a wide range of events comprising every genre of engineering, management and even film-making with the aim to foster and boost cogent engineering practices in the nation and stimulate the future generation to dream big. Certified Workshops in diversed fields are conducted every year before the fest to help students understand the different technology trends in the market.
-A three-day spectacle, Ojass also organizes many motivating guest lectures under the event cluster "Guru Gyan". Since its inception, Ojass has been receiving immense participation from the student community from all over India with the 2018 edition accounting for over 4000 participants. The prize money for this edition was ₹18 Lac. OJASS 19 is slated to kick-off from 5th April 2019 and the grandeur will prevail for the next two days. Save these dates, for we are all set to make it Bigger and Better, than ever!
+A three-day spectacle, Ojass also organizes many motivating guest lectures under the event cluster "Guru Gyan". Since its inception, Ojass has been receiving immense participation from the student community from all over India with the 2018 edition accounting for over 4000 participants. 
 </p>
 
 <?php include_once 'footer2.php';?>
