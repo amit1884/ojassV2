@@ -136,7 +136,7 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
     opacity: [0,1],
     translateZ: 0,
     easing: "easeOutExpo",
-    duration: 2000,
+    duration: 900,
     delay: (el, i) => 70*i
   })
 
