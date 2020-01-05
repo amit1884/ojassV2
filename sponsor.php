@@ -32,9 +32,10 @@ filter: grayscale(0%);
 }
 </style>
 
-<br><br><br>
-<center>
-<h2 class="text-center" ><span class="page_title" style="color:white; font-family: 'Play', sans-serif;font-size:50px;text-decoration: underline;">Sponsors</span></h2></center>
+<br><br><br><br>
+<center> <img src ="svg/sponsors.svg" width ="300" height ="40"></center><br>
+<!-- <center> -->
+<!-- <h2 class="text-center" ><span class="page_title" style="color:white; font-family: 'Play', sans-serif;font-size:50px;text-decoration: underline;">Sponsors</span></h2></center> -->
 <?php 
 // include_once 'back.php';
 ?>

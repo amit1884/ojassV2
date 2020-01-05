@@ -52,7 +52,6 @@
 
       color:#413e66;
       font-family:"batman", sans-serif;
-      
   }
  
   .about-btn{

@@ -9,7 +9,9 @@
 <body style ="background-color: #1f2029;">
 
 <br><br><br>
-<h1 style ="font-family: 'Play', sans-serif;"><center><u>FAQs</u></center></h1>
+<!-- <h1 style ="font-family: 'Play', sans-serif;"><center><u>FAQs</u></center></h1>
+ -->
+ <center> <img src ="svg/faqs.svg" width ="200" height ="20"></center><br>
 <div class ="faq-wrapper">
 <div class="accordion js-accordion" style ="margin-left:2px;margin-right:2px;">
   <div class="accordion__item js-accordion-item">

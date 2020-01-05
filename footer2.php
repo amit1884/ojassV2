@@ -11,7 +11,7 @@
             <div class="row d-flex flex-wrap align-items-center">
                 <div class="col-12 col-md-6">
                     <a href="#"><img src="footer/img/core-img/logo.png" alt=""></a>
-                   <!--  -->
+                   
                 </div>
 
                <!--  <div class="col-12 col-md-6"> -->

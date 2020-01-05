@@ -65,10 +65,10 @@
 
     <title>Team|OJASS'20</title>
 </head>
-<body><br><br>
+<body><br><br><br><br>
     <div class="container">
-    <!-- <i class="fa fa-users"></i> -->
-            <h1 class="text-center animated fadeIn" id="h"><u>Team</u></h1>
+   <center> <img src ="svg/team.svg" width ="200" height ="20"></center><br>
+            <!-- <h1 class="text-center animated fadeIn" id="h"><u>Team</u></h1> -->
     <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary btn-lg" id="modbtn" data-toggle="modal" data-target="#exampleModalCenter1">
             Core Team

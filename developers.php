@@ -22,6 +22,11 @@
 							0px 18px 23px rgba(0,0,0,0.1);
 			}
 		}		
+		@font-face {
+  font-family: batman;
+  src: url(batmfa__.ttf) format('truetype');
+}
+
 		.member img{
 			width:100%;
 			border-radius: 10px;
@@ -40,16 +45,16 @@
 		margin-top: 0;
 		text-align: center;
 		padding:10px;
-		font-size: 10vw;
-		color:white;
-		font-family: 'Play', sans-serif;;
+		font-size: 8vw;
+		
+      
 	}
 </style>
 </head>
-<body style ="background-color: #1f2029;"><br><br><br>
-	<h1 class='header'>
-		  <center><u>Developers</u></center>
-	</h1>
+<body style ="background-color: #1f2029;"><br><br><br><br>
+	<h1 class='header' style ="font-family:batman, sans-serif;color:#413e66;">
+		  <center>Developers</center>
+	</h1><br>
 	<div class='container'>
 		<div class='member' data-aos='fade-left'>
 			<img src="images/1.jpg">
