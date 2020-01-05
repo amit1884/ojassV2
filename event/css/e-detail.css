@@ -6,4 +6,13 @@ body{
     padding:15px;
     margin:10px;
     color:#123;
+    width:100%;
+    height:50vh;
+    overflow-y:auto;
+}
+.menu-navigation-dark a{
+    color:#000;
+}
+.event-wrapper{
+    margin-top:15px;
 }

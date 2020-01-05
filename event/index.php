@@ -93,7 +93,7 @@
 
     </div>
 
-    <header id="navbar-top" class="header_wrap fixed-top">
+    <header id="navbar-top" class="header_wrap fixed-top" style="border-bottom:1px solid #000;">
         <div class="container-fluid">
         <nav class="navbar navbar-expand-lg"> 
           <a class="navbar-brand page-scroll animation" href="../" data-animation="fadeInDown" data-animation-delay="1s"> 

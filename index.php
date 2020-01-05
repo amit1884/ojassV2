@@ -34,9 +34,11 @@
         scroll-behavior:smooth;
     }
   .about{
-    font-size:15px;
+    font-size:18px;
     color:black;
-    /* margin:10px; */
+    margin:5px;
+    line-height:2;
+    letter-spacing:2;
     text-align:center;
   }
   @font-face {
@@ -44,11 +46,11 @@
   src: url(batmfa__.ttf) format('truetype');
 }
   .head{
-      color:#000;
       font-size:50px;
       text-align:center;
       font-weight:200px;
-      /* font-family:'Merriweather'; */
+
+      color:#413e66;
       font-family:"batman", sans-serif;
       
   }
@@ -59,6 +61,7 @@
   }
   .main-header-20{
    min-height:90vh;
+   background-image:url('images\intro-bg.jpg');
     
   }
   a{
@@ -96,8 +99,8 @@
 </center>
 </div>
 <center>
-  <a href ="#about-id">
-    <i class="fa fa-angle-double-down animated bounce about-btn"></i></a>
+  <a href ="#pseudo-div">
+    <i class="fa fa-angle-double-down animated bounce about-btn" style ="font-size:40px;"></i></a>
 </center>
 </div>
 <br><br>
@@ -137,8 +140,8 @@ anime.timeline({loop: false})
     delay: 1000
   });
     </script>
-
   </center>
+  <div id ="pseudo-div" style ="height:90px;"></div>
   <div id="abt" class ="abt-foo">
 <h2 id  ="about-id" style ="  font-family:batman, sans-serif;color:#000;"><center><u>ABOUT</u><center></h2>
 <p class= "about" >
