@@ -27,7 +27,7 @@
             margin: auto;
             border-radius: 20px;
             color: black;
-            background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+            background-image:linear-gradient(to right, #3366ff -7%, #00ffff 100%);;
             font-size: 1.5rem;
             margin-bottom: 20px;
             min-height: 70px;
