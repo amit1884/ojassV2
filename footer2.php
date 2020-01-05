@@ -22,7 +22,7 @@
         
                    <center style="color:#524F4D;">
                    <ul class="list-inline" >
-              <p style="font-size:18px;font-family: 'Play', sans-serif;font-color:#524F4D;">Ojass'19</p>
+              <p style="font-size:20px;font-family: 'Play', sans-serif;font-color:#524F4D;">Ojass'20</p>
             </ul>
                    <ul class="list-inline" style="list-style-type:none">
             <li><i class="fa fa-map-marker text-light" style="font-size: 16px;"><a style="font-family: 'Jura', sans-serif;color:#524F4D;"> NIT Jamshedpur</a></i></li>
