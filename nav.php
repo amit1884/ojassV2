@@ -10,7 +10,7 @@
     <script src ="js/jquery.js"></script>
     <style>
     	.nav-colored {
-    	 	background-color :  #c4ebed ;
+    	 	background-color :  #8ec1da ;
     	 	animation-name: fadeIn;
     	 	animation-duration: 0.4s;
     	 }
@@ -32,7 +32,7 @@
     <!-- <title>Document</title> -->
 </head>
 <link rel ="stylesheet" href ="css/navstyle.css">
-<body style ="overflow-x:hidden;">
+<body style ="overflow-x:hidden; margin:0!important;">
     <header class="cd-header" style ="margin-bottom:10px;">
 		<div class="header-wrapper">
 		<a href ="index.php"><img src ="images/newlogo.png" width ="70" height ="70" align="left" style ="cursor:pointer;margin-top:10px;"></a>
@@ -49,12 +49,13 @@
 	<div class="nav">
 		<div class="nav__content">
 			<ul class="nav__list">
-				<li class="nav__list-item active-nav"><a href="index.php" class="hover-target" style ="text-decoration:none;">HOME</a></li>
+				<li class="nav__list-item"><a href="index.php" class="hover-target" style ="text-decoration:none;">HOME</a></li>
 				<li class="nav__list-item"><a href="event2.php" class="hover-target" style ="text-decoration:none;">EVENTS</a></li>
 				<li class="nav__list-item"><a href="notification.php" class="hover-target" style ="text-decoration:none;">NOTIFICATION</a></li>
                 <li class="nav__list-item"><a href="faq.php" class="hover-target" style ="text-decoration:none;">FAQs</a></li>
                 <li class="nav__list-item"><a href="sponsor.php" class="hover-target" style ="text-decoration:none;">SPONSORS</a></li>
                 <li class="nav__list-item"><a href="team.php" class="hover-target" style ="text-decoration:none;">TEAM</a></li>
+				<li class="nav__list-item"><a href="contact.php" class="hover-target" style ="text-decoration:none;">CONTACT US</a></li>
 			</ul>
 		</div>
 	</div>		
@@ -76,11 +77,11 @@
     }
 });
 
-$(document).ready(function() {
-  $('li .active-nav').removeClass('active-nav');
-  console.log(window.location.pathname);
-  $('a[href="' + window.location.pathname + '"]').parent().addClass('active-nav'); 
-});
+// $(document).ready(function() {
+//   $('li .active-nav').removeClass('active-nav');
+//   console.log(window.location.pathname);
+//   $('a[href="' + window.location.pathname + '"]').parent().addClass('active-nav'); 
+// });
 
 // $(document).ready(function() {
 // 	// get current URL path and assign 'active' class
@@ -90,15 +91,15 @@ $(document).ready(function() {
 // 	console.log('.nav__list .nav__list-item  a[href="'+pathname+'"]');
 // });
 
-	// $(function(){
- //        $('.nav__list nav__list-item a').each(function(){
- //            if ($(this).prop('href') == window.location.href) {
- //            	console.log(this);
- //            	console.log('nav changed');
- //                $(this).parents('li').addClass('active-nav');
- //            }
- //        });
- //    });
+	$(function(){
+        $('.nav__list .nav__list-item a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+            	console.log(this);
+            	console.log('nav changed');
+                $(this).parents('li').addClass('active-nav');
+            }
+        });
+    });
  
 
 
