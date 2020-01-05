@@ -49,7 +49,7 @@ filter: grayscale(0%);
 
        <div class='sponsor-card'>
          <div class="imgS white-panel">
-            <img src="images/sponsors/dayal.png" alt="images">
+            <img src="images/sponsors/Picture2.png" alt="images">
          </div>
            </div>
        
