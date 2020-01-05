@@ -60,7 +60,7 @@
         padding: 20px;
         background-color: white;
         border-radius: 50px;
-        border:1px solid #413e66;
+        border:2px solid #413e66;
         margin-top: 10px;
     }
 
