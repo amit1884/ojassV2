@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="../img/small_black.png">
   <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+  <link rel ="stylesheet" href ="css/bootstrap.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <script src="https://kit.fontawesome.com/9a416a1cca.js" crossorigin="anonymous"></script>
@@ -81,39 +82,19 @@
         </script>
 </head>
 <body ng-app="eventApp" style="color: #000;">
-    <!-- particles.js container -->
-    <!-- <div id="loader-wrapper">
-    <div id="loading-center-absolute">
-        <div class="object" id="object_four"></div>
-        <div class="object" id="object_three"></div>
-        <div class="object" id="object_two"></div>
-        <div class="object" id="object_one"></div>
-    </div>
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
-
-    </div> -->
-
-    <header id="navbar-top" class="header_wrap fixed-top" style="border-bottom:1px solid #000;">
-        <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg"> 
-          <a class="navbar-brand page-scroll animation" href="../" data-animation="fadeInDown" data-animation-delay="1s"> 
-                  <img class="logo_light" src="img/newlogo.png" alt="logo" />
-                </a>
-                <span id="event_title"style =" font-family: 'Play', sans-serif;color:#000;"><?php echo str_replace("_"," ",$_GET['branch']) ?></span>
-                <button class="navbar-toggler animation" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-animation="fadeInDown" data-animation-delay="1.1s"> 
-                    <span class="ion-android-menu"></span> 
-                </button>
-        </div>
-</header> 
-<br><br><br> 
-    <!-- <a class="backtotop" href="#top"></a> -->
+    <!-- <header id="navbar-top" class="header_wrap fixed-top" style="border-bottom:1px solid #000;"> -->
+     <!-- <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo" /></a>
+                <span id="event_title"style =" font-family: 'Play', sans-serif;color:#000;"><?php //echo str_replace("_"," ",$_GET['branch']) ?></span> -->
+<!-- </header>  -->
     <div class="container-fluid" ng-controller="demoCtrl">
       
 <!--sub events-->
     <input type="checkbox" name="" id="side-menu-switch">
 <div class="side-menu">
     <!--angular part-->
+    <div class ="title-eve">
+    <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo" /></a>
+    <span id="event_title"style =" font-family: 'Play', sans-serif;color:#000;"><?php echo str_replace("_"," ",$_GET['branch']) ?></span></div>
     <nav class =" menu-navigation-dark subevent"  id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
     <a style="word-wrap: break-word;" ng-repeat="event in events" href="#" class="event-name" name="{{event.name.split(' ').join('').split('.').join('')}}">
                       {{ event.name }}</a>
@@ -127,7 +108,6 @@
     <!--sub events-->
     <div class="row" >
           <div class="col-xs-12">
-            <br>
             <!-- <nav class="menu-navigation-dark" id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
                     <a style="word-wrap: break-word;" ng-repeat="event in events" href="#" class="event-name" name="{{event.name.split(' ').join('').split('.').join('')}}">
                       {{ event.name }}</a>
@@ -151,19 +131,19 @@
         <nav class="top">
   <menu class ="sidebarmenu">
     
-      <a class="c1" href="#" name ="about" >
+      <a class="c1 eve-icon20" href="#" name ="about" >
         <span><i class="fa fa-address-book-o" ></i></span>
       </a>
-      <a class="c2" href="#" name="detail">
+      <a class="c2 eve-icon20" href="#" name="detail">
         <span>&nbsp;<i class="fa fa-info" ></i></span>
       </a>
-      <a class="c3" href="#" name="prizes">
+      <a class="c3 eve-icon20" href="#" name="prizes">
         <span><i class="fa fa-trophy" ></i></span>
       </a>
-      <a class="c4" href="#" name ="rules">
+      <a class="c4 eve-icon20" href="#" name ="rules">
         <span><i class="fa fa-book" ></i></span>
       </a>
-      <a class="c5" href="#" name ="coordinators">
+      <a class="c5 eve-icon20" href="#" name ="coordinators">
         <span><i class="fa fa-users" ></i></span>
       </a>
   </menu>
@@ -192,21 +172,21 @@
                   <!-- Tabs for 1st Sub Event -->
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} about" style="display:none;">
                     
-                    <h4 class="text-center" style="text-decoration: underline;">About</h4>
+                    <h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;">About</h4>
                     
                     <div ng-bind-html="event.about | html" class="txtdetail"></div>
                   </div>
 
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} detail" style="display:none;">
          
-                    <h4 class="text-center" style="text-decoration: underline;">Details</h4>
+                    <h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;">Details</h4>
                     
                     <div ng-bind-html="event.detail | html" class="txtdetail"></div>
                   </div>
 
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} rules" style="display:none;">
                     
-                    <h4 class="text-center" style="text-decoration: underline;">Rules</h4>
+                    <h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;">Rules</h4>
                    
                     <div class="txtdetail">
                       <ol>
@@ -221,7 +201,7 @@
 
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} prizes" style="display:none;">
                 
-                    <h4 class="text-center" style="text-decoration: underline;text-align:center;margin-left:150px;">Prizes</h4>
+                    <h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;text-align:center;margin-left:150px;">Prizes</h4>
                    
                         
                    
@@ -291,11 +271,11 @@
                   </div>
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} coordinators" style="display:none;">
                   
-                    <h4 class="text-center" style="text-decoration: underline;margin-left:40px;">Co-ordinators</h4>
+                    <h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;margin-left:60px;">Co-ordinators</h4>
                     
                     <div class="row text-center" ng-repeat="c in event.coordinators">
-                      <div class="col-xs-6" style ="padding:15px;margin-left:10px;">{{c.name}}</div>
-                      <div class="col-xs-6" style ="padding:15px;margin-left:10px;">{{c.phone}}</div>
+                      <div class="col-xs-6" style ="padding:15px;margin-left:15px;">{{c.name}}</div>
+                      <div class="col-xs-6" style ="padding:15px;margin-left:15px;">{{c.phone}}</div>
                     </div>
                   </div>
 </div>
