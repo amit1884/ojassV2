@@ -18,7 +18,7 @@
   <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
   <input type="submit" value="SUBMIT"/>
 </form>
-
+<br><br>
     </div>
     
   </div>
