@@ -1,11 +1,7 @@
 
 
 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
-<link rel="stylesheet" href="css/contact-2.css">
-<?php include_once 'nav.php';?>
-<body>
-  
-
+<link rel="stylesheet" href="css/contact-2.css"><?php include_once 'nav.php';?>
 <div class="container">
   
   <div id="cloud-intro">
@@ -17,10 +13,8 @@
   <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
   <input type="submit" value="SUBMIT"/>
 </form>
-<br><br>
     </div>
   </div>
-</div>
-</body>
+</div><br><br>
 <?php include_once 'footer2.php';?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

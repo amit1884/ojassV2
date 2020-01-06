@@ -175,7 +175,7 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
     </script>
   </center>
   <div id ="pseudo-div" style ="height:90px;">
-<?php include_once 'cat.php';?></div>
+<?php include_once 'lion.php';?></div><br>
   <div id="abt" class ="abt-foo">
 <h2 id  ="about-id" style ="  font-family:batman, sans-serif;color:#000;"><center><u>ABOUT</u><center></h2>
 
