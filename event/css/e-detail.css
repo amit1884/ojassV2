@@ -218,10 +218,10 @@ body{
 
 
 .eve-loader{
-    margin-left:120px;
+    /* margin-left:120px; */
     font-size:80px;
     color:#413e66;
 }
 .cat-load{
-    margin-left:-50px;
+    margin-left:-60px;
 }

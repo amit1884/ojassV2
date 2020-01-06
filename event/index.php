@@ -105,7 +105,7 @@
         <i class="fas fa-angle-left"></i>
     </label>
 </div>
-    <!--sub events-->
+    <!--sub events--><br>
     <div class="row" >
           <div class="col-xs-12">
             <!-- <nav class="menu-navigation-dark" id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
@@ -113,12 +113,12 @@
                       {{ event.name }}</a>
             </nav> -->
               <div class ="eve-loader">
-              <h4 class="fade-element-in" ng-if="!flag"><span>Loading...</span>
-                
+              <h4 class="fade-element-in" ng-if="!flag" style ="margin-top:100px;"><span>Loading...</span>
                 <!-- <img src="img/loader.svg"> -->
                 <div class ="cat-load">
                 <?php include_once 'cat.php';?>
         </div>
+
         </h4>
         </div>
           </div>
