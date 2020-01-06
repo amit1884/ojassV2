@@ -1,7 +1,11 @@
 
 
 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
-<link rel="stylesheet" href="css/contact-2.css"><?php include_once 'nav.php';?>
+<link rel="stylesheet" href="css/contact-2.css">
+<?php include_once 'nav.php';?>
+<body>
+  
+
 <div class="container">
   
   <div id="cloud-intro">
@@ -17,5 +21,6 @@
     </div>
   </div>
 </div>
+</body>
 <?php include_once 'footer2.php';?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
