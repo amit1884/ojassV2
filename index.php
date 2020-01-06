@@ -81,7 +81,7 @@
    display:block;
    float:left;
    position:fixed;
-   top:600px;
+   top:550px;
    width:50px;
    height:50px;
    margin-left:10px;

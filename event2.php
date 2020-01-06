@@ -100,7 +100,7 @@
         <div class="swiper-container">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                      <a href ="event/index2.php?branch=AAKRITI"target="_blank" style ="text-decoration:none;"><div class="imgBx">
+                      <a href ="event/index.php?branch=AAKRITI"target="_blank" style ="text-decoration:none;"><div class="imgBx">
                           <img src="Events Page/akriti.svg" alt="">
                       </div>
                       <div class="details">

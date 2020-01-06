@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9a416a1cca.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/e-detail.css">
   <!-- <link rel="stylesheet" type="text/css" href="css/updated.css"> -->
     <!-- <link rel="stylesheet" type="text/css" href="css/events.css"> -->
@@ -99,7 +100,7 @@
           <a class="navbar-brand page-scroll animation" href="../" data-animation="fadeInDown" data-animation-delay="1s"> 
                   <img class="logo_light" src="img/newlogo.png" alt="logo" />
                 </a>
-                <span id="event_title"style =" font-family: 'Play', sans-serif;color:#000"><?php echo str_replace("_"," ",$_GET['branch']) ?></span>
+                <span id="event_title"style =" font-family: 'Play', sans-serif;color:#000;"><?php echo str_replace("_"," ",$_GET['branch']) ?></span>
                 <button class="navbar-toggler animation" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-animation="fadeInDown" data-animation-delay="1.1s"> 
                     <span class="ion-android-menu"></span> 
                 </button>
@@ -107,19 +108,78 @@
 </header> 
 <br><br><br> 
     <!-- <a class="backtotop" href="#top"></a> -->
-    <div class="container-fluid" ng-controller="demoCtrl">       
+    <div class="container-fluid" ng-controller="demoCtrl">
+      
+<!--sub events-->
+    <input type="checkbox" name="" id="side-menu-switch">
+<div class="side-menu">
+    <!--angular part-->
+    <nav class =" menu-navigation-dark subevent"  id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
+    <a style="word-wrap: break-word;" ng-repeat="event in events" href="#" class="event-name" name="{{event.name.split(' ').join('').split('.').join('')}}">
+                      {{ event.name }}</a>
+
+    </nav>
+      <!--angular part-->
+    <label for="side-menu-switch">
+        <i class="fas fa-angle-left"></i>
+    </label>
+</div>
+    <!--sub events-->
+    <div class="row" >
+          <div class="col-xs-12">
+            <br>
+            <!-- <nav class="menu-navigation-dark" id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
+                    <a style="word-wrap: break-word;" ng-repeat="event in events" href="#" class="event-name" name="{{event.name.split(' ').join('').split('.').join('')}}">
+                      {{ event.name }}</a>
+            </nav> -->
+              <div class ="eve-loader">
+              <h4 class="fade-element-in" ng-if="!flag"><span>Loading...</span>
+                
+                <!-- <img src="img/loader.svg"> -->
+                <div class ="cat-load">
+                <?php include_once 'cat.php';?>
+        </div>
+        </h4>
+        </div>
+          </div>
+        </div>
+
+
         <div ng-repeat="event in events" class="event-wrapper" id="{{event.name.split(' ').join('') | removeBrackets}}" style="display:none;">
+        
+        
+        <nav class="top">
+  <menu class ="sidebarmenu">
+    
+      <a class="c1" href="#" name ="about" >
+        <span><i class="fa fa-address-book-o" ></i></span>
+      </a>
+      <a class="c2" href="#" name="detail">
+        <span>&nbsp;<i class="fa fa-info" ></i></span>
+      </a>
+      <a class="c3" href="#" name="prizes">
+        <span><i class="fa fa-trophy" ></i></span>
+      </a>
+      <a class="c4" href="#" name ="rules">
+        <span><i class="fa fa-book" ></i></span>
+      </a>
+      <a class="c5" href="#" name ="coordinators">
+        <span><i class="fa fa-users" ></i></span>
+      </a>
+  </menu>
+</nav>
+        
         <div class="row">
-          <div class="col-xs-12 sidebar">
-            <nav class="menu-navigation-dark sidebarmenu">
+          <!-- <div class="col-xs-12">
+            <nav class="sidebarmenu">
               
-              <a href="#" name='about' style ="font-size:30px; width:72px;padding:5px;"><i class="fa fa-address-book-o" ></i></a>
+             <a href="#" name='about' style ="font-size:30px; width:72px;padding:5px;"><i class="fa fa-address-book-o" ></i></a>
                   <a href="#" name='detail' style ="font-size:30px;width:72px;padding:5px;"><i class="fa fa-info"></i></a>
                   <a href="#" name='prizes' style ="font-size:30px;width:72px;padding:5px;"><i class="fa fa-trophy"></i></a>
                   <a href="#" name='rules' style ="font-size:30px;width:72px;padding:5px;"><i class="fa fa-book"></i></a>
                   <a href="#" name='coordinators' style ="font-size:30px;width:72px;padding:5px;"><i class="fa fa-users"></i></a>
           </nav>
-          </div>
+          </div> -->
           <div class="col-xs-12 mainarea">
             <div class="row text-center">
               <div class="col-xs-12" id='stuffname'></div>
@@ -244,24 +304,8 @@
           </div>
         </div>
       </div>
-        <div class="row" >
-          <div class="col-xs-12" style="position:fixed;bottom:10px;">
-            <br>
-            <nav class="menu-navigation-dark" id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
-                    <a style="word-wrap: break-word;" ng-repeat="event in events" href="#" class="event-name" name="{{event.name.split(' ').join('').split('.').join('')}}">
-                      <span >{{ event.name }}</span></a>
-            </nav>
-            <center>
-              <div style ="margin-left:150px">
-              <h4 class="fade-element-in" ng-if="!flag"><span>Loading...</span> 
-                <br>
-                <img src="img/loader.svg">
-              </h4>
-        </div>
-            </center>
-          </div>
-        </div>
-        
+      
+      <!--bottom event-->  
       </div>
     </div>
 
