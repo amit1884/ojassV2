@@ -11,7 +11,7 @@
   <div id="cloud-intro">
     <div class="contact-box">  
     <center><h1 style="color:darkred;font-size:7vh;font-weight:600;">Get in touch</h1></center>
-    <form>      
+    <form style="margin-bottom: 5%;">      
   <input name="name" type="text" class="feedback-input" placeholder="Name" />   
   <input name="email" type="text" class="feedback-input" placeholder="Email" />
   <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
