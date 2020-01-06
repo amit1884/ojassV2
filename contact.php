@@ -13,8 +13,9 @@
   <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
   <input type="submit" value="SUBMIT"/>
 </form>
+<br><br>
     </div>
   </div>
-</div><br><br>
+</div>
 <?php include_once 'footer2.php';?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
