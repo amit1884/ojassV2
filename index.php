@@ -47,10 +47,9 @@
   src: url(batmfa__.ttf) format('truetype');
 }
   .head{
-      font-size:50px;
+      font-size:55px;
       text-align:center;
       font-weight:200px;
-
       color:#413e66;
       font-family:"batman", sans-serif;
   }
@@ -115,7 +114,7 @@
     <?php //include_once 'loader.php';?>
 </div> -->
 
-<a href ="#"><button class ="feed-20"><i class ="fa fa-plus"></i></button></a>
+<a href ="#"><button class ="feed-20"><i class ="fa fa-feed" style ="font-size:25px;color:#000;"></i></button></a>
 <br><br>
   <div class ="main-header-20">
   <div class ="head" style ="display:none">OJASS'20</div>

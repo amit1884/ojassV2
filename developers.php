@@ -32,7 +32,7 @@
 			border-radius: 10px;
 		}
 		.member h4{
-			color: #f1f6ac;
+			color: #413e66;
 			font-family: 'Titillium Web', sans-serif;
 			margin:8px auto;
 			font-size:20px;
@@ -55,7 +55,7 @@
 	<h1 class='header' style ="font-family:batman, sans-serif;color:#413e66;">
 		  <center>Developers</center>
 	</h1><br>
-	<div class='container'>
+	<div class='container'style="overflow-x:hidden;">
 		<div class='member' data-aos='fade-left'>
 			<img src="images/1.jpg">
 			<h4>Amit Raj, CSE</h4>
