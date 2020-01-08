@@ -1,21 +1,19 @@
-
-
-<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
-<link rel="stylesheet" href="css/contact-2.css">
-<style>
- @font-face {
-  font-family: batman;
-  src: url(batmfa__.ttf) format('truetype');
-}
-</style>
 <?php include_once 'nav.php';?>
+<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/contact-2.css">
+  <title>Contact Us</title>
+</head>
 <body>
-  <!-- bhrthr6 -->
 
-<div class="container" style ="overflow-x:hidden;">
-  
-  <div id="cloud-intro" >
-    <div class="contact-box">  
+<div class="contact-box">  
+  <br>
     <center><h1 style="color:darkred;font-size:30px;font-family:batman, sans-serif;">Get in touch</h1></center>
     <form>      
   <input name="name" type="text" class="feedback-input" placeholder="Name" />   
@@ -25,11 +23,15 @@
 </form>
 <br><br>
     </div>
-    
-  </div>
-  
-</div>
-
+    <?php include_once 'footer2.php';?>
 </body>
-<?php include_once 'footer2.php';?>
+</html>
+
+<style>
+ @font-face {
+  font-family: batman;
+  src: url(batmfa__.ttf) format('truetype');
+}
+</style>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
