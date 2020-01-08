@@ -132,9 +132,9 @@
 </center>
 </div>
 <center>
-  <!-- <a href ="#pseudo-div">
+  <a href ="#pseudo-div">
     <i class="fa fa-angle-double-down animated bounce about-btn" style ="font-size:40px;display:none"></i></a>
-   -->
+  
    <a href ="#"  ><span id="scroll_id" class="arrow">up</span></a>
 </center>
 </div>
