@@ -1,5 +1,5 @@
-body {
-  /* background: #1B2B2F; */
+/* body {
+  background: #1B2B2F; 
   font-family: sans-serif;
   overflow-x: hidden;
 
@@ -10,14 +10,13 @@ body {
   border-radius: 50%;
   background-color: #3380B5;
   position: relative;
- /*  top: 50%; */
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
   z-index: 2;
   box-shadow: inset -30px 0 rgba(0, 0, 0, 0.2), 0 0 0 120px rgba(20, 106, 221, 0.1), 0 0 0 300px rgba(20, 106, 221, 0.1), 0 0 0 500px rgba(20, 106, 221, 0.1);
 }
-/* Land */
 .earth:before {
   content: "";
   position: absolute;
@@ -31,7 +30,7 @@ body {
   animation: rotateElement linear 25s infinite;
   box-shadow: 0px 75px 0 -5px #85C567, 5px 35px 0 -3px #85C567, 35px 125px 0 -9px #85C567, 120px -15px 0 -7px #85C567, 135px -55px 0 -9px #85C567, 150px 25px 0 7px #85C567, 220px 70px 0 -2px #85C567, 235px -35px 0 -3px #85C567, 280px 85px 0 3px #85C567, 320px 30px 0 1px #85C567, 400px 0 0 0 #85C567, 400px 75px 0 -5px #85C567, 405px 35px 0 -3px #85C567, 435px 125px 0 -9px #85C567, 520px -15px 0 -7px #85C567, 535px -55px 0 -9px #85C567, 550px 25px 0 7px #85C567, 620px 70px 0 -2px #85C567, 635px -35px 0 -3px #85C567, 680px 85px 0 3px #85C567, 720px 30px 0 1px #85C567;
 }
-/* Clouds */
+
 .earth:after {
   content: "";
   position: absolute;
@@ -65,7 +64,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
- /*  overflow: auto; */
+ 
   z-index: 10;
   box-shadow: inset -3px 0 rgba(0, 0, 0, 0.2);
   animation: moonOrbit ease-in-out 3s infinite;
@@ -129,3 +128,4 @@ body {
     transform: translate(-180px, 0);
   }
 }
+ */
