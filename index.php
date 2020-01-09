@@ -210,7 +210,7 @@ A three-day spectacle, Ojass also organizes many motivating guest lectures under
 <script src ="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
     <script>
    $(document).ready(function(){
-  $('.image').addClass('tada');
+  $('.image').addClass('zoomIn');
   $('.head-wow').addClass('rollIn');
  
 });
