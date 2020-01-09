@@ -52,7 +52,7 @@
     <a href ="event/index.php?branch=AAKRITI"target ="_blank"><div class='major_events animated bounceIn ' ><img src='svg\eventsIcons\akriti.svg'><h5>Aakriti</h5></div>
     <a href ="event/index.php?branch=AVARTAN"target ="_blank"><div class='major_events animated zoomIn ' ><img src='svg\eventsIcons\avartan.svg'><h5>Avartan</h5></div>
    
-    <a href ="event/index.php?branch=CIRCUIT_HOUSE"target ="_blank"><div class='major_events animated slideInLeft' ><img src='svg\eventsIcons\circuit_house.svg'><h5>Circuit-House</h5></div>
+    <a href ="event/index.php?branch=Circuit_House"target ="_blank"><div class='major_events animated slideInLeft' ><img src='svg\eventsIcons\circuit_house.svg'><h5>Circuit-House</h5></div>
     <a href ="event/index.php?branch=Deus-X-Machina"target ="_blank"><div class='major_events animated rubberBand' ><img src='svg\eventsIcons\deus_x_machina.svg'><h5>Deus-X-Machina</h5></div>
     <a href ="event/index.php?branch=LIVE CS"target ="_blank"><div class='major_events animated slideInright' ><img src='svg\eventsIcons\live_cs.svg'><h5>Live CS</h5></div>
     <div style= "display:inline-block">

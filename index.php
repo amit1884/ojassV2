@@ -110,9 +110,15 @@
    background:dodgerblue;
    border-radius:20px 20px 0 0;
   }
+.abt-foo{
+  display:none;
+}
   </style>
   </head>
   <body>
+  <!-- <div id ="loader-wrapper">
+<img src="svg\copper-loader.gif">
+</div> -->
 <br><br>
   <div class ="main-header-20">
   <div class ="head" style ="margin-left:15%;">
@@ -189,24 +195,11 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
 <p class= "about" >
 Ojass is the annual techno-management fest of NIT Jamshedpur. Started in the year 2004, Ojass assembles a wide range of events comprising every genre of engineering, management and even film-making with the aim to foster and boost cogent engineering practices in the nation and stimulate the future generation to dream big. Certified Workshops in diversed fields are conducted every year before the fest to help students understand the different technology trends in the market.
 A three-day spectacle, Ojass also organizes many motivating guest lectures under the event cluster "Guru Gyan". Since its inception, Ojass has been receiving immense participation from the student community from all over India with the 2018 edition accounting for over 4000 participants. 
-<!-- <a href ="#"><button class ="up-20 animated tada" style ="font-size:20px;"><i class ="fa fa-angle-double-up"></i></button></a> -->
 </p>
 
 <?php include_once 'footer2.php';?>
 </div>
-<script>
-// jQuery(document).ready(function($) {  
 
-// $(window).load(function(){
-// 	$('#loader-wrapper').fadeOut('slow',function(){$(this).remove();$('#abt').removeClass('abt-foo')});
-//   $('#abt').remove(this);
-// });
-
-// });
-  </script>
-  
-</body>
-</html>
 <script src ="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
     <script>
    $(document).ready(function(){
@@ -231,3 +224,20 @@ jQuery(window).scroll(function() {
   <script>
     new WOW().init();
     </script>
+
+
+<script>
+jQuery(document).ready(function($) {  
+
+$(window).load(function(){
+	$('#loader-wrapper').fadeOut('slow',function(){$(this).remove();
+  $('#abt').removeClass('abt-foo')
+  });
+  $('#abt').remove(this);
+});
+
+});
+  </script>
+  
+</body>
+</html>
