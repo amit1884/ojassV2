@@ -235,13 +235,13 @@ h1:after {
     transform: translateY(-50%);
   }
   .multi-column-carousel .viewport .multi-column-button.previous {
-    left:5vh;
+    left:4vh;
   }
   .multi-column-carousel .viewport .multi-column-button.previous.hidden {
     left: -10vh;
   }
   .multi-column-carousel .viewport .multi-column-button.next {
-    right: 5vh;
+    right: 4vh;
   }
   .multi-column-carousel .viewport .multi-column-button.next.hidden {
     right: -10vh;
