@@ -14,9 +14,13 @@
   <link rel ="stylesheet" href ="css/animate.css">
     <link rel ="stylesheet" href= "css/style.css">
     <link rel ="stylesheet" href= "css/loader.css">
+    <link rel="stylesheet" href="scroll_icon/scroll.css">
     <link rel ="stylesheet" href= "css/bootstrap.min.css">
     <script type ="text/javascript" src ="js/jquery.js"></script>
     <script type ="text/javascript" src ="js/index.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+<script src="scroll_icon/scroll.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/15979/footer-inject.jss"></script>
 
     <!--fonts-->
     
@@ -114,7 +118,7 @@
     <?php //include_once 'loader.php';?>
 </div> -->
 
-<a href ="#"><button class ="feed-20"><i class ="fa fa-feed" style ="font-size:25px;color:#000;"></i></button></a>
+<!-- <a href ="#"><button class ="feed-20"><i class ="fa fa-angle-double-up" style ="font-size:25px;color:#000;"></i></button></a> -->
 <br><br>
   <div class ="main-header-20">
   <div class ="head" style ="display:none">OJASS'20</div>
@@ -130,6 +134,8 @@
 <center>
   <a href ="#pseudo-div">
     <i class="fa fa-angle-double-down animated bounce about-btn" style ="font-size:40px;display:none"></i></a>
+  
+   <a href ="#"  ><span id="scroll_id" class="arrow">up</span></a>
 </center>
 </div>
 <br><br>
@@ -174,14 +180,14 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
     </script>
   </center>
   <div id ="pseudo-div" style ="height:90px;">
-<?php include_once 'lion.php';?></div><br>
+
   <div id="abt" class ="abt-foo">
 <h2 id  ="about-id" style ="  font-family:batman, sans-serif;color:#000;"><center><u>ABOUT</u><center></h2>
 
 <p class= "about" >
 Ojass is the annual techno-management fest of NIT Jamshedpur. Started in the year 2004, Ojass assembles a wide range of events comprising every genre of engineering, management and even film-making with the aim to foster and boost cogent engineering practices in the nation and stimulate the future generation to dream big. Certified Workshops in diversed fields are conducted every year before the fest to help students understand the different technology trends in the market.
 A three-day spectacle, Ojass also organizes many motivating guest lectures under the event cluster "Guru Gyan". Since its inception, Ojass has been receiving immense participation from the student community from all over India with the 2018 edition accounting for over 4000 participants. 
-<a href ="#"><button class ="up-20 animated tada" style ="font-size:20px;"><i class ="fa fa-angle-double-up"></i></button></a>
+<!-- <a href ="#"><button class ="up-20 animated tada" style ="font-size:20px;"><i class ="fa fa-angle-double-up"></i></button></a> -->
 </p>
 
 <?php include_once 'footer2.php';?>
@@ -196,5 +202,25 @@ A three-day spectacle, Ojass also organizes many motivating guest lectures under
 
 // });
   </script>
+  
 </body>
 </html>
+<!-- <script>
+  jQuery("a[href='#pseudo-div']").click(function() {
+     jQuery("html, body").animate({ scrollTop: 0 }, "slow");
+     return false;
+});
+</script> -->
+<script>
+jQuery(window).scroll(function() {
+
+    if (jQuery(this).scrollTop()> 170)
+     {
+        jQuery('#scroll_id').fadeIn();
+     }
+    else
+     {
+      jQuery('#scroll_id').fadeOut();
+     }
+ });
+  </script>
