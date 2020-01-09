@@ -116,14 +116,14 @@
 <br><br>
   <div class ="main-header-20">
   <div class ="head" style ="margin-left:15%;">
-  <div class =" head-wow  wow rollIn" data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">O</div>
-        <div class =" head-wow  wow rollIn" data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">J</div>
-        <div class =" head-wow  wow rollIn" data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">A</div>
-        <div class =" head-wow  wow rollIn" data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">S</div>
-        <div class =" head-wow  wow rollIn" data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">S</div>
-        <div class =" head-wow  wow rollIn" data-wow-duration="3s" data-wow-delay="1s"style ="font-size:45px;float:left">'</div>
-        <div class =" head-wow  wow rollIn" data-wow-duration="3s" data-wow-delay="1s"style ="font-size:45px;float:left">2</div>
-        <div class =" head-wow  wow rollIn" data-wow-duration="3s" data-wow-delay="1s"style ="font-size:45px;float:left">0</div>
+  <div class =" head-wow  wow " data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">O</div>
+        <div class =" head-wow  wow " data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">J</div>
+        <div class =" head-wow  wow " data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">A</div>
+        <div class =" head-wow  wow " data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">S</div>
+        <div class =" head-wow  wow " data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">S</div>
+        <div class =" head-wow  wow " data-wow-duration="3s" data-wow-delay="1s"style ="font-size:45px;float:left">'</div>
+        <div class =" head-wow  wow " data-wow-duration="3s" data-wow-delay="1s"style ="font-size:45px;float:left">2</div>
+        <div class =" head-wow  wow " data-wow-duration="3s" data-wow-delay="1s"style ="font-size:45px;float:left">0</div>
   </div>
   <div class ="image wow" data-wow-duration="1s">
   <center>
@@ -160,7 +160,9 @@
 }
   </style>
   <script>
-    setTimeout(() => {
+    $(document).ready(function(){
+
+      setTimeout(() => {
       var textWrapper = document.querySelector('.ml2');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
   anime.timeline({loop: false})
@@ -174,6 +176,8 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
     delay: (el, i) => 70*i
   })
     }, 2000);
+    })
+   
  
     </script>
   </center>
@@ -204,12 +208,10 @@ A three-day spectacle, Ojass also organizes many motivating guest lectures under
 </body>
 </html>
 <script src ="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
-<script>
-    new WOW().init();
-    </script>
     <script>
    $(document).ready(function(){
-  $('.image').addClass('zoomIn');
+  $('.image').addClass('tada');
+  $('.head-wow').addClass('rollIn');
  
 });
     </script>
@@ -226,3 +228,6 @@ jQuery(window).scroll(function() {
      }
  });
   </script>
+  <script>
+    new WOW().init();
+    </script>
