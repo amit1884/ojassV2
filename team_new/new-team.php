@@ -1,14 +1,20 @@
-<?php include_once 'nav.php';?>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="team_new/test.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="test.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="team_new/test.js"></script>
+   
+    <script src="test.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/cant89/gianni-accordion-js/dist/gianniAccordion.min.js"></script>
     
 </head>
-<body><br><br><br>
+<body>
 <section class="card">
   <article>
     <h1 data-accordion-element-trigger>1</h1>
@@ -22,44 +28,44 @@
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
-                        <div class="head-shot"><img class="image" src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img class="image" src="3.jpg" /></div>
+                        <div>Employee Number 1</div>
+                        <div>CEO / Bear</div>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 2</p>
-                        <p class="p-text">Strategist / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 2</h6>
+                        <p>Strategist / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 3</p>
-                        <p class="p-text">Account Director / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 3</h6>
+                        <p>Account Director / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 4</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 4</h6>
+                        <p>Chef / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 5</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 5</h6>
+                        <p>Project Manager / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 6</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 6</h6>
+                        <p>Designer / Developer / Bear</p>
                     </div>
                 </div>
             </div>
@@ -81,43 +87,43 @@
                 <div class="page active">
                     <div class="page-content">
                         <div class="head-shot"><img class="image" src="3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div>Employee Number 1</div>
+                        <div>CEO / Bear</div>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 2</h6>
+                        <p>Strategist / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 3</h6>
+                        <p>Account Director / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 4</h6>
+                        <p>Chef / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 5</h6>
+                        <p>Project Manager / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <<p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 6</h6>
+                        <p>Designer / Developer / Bear</p>
                     </div>
                 </div>
             </div>
@@ -138,44 +144,44 @@
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
-                        <div class="head-shot"><img class="image" src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img class="image" src="3.jpg" /></div>
+                        <div>Employee Number 1</div>
+                        <div>CEO / Bear</div>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 2</h6>
+                        <p>Strategist / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 3</h6>
+                        <p>Account Director / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 4</h6>
+                        <p>Chef / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 5</h6>
+                        <p>Project Manager / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 6</h6>
+                        <p>Designer / Developer / Bear</p>
                     </div>
                 </div>
             </div>
@@ -196,44 +202,44 @@
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
-                        <div class="head-shot"><img class="image" src="images/1.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img class="image" src="1.jpg" /></div>
+                        <div>Employee Number 1</div>
+                        <div>CEO / Bear</div>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/1.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="1.jpg" /></div>
+                        <h6>Employee Number 2</h6>
+                        <p>Strategist / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/1.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="1.jpg" /></div>
+                        <h6>Employee Number 3</h6>
+                        <p>Account Director / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/1.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="1.jpg" /></div>
+                        <h6>Employee Number 4</h6>
+                        <p>Chef / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/1.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="1.jpg" /></div>
+                        <h6>Employee Number 5</h6>
+                        <p>Project Manager / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/1.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="1.jpg" /></div>
+                        <h6>Employee Number 6</h6>
+                        <p>Designer / Developer / Bear</p>
                     </div>
                 </div>
             </div>
@@ -254,44 +260,44 @@
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
-                        <div class="head-shot"><img class="image" src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img class="image" src="3.jpg" /></div>
+                        <div>Employee Number 1</div>
+                        <div>CEO / Bear</div>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 2</h6>
+                        <p>Strategist / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 3</h6>
+                        <p>Account Director / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 4</h6>
+                        <p>Chef / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 5</h6>
+                        <p>Project Manager / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 6</h6>
+                        <p>Designer / Developer / Bear</p>
                     </div>
                 </div>
             </div>
@@ -312,44 +318,44 @@
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
-                        <div class="head-shot"><img class="image" src="images/1.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img class="image" src="1.jpg" /></div>
+                        <div>Employee Number 1</div>
+                        <div>CEO / Bear</div>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/1.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="1.jpg" /></div>
+                        <h6>Employee Number 2</h6>
+                        <p>Strategist / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/1.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="1.jpg" /></div>
+                        <h6>Employee Number 3</h6>
+                        <p>Account Director / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/1.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="1.jpg" /></div>
+                        <h6>Employee Number 4</h6>
+                        <p>Chef / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/1.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="1.jpg" /></div>
+                        <h6>Employee Number 5</h6>
+                        <p>Project Manager / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/1.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="1.jpg" /></div>
+                        <h6>Employee Number 6</h6>
+                        <p>Designer / Developer / Bear</p>
                     </div>
                 </div>
             </div>
@@ -370,44 +376,44 @@
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
-                        <div class="head-shot"><img class="image" src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img class="image" src="3.jpg" /></div>
+                        <div>Employee Number 1</div>
+                        <div>CEO / Bear</div>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 2</h6>
+                        <p>Strategist / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 3</h6>
+                        <p>Account Director / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 4</h6>
+                        <p>Chef / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 5</h6>
+                        <p>Project Manager / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 6</h6>
+                        <p>Designer / Developer / Bear</p>
                     </div>
                 </div>
             </div>
@@ -428,44 +434,44 @@
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
-                        <div class="head-shot"><img class="image" src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img class="image" src="3.jpg" /></div>
+                        <div>Employee Number 1</div>
+                        <div>CEO / Bear</div>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 2</h6>
+                        <p>Strategist / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 3</h6>
+                        <p>Account Director / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 4</h6>
+                        <p>Chef / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 5</h6>
+                        <p>Project Manager / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 6</h6>
+                        <p>Designer / Developer / Bear</p>
                     </div>
                 </div>
             </div>
@@ -486,44 +492,44 @@
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
-                        <div class="head-shot"><img class="image" src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img class="image" src="3.jpg" /></div>
+                        <div>Employee Number 1</div>
+                        <div>CEO / Bear</div>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 2</h6>
+                        <p>Strategist / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 3</h6>
+                        <p>Account Director / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 4</h6>
+                        <p>Chef / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 5</h6>
+                        <p>Project Manager / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 6</h6>
+                        <p>Designer / Developer / Bear</p>
                     </div>
                 </div>
             </div>
@@ -544,44 +550,44 @@
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
-                        <div class="head-shot"><img class="image" src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img class="image" src="3.jpg" /></div>
+                        <div>Employee Number 1</div>
+                        <div>CEO / Bear</div>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 2</h6>
+                        <p>Strategist / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 3</h6>
+                        <p>Account Director / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 4</h6>
+                        <p>Chef / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 5</h6>
+                        <p>Project Manager / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 6</h6>
+                        <p>Designer / Developer / Bear</p>
                     </div>
                 </div>
             </div>
@@ -602,44 +608,44 @@
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
-                        <div class="head-shot"><img class="image" src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img class="image" src="3.jpg" /></div>
+                        <div>Employee Number 1</div>
+                        <div>CEO / Bear</div>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 2</h6>
+                        <p>Strategist / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 3</h6>
+                        <p>Account Director / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 4</h6>
+                        <p>Chef / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 5</h6>
+                        <p>Project Manager / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 6</h6>
+                        <p>Designer / Developer / Bear</p>
                     </div>
                 </div>
             </div>
@@ -660,44 +666,44 @@
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
-                        <div class="head-shot"><img class="image" src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img class="image" src="3.jpg" /></div>
+                        <div>Employee Number 1</div>
+                        <div>CEO / Bear</div>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 2</h6>
+                        <p>Strategist / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 3</h6>
+                        <p>Account Director / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 4</h6>
+                        <p>Chef / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 5</h6>
+                        <p>Project Manager / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 6</h6>
+                        <p>Designer / Developer / Bear</p>
                     </div>
                 </div>
             </div>
@@ -718,44 +724,44 @@
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
-                        <div class="head-shot"><img class="image" src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img class="image" src="3.jpg" /></div>
+                        <div>Employee Number 1</div>
+                        <div>CEO / Bear</div>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 2</h6>
+                        <p>Strategist / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 3</h6>
+                        <p>Account Director / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                       <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 4</h6>
+                        <p>Chef / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 5</h6>
+                        <p>Project Manager / Bear</p>
                     </div>
                 </div>
                 <div class="page">
                     <div class="page-content">
-                        <div class="head-shot"><img src="images/3.jpg" /></div>
-                        <p class="p-text">Employee Number 1</p>
-                        <p class="p-text">CEO / Bear</p>
+                        <div class="head-shot"><img src="3.jpg" /></div>
+                        <h6>Employee Number 6</h6>
+                        <p>Designer / Developer / Bear</p>
                     </div>
                 </div>
             </div>
@@ -763,12 +769,9 @@
     </div>
 </div>
     </div>
-    
   </article>
 </section>
-<?php include_once 'footer2.php';?>
 </body>
-
 </html>
 <script>
 /**
