@@ -773,6 +773,7 @@
     
   </article>
 </section>
+<br><br>
 <?php include_once 'footer2.php';?>
 </body>
 
