@@ -1,14 +1,21 @@
 <?php include_once 'nav.php';?>
 
 <head>
-    <link rel="stylesheet" href="team_new/test.css">
+    <link rel="stylesheet" href="team_new/team.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="team_new/test.js"></script>
+    <script src="team_new/team.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/cant89/gianni-accordion-js/dist/gianniAccordion.min.js"></script>
-    
+    <style>
+ @font-face {
+  font-family: batman;
+  src: url(batmfa__.ttf) format('truetype');
+}
+</style>
 </head>
 <body><br><br><br>
+<center><div style="color:#413F67;font-size:30px;font-family:batman, sans-serif;">TEAM</div></center>
+<br>
 <section class="card">
   <article>
     <h1 data-accordion-element-trigger>1</h1>

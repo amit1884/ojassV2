@@ -14,7 +14,7 @@
 
 <div class="contact-box">  
   <br>
-    <center><h1 style="color:darkred;font-size:30px;font-family:batman, sans-serif;">Get in touch</h1></center>
+    <center><h1 style="color:#413F67;font-size:30px;font-family:batman, sans-serif;">Get in touch</h1></center>
     <form>      
   <input name="name" type="text" class="feedback-input" placeholder="Name" />   
   <input name="email" type="text" class="feedback-input" placeholder="Email" />
