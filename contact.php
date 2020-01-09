@@ -13,7 +13,7 @@
 <body>
 
 <div class="contact-box">  
-  <br>
+  <br><br><br>
     <center><h1 style="color:#413F67;font-size:30px;font-family:batman, sans-serif;">Get in touch</h1></center>
     <form>      
   <input name="name" type="text" class="feedback-input" placeholder="Name" />   
@@ -21,7 +21,7 @@
   <textarea name="text" class="feedback-input" style ="min-height:100px;"placeholder="Comment"></textarea>
   <input type="submit" value="SUBMIT"/>
 </form>
-<br><br>
+<br>
     </div>
     <?php include_once 'footer2.php';?>
 </body>

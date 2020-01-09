@@ -16,7 +16,7 @@ body {
   /* width: 67vh; */
   width: 100%;
  /*  margin: 5% auto; */
- margin-bottom: 10%;
+ margin-bottom: 13%;
   border-radius: 2px;
   background: white;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
@@ -36,7 +36,7 @@ article {
 } */
 h1 {
   position: relative;
-  background: #3F51B5;
+  background: #413F67;
   padding: 20px 30px;
   font-size: 20px;
   line-height: 30px;
@@ -46,7 +46,7 @@ h1 {
 }
 h1:hover, .selected h1 {
   cursor: pointer;
-  background: #3949AB;
+  background: #413F67;
 }
 h1:before, h1:after {
   content: "";
@@ -231,7 +231,7 @@ h1:after {
     position: absolute;
     transition: 0.1s all;
    /*  background-color: lightgray; */
-   background-color: lightseagreen;
+   background-color: #413F67;
     transform: translateY(-50%);
   }
   .multi-column-carousel .viewport .multi-column-button.previous {

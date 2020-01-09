@@ -5,6 +5,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="team_new/team.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="js/jquery.mobile.custom.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/cant89/gianni-accordion-js/dist/gianniAccordion.min.js"></script>
     <style>
  @font-face {
@@ -16,7 +17,7 @@
 <body><br><br><br>
 <center><div style="color:#413F67;font-size:30px;font-family:batman, sans-serif;">TEAM</div></center>
 <br>
-<section class="card">
+<section class="card" id="myCarousel">
   <article>
     <h1 data-accordion-element-trigger>1</h1>
     <div data-accordion-element-content >
@@ -801,3 +802,14 @@ myAccordion.on("elementSelected", (data)=>{
   console.log("elementOpened", data);
 });
 </script>
+
+<script>  
+$(document).ready(function() {  
+   $("#myCarousel").swiperight(function() {  
+      $("#myCarousel").carousel('prev');  
+    });  
+   $("#myCarousel").swipeleft(function() {  
+      $("#myCarousel").carousel('next');  
+   });  
+});  
+</script>  
