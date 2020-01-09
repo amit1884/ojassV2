@@ -1,6 +1,7 @@
 <?php include_once 'nav.php';?>
 
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css.css">
     <link rel="stylesheet" href="team_new/team.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -9,6 +10,9 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.bcSwipe.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/cant89/gianni-accordion-js/dist/gianniAccordion.min.js"></script>
     <style>
  @font-face {
@@ -807,5 +811,15 @@ myAccordion.on("elementSelected", (data)=>{
 </script>
 
 <script>  
-$('.carousel').bcSwipe({ threshold: 50 });  
+$(".carousel").swipe({
+
+swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+
+  if (direction == 'left') $(this).carousel('next');
+  if (direction == 'right') $(this).carousel('prev');
+
+},
+allowPageScroll:"vertical"
+
+});
 </script>  
