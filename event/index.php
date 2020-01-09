@@ -6,15 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="../img/small_black.png">
   <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
-  <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
   <link rel ="stylesheet" href ="css/bootstrap.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <script src="https://kit.fontawesome.com/9a416a1cca.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/e-detail.css">
-  <!-- <link rel="stylesheet" type="text/css" href="css/updated.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/events.css"> -->
-
+  <link rel="stylesheet" href="css/final.css">
+    <script src ="js/jquery.js"></script>
     <style>
     .logo_light {
         width: 50px;
@@ -82,39 +79,32 @@
         </script>
 </head>
 <body ng-app="eventApp" style="color: #000;">
-    <!-- <header id="navbar-top" class="header_wrap fixed-top" style="border-bottom:1px solid #000;"> -->
-     <!-- <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo" /></a>
-                <span id="event_title"style =" font-family: 'Play', sans-serif;color:#000;"><?php //echo str_replace("_"," ",$_GET['branch']) ?></span> -->
-<!-- </header>  -->
     <div class="container-fluid" ng-controller="demoCtrl">
       
-<!--sub events-->
-    <input type="checkbox" name="" id="side-menu-switch">
-<div class="side-menu">
-    <!--angular part-->
-    <div class ="title-eve">
-    <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo" /></a>
-    <span id="event_title"style =" font-family: 'Play', sans-serif;color:#000;"><?php echo str_replace("_"," ",$_GET['branch']) ?></span></div>
-    <nav class =" menu-navigation-dark subevent"  id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
-    <a style="word-wrap: break-word;" ng-repeat="event in events" href="#" class="event-name" name="{{event.name.split(' ').join('').split('.').join('')}}">
-                      {{ event.name }}</a>
 
-    </nav>
-      <!--angular part-->
-    <label for="side-menu-switch">
-        <i class="fas fa-angle-left"></i>
-    </label>
-</div>
-    <!--sub events--><br>
+    <div class="navigator">
+      <br>
+    <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo" /></a>
+    <span id="event_title"style =" font-family: 'Play', sans-serif;color:#000;"><?php echo str_replace("_"," ",$_GET['branch']) ?></span>
+    <br>
+    <nav class =" menu-navigation-dark subevent"  id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
+    <a style="word-wrap: break-word;display:block;color:#fff;font-size:20px;padding-top:10px;margin:8px;" ng-repeat="event in events" href="#" class="event-name" name="{{event.name.split(' ').join('').split('.').join('')}}">
+                      {{ event.name }}</a>
+    </div>
+    <div class="menu-icon">
+        <div class="line_one" style ="background-color:black;"></div>
+        <div class="line_two" style ="background-color:black;"></div>
+        <div class="line_three" style ="background-color:black;"></div>
+    </div>
+  <div class ="title-eve"><br>
+    <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo" /></a>
+    <span id="event_title"style =" font-family: 'Play', sans-serif;color:#000;"><?php echo str_replace("_"," ",$_GET['branch']) ?></span>
+    </div>
+  
     <div class="row" >
           <div class="col-xs-12">
-            <!-- <nav class="menu-navigation-dark" id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
-                    <a style="word-wrap: break-word;" ng-repeat="event in events" href="#" class="event-name" name="{{event.name.split(' ').join('').split('.').join('')}}">
-                      {{ event.name }}</a>
-            </nav> -->
               <div class ="eve-loader">
               <h4 class="fade-element-in" ng-if="!flag" style ="margin-top:100px;"><span>Loading...</span>
-                <!-- <img src="img/loader.svg"> -->
                 <div class ="cat-load">
                 <?php include_once 'cat.php';?>
         </div>
@@ -125,7 +115,7 @@
         </div>
 
 
-        <div ng-repeat="event in events" class="event-wrapper" id="{{event.name.split(' ').join('') | removeBrackets}}" style="display:none;">
+        <div ng-repeat="event in events" class="event-wrapper main-display" id="{{event.name.split(' ').join('') | removeBrackets}}" style="display:none;">
         
         
         <nav class="top">
@@ -150,16 +140,6 @@
 </nav>
         
         <div class="row">
-          <!-- <div class="col-xs-12">
-            <nav class="sidebarmenu">
-              
-             <a href="#" name='about' style ="font-size:30px; width:72px;padding:5px;"><i class="fa fa-address-book-o" ></i></a>
-                  <a href="#" name='detail' style ="font-size:30px;width:72px;padding:5px;"><i class="fa fa-info"></i></a>
-                  <a href="#" name='prizes' style ="font-size:30px;width:72px;padding:5px;"><i class="fa fa-trophy"></i></a>
-                  <a href="#" name='rules' style ="font-size:30px;width:72px;padding:5px;"><i class="fa fa-book"></i></a>
-                  <a href="#" name='coordinators' style ="font-size:30px;width:72px;padding:5px;"><i class="fa fa-users"></i></a>
-          </nav>
-          </div> -->
           <div class="col-xs-12 mainarea">
             <div class="row text-center">
               <div class="col-xs-12" id='stuffname'></div>
@@ -321,13 +301,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.1/angular-sanitize.min.js"></script> 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.min.js"></script>
-       
         <script type="text/javascript" src="js/events.js"></script>
         <script type="text/javascript" src="js/newng.js"></script>
-
-        <!-- <script src="../assets/js/popper.min.js"></script> -->
         <script src="../assets/bootstrap/js/bootstrap.min.js"></script> 
-        <!-- <script src="../assets/js/scripts.js"></script> -->
-
+        <script type="text/javascript" src="js/finalevent.js"></script>
 
 </html>

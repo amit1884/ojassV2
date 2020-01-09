@@ -38,7 +38,7 @@
     font-size:18px;
     color:black;
     margin:5px;
-    line-height:2;
+    line-height:1.5;
     letter-spacing:2;
     text-align:center;
   }
@@ -166,11 +166,11 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
     opacity: [0,1],
     translateZ: 0,
     easing: "easeOutExpo",
-    duration: 900,
+    duration: 950,
     delay: (el, i) => 70*i
   })
 
-},900);
+},2000);
     </script>
   </center>
   <div id ="pseudo-div" style ="height:90px;">
