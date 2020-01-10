@@ -110,9 +110,6 @@
    background:dodgerblue;
    border-radius:20px 20px 0 0;
   }
-.abt-foo{
-  display:none;
-}
   </style>
   </head>
   <body>
