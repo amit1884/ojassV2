@@ -7,6 +7,9 @@ include_once 'nav.php';
 <script src ="js.jquery,js"></script>
 <link rel = "stylesheet" href = "css/style_sponsors.css">
 <style>
+  .sponsor-card{
+    width:100vw;
+  }
   .white-panel {
     position:static!important; 
     width:60%!important; 
