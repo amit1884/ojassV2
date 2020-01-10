@@ -37,6 +37,9 @@
     html{
         scroll-behavior:smooth;
     }
+    .arrow:after{
+      margin-left: -11px;
+    }
   .about{
     position:relative;
     font-size:18px;
