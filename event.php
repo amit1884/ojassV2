@@ -16,7 +16,11 @@
 <body style ="background-color:#f5fdf8">
 <br><br><br><br>
     <style>
-      .body{
+        #m-eve{
+        overflow-x:hidden;
+        width:100vw;
+      }
+      body{
         overflow-x:hidden;
       }
         .major_events{
