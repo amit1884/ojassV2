@@ -77,6 +77,9 @@
     </div>
 </div>
 <?php include_once 'footer2.php';?>
+<script type="text/javascript">
+     AOS.init();
+</script>
 <script type="text/javascript" src='js\animation.js'></script>
 </body>
 </html>
