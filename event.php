@@ -56,7 +56,7 @@
     <a href ="event/index.php?branch=Circuit_House"target ="_blank"><div class='major_events animatable bounceInRight' ><img src='svg\eventsIcons\circuit_house.svg'><h5>Circuit-House</h5></div>
     <a href ="event/index.php?branch=Deus-X-Machina"target ="_blank"><div class='major_events animatable fadeInDown' ><img src='svg\eventsIcons\deus_x_machina.svg'><h5>Deus-X-Machina</h5></div>
     <a href ="event/index.php?branch=Live CS"target ="_blank"><div class='major_events animatable bounceInLeft' ><img src='svg\eventsIcons\live_cs.svg'><h5>Live CS</h5></div>
-    <div style= "">
+    <div style= "display:inline-block">
     <a href ="event/index.php?branch=Neo Drishti"target ="_blank"><div class='major_events animatable fadeInDown'><img src='svg\eventsIcons\neodrishti.svg'><h5>Neo Drishti</h5></div>
     <a href ="event/index.php?branch=No Ground Zone"target ="_blank"><div class='major_events animatable fadeInUp'><img src='svg\eventsIcons\no_ground_zone.svg'><h5>No Groud Zone</h5></div>
     <a href ="event/index.php?branch=NSCET"target ="_blank"><div class='major_events animatable fadeInDown'><img src='svg\eventsIcons\nscet.svg'><h5>NSCET</h5></div> 
@@ -68,7 +68,7 @@
     <a href ="event/index.php?branch=Rise of Machines"target ="_blank"><div class='major_events animatable bounceInRight'><img src='svg\eventsIcons\rise_of_machines.svg'><h5>Rise of Machines</h5></div>
     <a href ="event/index.php?branch=School Events"target ="_blank"><div class='major_events animatable bounceIn'><img src='svg\eventsIcons\school_events.svg'><h5>School Events</h5></div>
     <a href ="event/index.php?branch=Armageddon"target ="_blank"><div class='major_events animatable bounceInLeft'><img src='svg\eventsIcons\armageddon.svg'><h5>Armageddon</h5></div>
-    <div style= "">
+    <div style= "display:inline-block">
     <a href ="event/index.php?branch=Silicon Valley"target ="_blank"><div class='major_events animatable bounceInLeft'><img src='svg\eventsIcons\silicon_valley.svg'><h5>Silicon Valley</h5></div>
     <a href ="event/index.php?branch=VishwaCodegenesis"target ="_blank"><div class='major_events animatable fadeInUp'><img src='svg\eventsIcons\vishwacodegenesis.svg'><h5>Vishwacode Genesis</h5></div>
     <a href ="event/index.php?branch=Exposicion"target ="_blank"><div class='major_events animatable bounceInRight'><img src='svg\eventsIcons\exposicion.svg'><h5>Exposicion</h5></div>
