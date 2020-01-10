@@ -16,7 +16,7 @@
             </div>
         </div>
         
-                   <center style="color:#413E66">
+                   <center style="color:#413E66; background:#8dc1da">
                    <ul class="list-inline" >
               <p style="font-size:25px;font-family: 'Play', sans-serif;font-color:#413E66;font-weight:900;"><img src="logo1.png" width="40" height="40">Ojass'20</p>
             </ul>
