@@ -1,11 +1,11 @@
 <!-- ##### Contact Area Start ##### -->
 <link rel="stylesheet" href="footer/style.css">
-<link rel="stylesheet" href="footer/footer-1.css">
+<!-- <link rel="stylesheet" href="footer/footer-1.css"> -->
 
     <!-- ##### Footer Area Start ##### -->
     
     <!-- <footer class="footer-area"> -->
-    <div id="animate-area">
+    <div id="animate-area" style='background: #8ec1da;'>
         <div class="container">
             
             <div class="row d-flex flex-wrap align-items-center">
@@ -16,7 +16,7 @@
             </div>
         </div>
         
-                   <center style="color:#413E66">
+                   <center style="color:#413E66; background:#8dc1da">
                    <ul class="list-inline" >
               <p style="font-size:25px;font-family: 'Play', sans-serif;font-color:#413E66;font-weight:900;"><img src="logo1.png" width="40" height="40">Ojass'20</p>
             </ul>

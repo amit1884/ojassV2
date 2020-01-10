@@ -6,13 +6,10 @@
       background-position: 100% 0;
     }
   }
-  
+
   #animate-area {
     width: 100%;
     /* height:fit-content; */
-    background-image: url(https://davidwalsh.name/demo/bg-clouds.png);
-    background-position: 0px 0px;
-    background-repeat: repeat-x;
-    animation: animatedBackground 20s linear infinite;
+        background: #8ec1da;
   }
   /*------- for more tutorials visit www.twoclock.com*/

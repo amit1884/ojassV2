@@ -10,8 +10,9 @@
 
 <br><br><br><br>
 <!-- <h1 style ="font-family: 'Play', sans-serif;"><center><u>NOTIFICATIONS</u></center></h1> -->
+<div class="container">
 <center> <img src ="svg/notification.svg" width ="300" height ="30"></center><br>
-<div class ="faq-wrapper">
+<div class ="faq-wrapper" style='margin:0 3px;'>
 <div class="accordion js-accordion">
   <div class="accordion__item js-accordion-item">
     <div class="accordion-header js-accordion-header">Panel 1</div> 
@@ -63,6 +64,7 @@
   </div>
 </div>
 </div><br>
+</div>
 <div class ="foo-ter">
     <?php include_once 'footer2.php';?>
 </div>
