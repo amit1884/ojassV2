@@ -16,7 +16,11 @@
 <body style ="background-color:#f5fdf8">
 <br><br><br><br>
     <style>
-      .body{
+        #m-eve{
+        overflow-x:hidden;
+        width:100vw;
+      }
+      body{
         overflow-x:hidden;
       }
         .major_events{
@@ -47,7 +51,7 @@
         }
 
     </style>
-    <body style="overflow-x: hidden;width:100vw;">
+    <body style="overflow-x: hidden;">
     <center><img src= "svg/events.svg" width= "250"height="50"></center><br><br>
     <div class ="main-event eve" id ="m-eve">
 
