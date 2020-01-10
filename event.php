@@ -59,7 +59,7 @@
     <div style= "display:inline-block">
     <a href ="event/index.php?branch=Neo Drishti"target ="_blank"><div class='major_events animatable fadeInDown'><img src='svg\eventsIcons\neodrishti.svg'><h5>Neo Drishti</h5></div>
     <a href ="event/index.php?branch=No Ground Zone"target ="_blank"><div class='major_events animatable fadeInUp'><img src='svg\eventsIcons\no_ground_zone.svg'><h5>No Groud Zone</h5></div>
-    <a href ="event/index.php?branch=NSCET"target ="_blank"><div class='major_events animatable fadeInUp'><img src='svg\eventsIcons\nscet.svg'><h5>NSCET</h5></div> 
+    <a href ="event/index.php?branch=NSCET"target ="_blank"><div class='major_events animatable fadeInDown'><img src='svg\eventsIcons\nscet.svg'><h5>NSCET</h5></div> 
     </div>
     <a href ="event/index.php?branch=Paraphernalia"target ="_blank"><div class='major_events animatable bounceIn'><img src='svg\eventsIcons\paraphernalia.svg'><h5>Paraphernalia</h5></div>
     <a href ="event/index.php?branch=Prayas"target ="_blank"><div class='major_events animatable bounceIn'><img src='svg\eventsIcons\prayas.svg'><h5>Prayas</h5></div>
