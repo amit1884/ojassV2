@@ -1,6 +1,6 @@
 <!-- ##### Contact Area Start ##### -->
 <link rel="stylesheet" href="footer/style.css">
-<link rel="stylesheet" href="footer/footer-1.css">
+<!-- <link rel="stylesheet" href="footer/footer-1.css"> -->
 
     <!-- ##### Footer Area Start ##### -->
     
