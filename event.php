@@ -1,6 +1,6 @@
 <?php include_once 'nav.php';?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="width:100%!important;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
