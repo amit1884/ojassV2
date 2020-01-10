@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<div class="contact-box" style='position:unset;'>  
+<div class="contact-box" style='position:unset; width:90%; margin: 0 auto;'>  
   <br><br><br>
     <center><h1 style="color:#413F67;font-size:30px;font-family:batman, sans-serif;">Get in touch</h1></center>
     <form>      

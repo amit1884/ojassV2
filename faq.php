@@ -12,7 +12,7 @@
 <!-- <h1 style ="font-family: 'Play', sans-serif;"><center><u>FAQs</u></center></h1>
  -->
  <center> <img src ="svg/faqs.svg" width ="200" height ="20"></center><br>
-<div class ="faq-wrapper" style='margin:0 2px;'>
+<div class ="faq-wrapper" style='margin:0 3px;'>
 <div class="accordion js-accordion">
   <div class="accordion__item js-accordion-item">
     <div class="accordion-header js-accordion-header">What is OJASS ?</div> 
