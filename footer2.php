@@ -21,7 +21,7 @@
               <p style="font-size:25px;font-family: 'Play', sans-serif;font-color:#413E66;font-weight:900;"><img src="logo1.png" width="40" height="40">Ojass'20</p>
             </ul>
                    <ul class="list-inline" style="list-style-type:none">
-            <li><i class="fa fa-map-marker " style="font-size: 16px;"><a style="font-family: 'Jura', sans-serif;color:#413E66;font-weight:700;"> NIT Jamshedpur</a></i></li>
+            <li><i class="fa fa-map-marker " style="font-size: 16px;"></i><a style="font-family: 'Jura', sans-serif;color:#413E66;font-weight:700;"> NIT Jamshedpur</a></li>
             <li><a class="fa fa-envelope " style="font-size: 16px;"><a style="font-family: 'Jura', sans-serif;color:#413E66;font-weight:700;" href="mailto:ojass@nitjsr.ac.in"> ojass@nitjsr.ac.in</a> </i></li>
           </ul>
                     <div>
@@ -32,7 +32,7 @@
             <a href="https://www.instagram.com/ojass_techfest/" ><img  src="images/instagram.png" width="35" height="35" style="font-size: 36px; margin-left: 12px;color:#413E66;" target="_blank"></a>
             <br>
             
-            <p style="font-size: 18px; margin: 0;">© copyright <a  style="text-decoration:none;color:#0B98C0;" href="developers.php"> Ojass Web Team</a> </p>
+            <p style="font-size: 18px; margin: 0;">© <a  style="text-decoration:none;color:#0B98C0;" href="developers.php"> Ojass Web Team</a> </p>
             
         </li>
         

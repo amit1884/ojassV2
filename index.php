@@ -37,6 +37,9 @@
     html{
         scroll-behavior:smooth;
     }
+    .arrow:after{
+      margin-left: -11px;
+    }
   .about{
     position:relative;
     font-size:18px;
@@ -208,7 +211,7 @@ A three-day spectacle, Ojass also organizes many motivating guest lectures under
 <script>
 jQuery(window).scroll(function() {
 
-    if (jQuery(this).scrollTop()> 170)
+    if (jQuery(this).scrollTop()> 200)
      {
         jQuery('#scroll_id').fadeIn();
      }
