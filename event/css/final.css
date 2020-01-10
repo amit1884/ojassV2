@@ -9,7 +9,7 @@ body{
     background-color: rgba(141, 196, 194, 0.2);
     color:#413e66;
     width:100%;
-    height:100%;
+    height:400px;
     overflow-y:scroll;
 }
 .menu-navigation-dark a{
@@ -36,22 +36,22 @@ body{
     clear : both;
   }
   .sidebarmenu{
-      width:800px;
-      margin-left:-13%
+      width:100%;
+      margin-left:-3%
   }
   .sidebarmenu .eve-icon20 {
     position: relative;
     display : inline-block;
     text-align : center;
-    margin-left:10px;
+    margin-right:11px;
     text-decoration: none;
-    width  : 53px;
+    width  : 15%;
     height : 55px;
   }
   
   .eve-icon20 span {
     display : block;
-    font-size : 30px;
+    font-size : 26px;
     padding : 10px 10px;
     color   : #413e66;
     position: absolute;

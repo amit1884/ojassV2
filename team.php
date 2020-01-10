@@ -19,14 +19,20 @@
   font-family: batman;
   src: url(batmfa__.ttf) format('truetype');
 }
+article h1{
+    font-family: 'Play', sans-serif;
+    font-weight:10;
+    font-size:28px;
+    text-align:center;
+}
 </style>
 </head>
 <body><br><br><br>
-<center><div style="color:#413F67;font-size:30px;font-family:batman, sans-serif;">TEAM</div></center>
+<center><div style="color:#413F67;font-size:45px;font-family:batman, sans-serif;">TEAM</div></center>
 <br>
 <section class="card carousel" >
   <article>
-    <h1 data-accordion-element-trigger>1</h1>
+    <h1 data-accordion-element-trigger> Core Team</h1>
     <div data-accordion-element-content >
     <div class="our-team">
     <div class="multi-column-carousel">
@@ -84,7 +90,7 @@
     </div>
   </article>
   <article>
-  <h1 data-accordion-element-trigger>2</h1>
+  <h1 data-accordion-element-trigger> Planning & Development</h1>
     <div data-accordion-element-content >
     <div class="our-team">
     <div class="multi-column-carousel">
@@ -142,7 +148,7 @@
     </div>
   </article>
   <article>
-  <h1 data-accordion-element-trigger>3</h1>
+  <h1 data-accordion-element-trigger> Corporate Affairs</h1>
     <div data-accordion-element-content >
     <div class="our-team">
     <div class="multi-column-carousel">
@@ -200,7 +206,7 @@
     </div>
   </article>
   <article>
-  <h1 data-accordion-element-trigger>4</h1>
+  <h1 data-accordion-element-trigger>Public Relations</h1>
     <div data-accordion-element-content >
     <div class="our-team">
     <div class="multi-column-carousel">
@@ -258,7 +264,7 @@
     </div>
   </article>
     <article>
-    <h1 data-accordion-element-trigger>5</h1>
+    <h1 data-accordion-element-trigger>Event Management</h1>
     <div data-accordion-element-content >
     <div class="our-team">
     <div class="multi-column-carousel">
@@ -316,7 +322,7 @@
     </div>
   </article>
     <article>
-    <h1 data-accordion-element-trigger>6</h1>
+    <h1 data-accordion-element-trigger> Hospitality</h1>
     <div data-accordion-element-content >
     <div class="our-team">
     <div class="multi-column-carousel">
@@ -374,7 +380,7 @@
     </div>
   </article>
   <article>
-    <h1 data-accordion-element-trigger>7</h1>
+    <h1 data-accordion-element-trigger> Logistics</h1>
     <div data-accordion-element-content >
     <div class="our-team">
     <div class="multi-column-carousel">
@@ -432,7 +438,7 @@
     </div>
   </article>
   <article>
-    <h1 data-accordion-element-trigger>8</h1>
+    <h1 data-accordion-element-trigger> Digital Public Relations</h1>
     <div data-accordion-element-content >
     <div class="our-team">
     <div class="multi-column-carousel">
@@ -490,7 +496,7 @@
     </div>
   </article>
   <article>
-    <h1 data-accordion-element-trigger>9</h1>
+    <h1 data-accordion-element-trigger>Application & Web Developers</h1>
     <div data-accordion-element-content >
     <div class="our-team">
     <div class="multi-column-carousel">
@@ -548,7 +554,7 @@
     </div>
   </article>
   <article>
-    <h1 data-accordion-element-trigger>10</h1>
+    <h1 data-accordion-element-trigger>Media Relations</h1>
     <div data-accordion-element-content >
     <div class="our-team">
     <div class="multi-column-carousel">
@@ -606,7 +612,7 @@
     </div>
   </article>
   <article>
-    <h1 data-accordion-element-trigger>11</h1>
+    <h1 data-accordion-element-trigger>Creative Team</h1>
     <div data-accordion-element-content >
     <div class="our-team">
     <div class="multi-column-carousel">
@@ -664,7 +670,7 @@
     </div>
   </article>
   <article>
-    <h1 data-accordion-element-trigger>12</h1>
+    <h1 data-accordion-element-trigger>Robotics</h1>
     <div data-accordion-element-content >
     <div class="our-team">
     <div class="multi-column-carousel">
@@ -722,7 +728,7 @@
     </div>
   </article>
   <article>
-    <h1 data-accordion-element-trigger>13</h1>
+    <h1 data-accordion-element-trigger> Decoration Team</h1>
     <div data-accordion-element-content >
     <div class="our-team">
     <div class="multi-column-carousel">

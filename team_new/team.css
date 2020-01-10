@@ -36,17 +36,19 @@ article {
 } */
 h1 {
   position: relative;
-  background: #413F67;
-  padding: 20px 30px;
+  background:  linear-gradient(to right, #3366ff -7%, #00ffff 100%);;
+  padding: 8px 25px;
   font-size: 20px;
   line-height: 30px;
   color: #fff;
   overflow: hidden;
+  font-family: 'Play', sans-serif;
+  border-radius:10px;
   transition: background 0.3s;
 }
 h1:hover, .selected h1 {
   cursor: pointer;
-  background: #413F67;
+  background: linear-gradient(to right, #3366ff -7%, #00ffff 100%);;
 }
 h1:before, h1:after {
   content: "";
