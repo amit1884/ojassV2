@@ -12,8 +12,8 @@
 <!-- <h1 style ="font-family: 'Play', sans-serif;"><center><u>FAQs</u></center></h1>
  -->
  <center> <img src ="svg/faqs.svg" width ="200" height ="20"></center><br>
-<div class ="faq-wrapper">
-<div class="accordion js-accordion" style ="margin-left:2px;margin-right:2px;">
+<div class ="faq-wrapper" style='margin:0 2px;'>
+<div class="accordion js-accordion">
   <div class="accordion__item js-accordion-item">
     <div class="accordion-header js-accordion-header">What is OJASS ?</div> 
   <div class="accordion-body js-accordion-body">
@@ -96,7 +96,7 @@ Kishore : +91 89198 45029 . <br>We will get back to you soon.
          </div>
   </div>
   <div class="accordion__item js-accordion-item">
-    <div class="accordion-header js-accordion-header">Will participation certificate be given for events ?
+    <div class="accordion-header js-accordion-header">Will participation certificate be given<br> for events ?
 </div> 
   <div class="accordion-body js-accordion-body">
     <div class="accordion-body__contents">
