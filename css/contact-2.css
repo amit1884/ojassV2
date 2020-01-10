@@ -40,9 +40,11 @@ body{
     width:100%;
     height:40%;
     top:10%;
-    padding: 3%;
+    left: 2%;
+    right: 2%;
+   /*  padding: 3%; */
     /* margin-left:10%; */
-    /* margin: 5%; */
+   /*  margin: 5%; */
     /* border : 2px solid black; */
   }
 
