@@ -47,7 +47,7 @@
         }
 
     </style>
-    <body>
+    <body style="overflow-x: hidden;">
     <center><img src= "svg/events.svg" width= "250"height="50"></center><br><br>
     <div class ="main-event eve" id ="m-eve">
 
