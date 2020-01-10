@@ -5,7 +5,7 @@
     <!-- ##### Footer Area Start ##### -->
     
     <!-- <footer class="footer-area"> -->
-    <div id="animate-area">
+    <div id="animate-area" style='background: #8ec1da;'>
         <div class="container">
             
             <div class="row d-flex flex-wrap align-items-center">
