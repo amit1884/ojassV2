@@ -98,7 +98,9 @@
     </div>
   <div class ="title-eve"><br>
     <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo" /></a>
-    <span id="event_title"style =" font-family: 'Play', sans-serif;color:#000;"><?php echo str_replace("_"," ",$_GET['branch']) ?></span>
+    <br><center>
+    <span id="event_title"style =" font-family: 'Play', sans-serif;color:#000;border-left:none;"><u><?php echo str_replace("_"," ",$_GET['branch']) ?></u></span>
+    </center>
     </div>
   
     <div class="row" >
@@ -251,7 +253,7 @@
                   </div>
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} coordinators" style="display:none;">
                   
-                    <h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;margin-left:60px;">Co-ordinators</h4>
+                    <h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;margin-left:60px;">Event Heads</h4>
                     
                     <div class="row text-center" ng-repeat="c in event.coordinators">
                       <div class="col-xs-6" style ="padding:15px;margin-left:15px;">{{c.name}}</div>

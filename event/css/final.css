@@ -9,7 +9,7 @@ body{
     background-color: rgba(141, 196, 194, 0.2);
     color:#413e66;
     width:100%;
-    height:100%;
+    height:400px;
     overflow-y:scroll;
 }
 .menu-navigation-dark a{
