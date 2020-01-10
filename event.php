@@ -79,7 +79,7 @@
 <?php include_once 'footer2.php';?>
 <script type="text/javascript">
      AOS.init({
-        duration:1200,
+        duration:800,
      }
         );
 </script>
