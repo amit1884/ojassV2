@@ -6,14 +6,14 @@ body{
    
     overflow-x:hidden;
   }
-  .container{
+/*  .container{
     /* background-color: #007ced; */
-    background-color:lightseagreen;
-    width: 100%;
-      /* background: linear-gradient(to bottom, #007ced 1%,#cce7ff 100%); */
-      background: linear-gradient(to bottom, lightseagreen 1%,#cce7ff 100%);
-  }
-  #cloud-intro{
+    /*background-color:lightseagreen;*/
+    /*width: 100%;*/
+       /*background: linear-gradient(to bottom, #007ced 1%,#cce7ff 100%); */
+      /*background: linear-gradient(to bottom, lightseagreen 1%,#cce7ff 100%);*/
+  /*}*/
+  /*#cloud-intro{
     position: relative;
     height: 100%;
     width:100%;
@@ -32,7 +32,7 @@ body{
       background-position: 1000px 200px, 1200px 300px, 1100px 250px;
     }
   
-  }
+  }*/
   
   .contact-box
   {
