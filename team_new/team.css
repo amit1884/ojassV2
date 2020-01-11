@@ -36,7 +36,7 @@ article {
 } */
 h1 {
   position: relative;
-  background:  linear-gradient(to right, #3366ff -7%, #00ffff 100%);;
+  background-color: #8cc1da;
   padding: 8px 25px;
   font-size: 20px;
   line-height: 30px;
@@ -178,13 +178,7 @@ h1:after {
     line-height: 24px;
   } */
 
-  .multi-column-button .previous {
-    transform: translateY(-150px);
-  }
-
-  .multi-column-button .next {
-    transform: translateY(-150px);
-  }
+  
   .multi-column-carousel {
     width: 100%;
     position: relative;
