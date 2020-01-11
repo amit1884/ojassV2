@@ -48,7 +48,7 @@ h1 {
 }
 h1:hover, .selected h1 {
   cursor: pointer;
-  background: linear-gradient(to right, #3366ff -7%, #00ffff 100%);;
+  background: linear-gradient(to right, #3366ff -7%, #00ffff 100%);
 }
 h1:before, h1:after {
   content: "";
@@ -233,7 +233,7 @@ h1:after {
     position: absolute;
     transition: 0.1s all;
    /*  background-color: lightgray; */
-   background-color: #413F67;
+ /*   background-color: #413F67; */
     transform: translateY(-50%);
   }
   .multi-column-carousel .viewport .multi-column-button.previous {

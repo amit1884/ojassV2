@@ -38,8 +38,8 @@ article h1{
     <div class="multi-column-carousel">
         
         <div class="viewport">
-            <div class="multi-column-button previous hidden"></div>
-            <div class="multi-column-button next"></div>
+            <div class="multi-column-button previous hidden"><center><i class="fa fa-chevron-left" style="font-size:40px;"></i></center></div>
+            <div class="multi-column-button next"><center><i class="fa fa-chevron-right" style="font-size:40px;"></i></center></div>
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
@@ -96,8 +96,8 @@ article h1{
     <div class="multi-column-carousel">
         
         <div class="viewport">
-            <div class="multi-column-button previous hidden"></div>
-            <div class="multi-column-button next"></div>
+           <div class="multi-column-button previous hidden"><center><i class="fa fa-chevron-left" style="font-size:40px;"></i></center></div>
+           <div class="multi-column-button next"><center><i class="fa fa-chevron-right" style="font-size:40px;"></i></center></div>
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
@@ -154,8 +154,8 @@ article h1{
     <div class="multi-column-carousel">
         
         <div class="viewport">
-            <div class="multi-column-button previous hidden"></div>
-            <div class="multi-column-button next"></div>
+           <div class="multi-column-button previous hidden"><center><i class="fa fa-chevron-left" style="font-size:40px;"></i></center></div>
+           <div class="multi-column-button next"><center><i class="fa fa-chevron-right" style="font-size:40px;"></i></center></div>
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
@@ -212,8 +212,8 @@ article h1{
     <div class="multi-column-carousel">
         
         <div class="viewport">
-            <div class="multi-column-button previous hidden"></div>
-            <div class="multi-column-button next"></div>
+           <div class="multi-column-button previous hidden"><center><i class="fa fa-chevron-left" style="font-size:40px;"></i></center></div>
+           <div class="multi-column-button next"><center><i class="fa fa-chevron-right" style="font-size:40px;"></i></center></div>
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
@@ -270,8 +270,8 @@ article h1{
     <div class="multi-column-carousel">
         
         <div class="viewport">
-            <div class="multi-column-button previous hidden"></div>
-            <div class="multi-column-button next"></div>
+           <div class="multi-column-button previous hidden"><center><i class="fa fa-chevron-left" style="font-size:40px;"></i></center></div>
+           <div class="multi-column-button next"><center><i class="fa fa-chevron-right" style="font-size:40px;"></i></center></div>
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
@@ -328,8 +328,8 @@ article h1{
     <div class="multi-column-carousel">
         
         <div class="viewport">
-            <div class="multi-column-button previous hidden"></div>
-            <div class="multi-column-button next"></div>
+           <div class="multi-column-button previous hidden"><center><i class="fa fa-chevron-left" style="font-size:40px;"></i></center></div>
+           <div class="multi-column-button next"><center><i class="fa fa-chevron-right" style="font-size:40px;"></i></center></div>
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
@@ -386,8 +386,8 @@ article h1{
     <div class="multi-column-carousel">
         
         <div class="viewport">
-            <div class="multi-column-button previous hidden"></div>
-            <div class="multi-column-button next"></div>
+           <div class="multi-column-button previous hidden"><center><i class="fa fa-chevron-left" style="font-size:40px;"></i></center></div>
+           <div class="multi-column-button next"><center><i class="fa fa-chevron-right" style="font-size:40px;"></i></center></div>
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
@@ -444,8 +444,8 @@ article h1{
     <div class="multi-column-carousel">
         
         <div class="viewport">
-            <div class="multi-column-button previous hidden"></div>
-            <div class="multi-column-button next"></div>
+           <div class="multi-column-button previous hidden"><center><i class="fa fa-chevron-left" style="font-size:40px;"></i></center></div>
+           <div class="multi-column-button next"><center><i class="fa fa-chevron-right" style="font-size:40px;"></i></center></div>
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
@@ -502,8 +502,8 @@ article h1{
     <div class="multi-column-carousel">
         
         <div class="viewport">
-            <div class="multi-column-button previous hidden"></div>
-            <div class="multi-column-button next"></div>
+           <div class="multi-column-button previous hidden"><center><i class="fa fa-chevron-left" style="font-size:40px;"></i></center></div>
+           <div class="multi-column-button next"><center><i class="fa fa-chevron-right" style="font-size:40px;"></i></center></div>
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
@@ -560,8 +560,8 @@ article h1{
     <div class="multi-column-carousel">
         
         <div class="viewport">
-            <div class="multi-column-button previous hidden"></div>
-            <div class="multi-column-button next"></div>
+           <div class="multi-column-button previous hidden"><center><i class="fa fa-chevron-left" style="font-size:40px;"></i></center></div>
+           <div class="multi-column-button next"><center><i class="fa fa-chevron-right" style="font-size:40px;"></i></center></div>
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
@@ -618,8 +618,8 @@ article h1{
     <div class="multi-column-carousel">
         
         <div class="viewport">
-            <div class="multi-column-button previous hidden"></div>
-            <div class="multi-column-button next"></div>
+           <div class="multi-column-button previous hidden"><center><i class="fa fa-chevron-left" style="font-size:40px;"></i></center></div>
+           <div class="multi-column-button next"><center><i class="fa fa-chevron-right" style="font-size:40px;"></i></center></div>
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
@@ -676,8 +676,8 @@ article h1{
     <div class="multi-column-carousel">
         
         <div class="viewport">
-            <div class="multi-column-button previous hidden"></div>
-            <div class="multi-column-button next"></div>
+           <div class="multi-column-button previous hidden"><center><i class="fa fa-chevron-left" style="font-size:40px;"></i></center></div>
+           <div class="multi-column-button next"><center><i class="fa fa-chevron-right" style="font-size:40px;"></i></center></div>
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
@@ -734,8 +734,8 @@ article h1{
     <div class="multi-column-carousel">
         
         <div class="viewport">
-            <div class="multi-column-button previous hidden"></div>
-            <div class="multi-column-button next"></div>
+           <div class="multi-column-button previous hidden"><center><i class="fa fa-chevron-left" style="font-size:40px;"></i></center></div>
+           <div class="multi-column-button next"><center><i class="fa fa-chevron-right" style="font-size:40px;"></i></center></div>
             <div class="page-container">
                 <div class="page active">
                     <div class="page-content">
