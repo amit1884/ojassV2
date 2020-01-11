@@ -120,7 +120,7 @@
   #scroll_btn
   {
     position:fixed;
-    /* margin-left:20%; */
+     margin-left:38%; 
   }
   </style>
   </head>
@@ -221,7 +221,7 @@ A three-day spectacle, Ojass also organizes many motivating guest lectures under
 <script>
 jQuery(window).scroll(function() {
 
-    if (jQuery(this).scrollTop()> 200)
+    if (jQuery(this).scrollTop()> 100)
      {
         jQuery('#scroll_btn').fadeIn();
      }
