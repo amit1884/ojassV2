@@ -30,7 +30,7 @@ article h1{
 <body><br><br><br>
 <center><div style="color:#413F67;font-size:45px;font-family:batman, sans-serif;">TEAM</div></center>
 <br>
-<section class="card carousel" >
+<div class="card carousel" >
   <article>
     <h1 data-accordion-element-trigger> Core Team</h1>
     <div data-accordion-element-content >
@@ -786,7 +786,7 @@ article h1{
     </div>
     
   </article>
-</section>
+</div>
 <!-- <br><br> -->
 <?php include_once 'footer2.php';?>
 </body>
