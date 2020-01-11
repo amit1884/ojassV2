@@ -120,7 +120,7 @@
   #scroll_btn
   {
     position:fixed;
-    margin-left:40%;
+    margin-left:20%;
   }
   </style>
   </head>
