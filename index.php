@@ -221,7 +221,7 @@ A three-day spectacle, Ojass also organizes many motivating guest lectures under
 <script>
 jQuery(window).scroll(function() {
 
-    if (jQuery(this).scrollTop()> 200)
+    if (jQuery(this).scrollTop()> 170)
      {
         jQuery('#scroll_btn').fadeIn();
      }
