@@ -25,8 +25,8 @@
             <li><a class="fa fa-envelope " style="font-size: 16px;"><a style="font-family: 'Jura', sans-serif;color:#413E66;font-weight:700;" href="mailto:ojass@nitjsr.ac.in"> ojass@nitjsr.ac.in</a> </i></li>
           </ul>
                     <div>
-                        <center>
-                        <ul style="margin:0rem;">
+                        
+                        <ul style="margin:0rem;list-style:none;">
                         <li>           
             <a href="https://www.facebook.com/Ojassnitjamshedpur/" ><img  src="images/facebook.png" width="35" height="35" style="font-size: 36px;color:#413E66;font-weight:700;" target="_blank"></a>
             <a href="https://www.youtube.com/user/ojassnitjsr" ><img  src="images/youtube.png" width="35" height="35"  style="font-size: 36px; margin-left: 12px;color:#413E66;" target="_blank"></a>
@@ -38,7 +38,7 @@
         </li>
         
                         </ul>
-                        </center>
+                        
                     </center>
                     </div>
     <!-- </footer> -->
