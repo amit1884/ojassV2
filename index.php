@@ -128,7 +128,7 @@
   <!-- <div id ="loader-wrapper">
 <img src="svg\copper-loader.gif">
 </div> -->
-<br><br>
+<br><br><br>
   <div class ="main-header-20">
   <div class ="head" style ="margin-left:15%;">
   <div class =" head-wow  wow " data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">O</div>
@@ -155,12 +155,12 @@
   <div class ="downarr wow zoomIn"data-wow-delay="3s">
   <a href ="#pseudo-div">
     <i class="fa fa-angle-double-down animated bounce about-btn" style ="font-size:40px;"></i></a>
-</div>
+</div><br><br>
   <!--  <a href ="#"  ><span id="scroll_id" class="arrow">up</span></a> -->
   <a href="#" id="scroll_btn"><i style ="font-size:50px;z-index:100;" class="fa fa-angle-double-up"></i></a>
 </center>
 </div>
-<br><br>
+<br>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <style>
   .ml2 {
@@ -197,7 +197,7 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
  
     </script>
   </center>
-  <div id ="pseudo-div" style ="height:90px;">
+  <div id ="pseudo-div" style ="height:90px;"></div>
 
   <div id="abt" class ="abt-foo">
 <h2 id  ="about-id" style ="  font-family:batman, sans-serif;color:#000;"><center><u>ABOUT</u><center></h2>

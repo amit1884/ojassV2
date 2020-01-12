@@ -8,10 +8,10 @@
 </head>
 <body style ="background-color: #1f2029;">
 
-<br><br><br>
+<br><br><br><br>
 <!-- <h1 style ="font-family: 'Play', sans-serif;"><center><u>FAQs</u></center></h1>
  -->
- <center> <img src ="svg/faqs.svg" width ="200" height ="20"></center><br>
+ <center> <img src ="svg/faqs.svg" width ="300" height ="40"></center><br>
 <div class ="faq-wrapper" style='margin:0 3px;'>
 <div class="accordion js-accordion">
   <div class="accordion__item js-accordion-item">
