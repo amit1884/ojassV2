@@ -7,7 +7,7 @@ include_once 'nav.php';
 <script src ="js.jquery,js"></script>
 <link rel = "stylesheet" href = "css/style_sponsors.css">
 <style>
-  .sponsor-card{
+  body{
     width:100vw;
   }
   .white-panel {
@@ -21,7 +21,7 @@ box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
 padding: 10px;
 }
 .sponsor-card{
-  width: 100%;
+  width: 100vw;
 }
   .imgS img {
         height: -webkit-fill-available;
@@ -91,7 +91,7 @@ filter: grayscale(0%);
 
   
 <script type="text/javascript">
-	AOS.init({
-  	duration:1200,
+  AOS.init({
+    duration:1200,
   });
 </script>

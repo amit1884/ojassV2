@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://use.fontawesome.com/1d6c808dd3.js"></script>
     <link rel="icon" href="images/logo.png" type="image" sizes="40px">
     <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -116,6 +117,11 @@
   #scroll_id {
     background: rgb(142, 193, 218);
   }
+  #scroll_btn
+  {
+    position:fixed;
+     margin-left:38%; 
+  }
   </style>
   </head>
   <body>
@@ -150,7 +156,8 @@
   <a href ="#pseudo-div">
     <i class="fa fa-angle-double-down animated bounce about-btn" style ="font-size:40px;"></i></a>
 </div>
-   <a href ="#"  ><span id="scroll_id" class="arrow">up</span></a>
+  <!--  <a href ="#"  ><span id="scroll_id" class="arrow">up</span></a> -->
+  <a href="#" id="scroll_btn"><i style ="font-size:50px;z-index:100;" class="fa fa-angle-double-up"></i></a>
 </center>
 </div>
 <br><br>
@@ -214,13 +221,13 @@ A three-day spectacle, Ojass also organizes many motivating guest lectures under
 <script>
 jQuery(window).scroll(function() {
 
-    if (jQuery(this).scrollTop()> 200)
+    if (jQuery(this).scrollTop()> 100)
      {
-        jQuery('#scroll_id').fadeIn();
+        jQuery('#scroll_btn').fadeIn();
      }
     else
      {
-      jQuery('#scroll_id').fadeOut();
+      jQuery('#scroll_btn').fadeOut();
      }
  });
   </script>
