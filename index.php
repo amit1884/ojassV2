@@ -128,7 +128,7 @@
   <!-- <div id ="loader-wrapper">
 <img src="svg\copper-loader.gif">
 </div> -->
-<br><br><br>
+<br><br>
   <div class ="main-header-20">
   <div class ="head" style ="margin-left:15%;">
   <div class =" head-wow  wow " data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">O</div>
