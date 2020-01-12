@@ -5,16 +5,16 @@
     <!-- ##### Footer Area Start ##### -->
     
     <!-- <footer class="footer-area"> -->
-    <div id="animate-area" style='background: #8ec1da;'>
+    <!-- <div id="animate-area" style='background: #8ec1da;'>
         <div class="container">
             
             <div class="row d-flex flex-wrap align-items-center">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6"> -->
                     <!-- <a href="#"><img src="footer/img/core-img/logo.png" alt=""></a> -->
-                   
+<!--                    
                 </div>
             </div>
-        </div>
+        </div> -->
         
                    <center style="color:#413E66; background:#8dc1da">
                    <ul class="list-inline" >
@@ -28,12 +28,10 @@
                         
                         <ul style="margin:0rem;list-style:none;margin-right:3rem;">
                         <li>           
-            <a href="https://www.facebook.com/Ojassnitjamshedpur/" ><img  src="images/facebook.png" width="35" height="35" style="font-size: 36px;color:#413E66;font-weight:700;" target="_blank"></a>
+           <center> <a href="https://www.facebook.com/Ojassnitjamshedpur/" ><img  src="images/facebook.png" width="35" height="35" style="font-size: 36px;color:#413E66;font-weight:700;" target="_blank"></a>
             <a href="https://www.youtube.com/user/ojassnitjsr" ><img  src="images/youtube.png" width="35" height="35"  style="font-size: 36px; margin-left: 12px;color:#413E66;" target="_blank"></a>
-            <a href="https://www.instagram.com/ojass_techfest/" ><img  src="images/instagram.png" width="35" height="35" style="font-size: 36px; margin-left: 12px;color:#413E66;" target="_blank"></a>
-            <br>
-            
-            <p style="font-size: 18px; margin: 0;">© <a  style="text-decoration:none;color:#0B98C0;" href="developers.php"> Ojass Web Team</a> </p>
+            <a href="https://www.instagram.com/ojass_techfest/" ><img  src="images/instagram.png" width="35" height="35" style="font-size: 36px; margin-left: 12px;color:#413E66;" target="_blank"></a></center>
+           <center> <p style="font-size: 18px; margin: 0;">© <a  style="text-decoration:none;color:#0B98C0;" href="developers.php"> Ojass Web Team</a> </p></center>
             
         </li>
         

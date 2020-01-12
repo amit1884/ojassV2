@@ -179,13 +179,7 @@ h1:after {
     line-height: 24px;
   } */
 
-  .multi-column-button .previous {
-    transform: translateY(-150px);
-  }
-
-  .multi-column-button .next {
-    transform: translateY(-150px);
-  }
+  
   .multi-column-carousel {
     width: 100%;
     position: relative;

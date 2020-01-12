@@ -8,6 +8,10 @@ angular.module('eventApp',['ngSanitize','ngAnimate'])
 				var zz=snap.val()
 				var e=[];
 				var BRANCHNAME = branchname.toUpperCase();
+				for(var i in zz){
+					console.log(zz[i].branch);
+
+				}
 
 				for(var i in zz){
 					
@@ -66,6 +70,20 @@ angular.module('eventApp',['ngSanitize','ngAnimate'])
 				$('.event-img').show();
 
 			})
+		})
+		firebase.database().ref(`/Branches/${branchname}`).once('value',function(snap){
+			
+			if(snap.val()!=null){
+				console.log(snap.val());
+				$scope.about = snap.val().about;
+				// var result = snap.val().head.map(key=>h[key]);
+				var myData = Object.keys(snap.val().head).map(key => {
+					return snap.val().head[key];
+				})
+				console.log(myData);
+				$scope.heads=myData;
+			}
+
 		})
 			
 	}])
