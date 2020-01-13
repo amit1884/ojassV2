@@ -131,43 +131,43 @@ article h1{
 
            <div class="swiper-slide">
             <div style="height:86%;background-color:black;">
-            <img src="images/p&d/p&d-aman-bmin.jpg" style="margin-left:15%;width:60%;height:100%;">
+            <img src="images/p&d/" style="margin-left:15%;width:60%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3 style="margin-left:15%;">Azvxmaxdn</h3>       
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
-            <img src="images/p&d/p&d-aman-mibn.jpg" style="margin-left:15%;width:65%;height:100%;">
+            <img src="images/p&d/" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3 style="margin-left:15%;">dvdAzmddan</h3>       
             </div>
 
       <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
-            <img src="images/p&d/p&d-aman-minb.jpg" style="margin-left:15%;width:65%;height:100%;">
+            <img src="images/p&d/" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
-            </div>
-        
-            <div class="swiper-slide">
-             <div style="height:86%;background-color:black;">
-            <img src="images/p&d/p&d-aman-minb.jpg" style="margin-left:15%;width:65%;height:100%;">
-            </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3 style="margin-left:15%;">Amvzdavzn</h3>       
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
-            <img src="images/p&d/p&d-aman-mi n.jpg" style="margin-left:15%;width:65%;height:100%;">
+            <img src="images/p&d/" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3 style="margin-left:15%;">xb fAxmabffn</h3>       
+            </div>
+        
+            <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/p&d/" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Abxmdbadnd</h3>       
             </div>
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
-            <img src="images/p&d/p&d-aman-mivn.jpg" style="margin-left:15%;width:65%;height:100%;">
+            <img src="images/p&d/" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3 style="margin-left:15%;">Avxmvavdnv</h3>       
             </div>
     </div>
     <!-- !swiper slides -->
