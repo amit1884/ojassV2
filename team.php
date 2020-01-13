@@ -38,9 +38,9 @@ article h1{
     min-height: 80vh;
     
     display: flex; */
-    align-items: center;
+  /*   align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; */
 }
 
 .swiper-pagination {
@@ -61,7 +61,7 @@ article h1{
 
 .swiper-button {
     &-container {
-        background-color: rgba(0,0,0,.25);
+        /* background-color: rgba(0,0,0,.25); */
     }
     &-prev {
         background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E")
@@ -81,13 +81,13 @@ article h1{
     &:before {
         content: "";
         position: relative;
-        left: 0;
+        /* left: 0;
         top: 0;
         width: 100%;
-        height: 100%;
-        background: black;
+        height: 100%; */
+       /*  background: black; */
         opacity: .4;
-    }
+    } }
 /*     h2 {
         pointer-events: none;
         opacity: 0;
@@ -122,7 +122,7 @@ article h1{
 <br>
 <div class="card carousel"  style="background-color:white;border:0px;">
   <article>
-  <h1 data-accordion-element-trigger> Planning & Development</h1>
+  <h1 data-accordion-element-trigger> Core Team</h1>
     <div data-accordion-element-content >
   <div class="swiper-container">
     
@@ -130,38 +130,44 @@ article h1{
     <div class="swiper-wrapper">
 
            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(images/1.jpg);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+            <div style="height:86%;background-color:black;">
+            <img src="images/p&d/p&d-aman-bmin.jpg" style="margin-left:15%;width:60%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/p&d/p&d-aman-mibn.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
             </div>
 
       <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/p&d/p&d-aman-minb.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/p&d/p&d-aman-minb.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/p&d/p&d-aman-mi n.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
             </div>
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/p&d/p&d-aman-mivn.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
             </div>
     </div>
     <!-- !swiper slides -->
@@ -185,39 +191,34 @@ article h1{
     <div class="swiper-wrapper">
 
            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(images/1.jpg);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+           <div style="height:86%;background-color:black;">
+            <img src="images/p&d/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Aman</h3>        
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/p&d/p&d-shatanik-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-
-      <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+            <h3 style="margin-left:15%;">Shatanik</h3>       
             </div>
-        
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+  
+           <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/p&d/p&d-subashish-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Subashish</h3>       
             </div>
         
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+           <!--  <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/p&d/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
+            </div> -->
+        
+         
     </div>
     <!-- !swiper slides -->
     
@@ -240,39 +241,40 @@ article h1{
     <div class="swiper-wrapper">
 
            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(images/1.jpg);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+           <div style="height:86%;background-color:black;">
+            <img src="images/corporate-affairs/ca bijay-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Bijay</h3>        
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/corporate-affairs/ca nidhan-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Nidhan</h3>       
             </div>
 
       <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/corporate-affairs/ca sachin-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Sachin</h3>       
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/corporate-affairs/ca shubham gaurav-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Shubham gaurav</h3>       
             </div>
         
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+            
+            <!-- <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/corporate-affairs/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
+            </div> -->
     </div>
     <!-- !swiper slides -->
     
@@ -295,39 +297,40 @@ article h1{
     <div class="swiper-wrapper">
 
            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(images/1.jpg);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+           <div style="height:86%;background-color:black;">
+            <img src="images/pr-team/kishore pr-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Kishore</h3>      
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/pr-team/pr divyanush-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">divyanush</h3>       
             </div>
 
       <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/pr-team/pr gaurav-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">gaurav</h3>       
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/pr-team/pr prachi-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">prachi</h3>       
             </div>
         
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+            <!-- <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/p&d/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
+            </div> -->
+        
     </div>
     <!-- !swiper slides -->
     
@@ -350,39 +353,45 @@ article h1{
     <div class="swiper-wrapper">
 
            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(images/1.jpg);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+           <div style="height:86%;background-color:black;">
+            <img src="images/event-management/dheraj em-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">dheraj</h3>      
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/event-management/em amarnath-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">amarnath</h3>       
             </div>
 
       <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/event-management/em nikhil-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">nikhil</h3>       
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/event-management/em pavan-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">pavan</h3>       
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/event-management/em raaman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+            <h3 style="margin-left:15%;">raaman</h3>       
             </div>
+           <!--  <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/event-management/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
+            </div> -->
     </div>
     <!-- !swiper slides -->
     
@@ -405,39 +414,40 @@ article h1{
     <div class="swiper-wrapper">
 
            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(images/1.jpg);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+           <div style="height:86%;background-color:black;">
+            <img src="images/hospitality/hospi mallikarjun-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">mallikarjun</h3>      
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/hospitality/hospi sidhharth-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">sidhharth</h3>       
             </div>
 
       <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/hospitality/hospita sanjeev-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">sanjeev</h3>       
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/hospitality/shashi hospitality-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">shashi</h3>       
             </div>
         
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+            <!-- <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/hospitality/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
+            </div> -->
+          
     </div>
     <!-- !swiper slides -->
     
@@ -460,39 +470,33 @@ article h1{
     <div class="swiper-wrapper">
 
            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(images/1.jpg);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+           <div style="height:86%;background-color:black;">
+            <img src="images/logistics/logis bhargav-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">bhargav</h3>      
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/logistics/logis rahul-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">rahul</h3>       
             </div>
 
       <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/logistics/logistics mohan-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">mohan</h3>       
             </div>
         
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+          
+           <!--  <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/logistics/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-        
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
+            </div> -->
     </div>
     <!-- !swiper slides -->
     
@@ -515,39 +519,33 @@ article h1{
     <div class="swiper-wrapper">
 
            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(images/1.jpg);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+           <div style="height:86%;background-color:black;">
+            <img src="images/digital-pr/dpr amar-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">amar</h3>      
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/digital-pr/dpr mehendi-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">mehendi</h3>       
             </div>
 
       <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/digital-pr/dpr rhea-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">rhea</h3>       
             </div>
         
+          <!-- 
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/digital-pr/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-        
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
+            </div> -->
     </div>
     <!-- !swiper slides -->
     
@@ -570,39 +568,40 @@ article h1{
     <div class="swiper-wrapper">
 
            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(images/1.jpg);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+           <div style="height:86%;background-color:black;">
+            <img src="images/web-app/anirudh app-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">anirudh</h3>      
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/web-app/app naman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">naman</h3>       
             </div>
 
-      <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/web-app/web mohit-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">mohit</h3>       
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/web-app/web shubham-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">shubham</h3>       
             </div>
         
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+           
+           <!--  <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/web-app/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
+            </div> -->
     </div>
     <!-- !swiper slides -->
     
@@ -625,39 +624,26 @@ article h1{
     <div class="swiper-wrapper">
 
            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(images/1.jpg);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+           <div style="height:86%;background-color:black;">
+            <img src="images/media-relations/media nivedita-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">nivedita</h3>      
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/media-relations/media usha-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">usha</h3>       
             </div>
 
-      <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
-        
+     <!-- 
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/media-relations/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-        
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
+            </div> -->
     </div>
     <!-- !swiper slides -->
     
@@ -680,39 +666,26 @@ article h1{
     <div class="swiper-wrapper">
 
            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(images/1.jpg);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+           <div style="height:86%;background-color:black;">
+            <img src="images/creative-team/creative sudhanshu-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">sudhanshu</h3>      
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/creative-team/pratik ranjan creative-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">pratik ranjan</h3>       
             </div>
 
-      <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+    
+           <!--  <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/creative-team/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-        
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
-        
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
+            </div> -->
     </div>
     <!-- !swiper slides -->
     
@@ -735,39 +708,45 @@ article h1{
     <div class="swiper-wrapper">
 
            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(images/1.jpg);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+           <div style="height:86%;background-color:black;">
+            <img src="images/robotics/robotic pavan-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">pavan</h3>      
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/robotics/robotics ketan-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">ketan</h3>       
             </div>
 
       <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/robotics/robotics praveen-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">praveen</h3>       
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/robotics/robotics sahil-min.jpg style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">sahil</h3>       
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/robotics/robotics shubham-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+            <h3 style="margin-left:15%;">shubham</h3>       
             </div>
+            <!-- <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/robotics/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
+            </div> -->
     </div>
     <!-- !swiper slides -->
     
@@ -790,39 +769,26 @@ article h1{
     <div class="swiper-wrapper">
 
            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(images/1.jpg);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+           <div style="height:86%;background-color:black;">
+            <img src="images/decoration-team/deco manohar-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Aman</h3>      
             </div>
         
             <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+             <div style="height:86%;background-color:black;">
+            <img src="images/decoration-team/deco parwez -min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
             </div>
 
-      <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
+    
+          <!--   <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/decoration-team/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-        
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
-        
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
-            <div class="swiper-slide">
-            <!-- <h2>SIMPLE SWIPER</h2> -->
-            <div style="background-image: url(https://source.unsplash.com/random?sig=53);width:100%;height:85%;"></div>
-            <h3>dbdfd</h3>       
-            </div>
+            <h3 style="margin-left:15%;">Aman</h3>       
+            </div> -->
     </div>
     <!-- !swiper slides -->
     
