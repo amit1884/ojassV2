@@ -130,9 +130,9 @@
     <div class="row" >
           <div class="col-xs-12">
               <div class ="eve-loader">
-              <h4 class="fade-element-in" ng-if="!flag" style ="margin-top:100px;"><span>Loading...</span>
+              <h4 class="fade-element-in" ng-if="!flag" style ="font-size:30px;margin-top:30px;margin-bottom:10px;"><span>Loading...</span><br><br>
                 <div class ="cat-load">
-                <?php include_once 'cat.php';?>
+                <?php include_once '../evnt-loader.php';?>
                
         </div>
 
