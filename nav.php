@@ -10,7 +10,7 @@
     <script src ="js/jquery.js"></script>
     <style>
     	.nav-colored {
-    	 	background-color :  #8ec1da ;
+			background-image: linear-gradient(to bottom, #0b060c, #1a0b21, #220f36, #25124e, #1e1768);
     	 	animation-name: fadeIn;
     	 	animation-duration: 0.4s;
     	 }

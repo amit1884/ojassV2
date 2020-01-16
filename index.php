@@ -33,7 +33,7 @@
     body{
         overflow-x:hidden;
         color:#fff;
-        background:#f5f8fd;
+        background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340);
     }
     html{
         scroll-behavior:smooth;
@@ -44,7 +44,7 @@
   .about{
     position:relative;
     font-size:18px;
-    color:black;
+    color:#fff;
     margin:5px;
     line-height:1.5;
     letter-spacing:2;
@@ -58,7 +58,7 @@
       font-size:55px;
       text-align:center;
       font-weight:200px;
-      color:#413e66;
+      color:#fff;
       font-family:"batman", sans-serif;
   }
  

@@ -1,4 +1,6 @@
-
+body{
+  background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340);
+}
 .accordion {
   font-size: 20px;
   width: 30vw;

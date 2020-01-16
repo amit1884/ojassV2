@@ -9,6 +9,7 @@ include_once 'nav.php';
 <style>
   body{
     width:100vw;
+    background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340);
   }
   .white-panel {
     position:static!important; 
