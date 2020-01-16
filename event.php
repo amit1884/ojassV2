@@ -26,12 +26,13 @@
 
       }
         .major_events{
-              width:30%;
-              margin:1px 5px;
+              width:27%;
+              margin-left:5%;
               float:left;
               text-align: center;
               align-items:center;
               border-radius: 10px;
+              /* overflow-x:hidden; */
 
             }
         .major_events img{
