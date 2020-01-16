@@ -106,22 +106,22 @@
   <div class ="title-eve"><br>
     <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo" /></a>
     <br><center>
-    <span id="event_title"style =" font-family: 'Play', sans-serif;color:#000;border-left:none;"><u><?php echo str_replace("_"," ",$_GET['branch']) ?></u></span>
+    <span id="event_title"style ="  font-size:32px;font-family: 'Play',sans-serif;color:#000;border-left:none;"><u><?php echo str_replace("_"," ",$_GET['branch']) ?></u></span>
     </center>
     <br>
 
 
     <div class ="event-abt-head">
     <center><h2 class ="eve-abt" ng-if="flag"style =" font-family: 'Play', sans-serif;color:dodgerblue;"><u>ABOUT</u></h2></center>
-    <center><p id ="eve-about" style ="padding:10px;font-size:17px;">{{about}}</p></center>
+    <center><p id ="eve-about" style ="padding:10px;font-size:15px;">{{about}}</p></center>
    <center><h3 class ="eve-heads" ng-if="flag" style =" color:#fff;;font-family: 'Play', sans-serif;"><u>Branch Heads</u></h3></center>
    <center><div ng-repeat="h in heads" style ="padding:5px;font-size:20px;">
-   <div class ="card" style ="padding:8px;height:auto;" ><br>
-   <center><img src ={{h.url}} width="65%"height="60%"style ="border-radius:10px;">
+   <div class ="card" style ="padding:4px;" ><br>
+   <center><img src ={{h.url}} width="65%"height="65%"style ="border-radius:10px;">
    <center><h4 style ="color:dodgerblue">{{h.name}}</h4>
     <p style="color:#fff"><i class ="fa fa-phone-alt" style="color:#fff"></i>&nbsp;&nbsp;{{h.cn}}</p>
    <p style="color:#fff"> <i class="fab fa-whatsapp" style="color:#fff"></i>&nbsp;&nbsp;{{h.wn}}</p></center>
-       <br> </div>
+       </div>
        <br>
     </div></center>
     </div>
