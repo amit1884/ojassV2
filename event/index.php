@@ -113,8 +113,8 @@
 
     <div class ="event-abt-head">
     <center><h2 class ="eve-abt" ng-if="flag"style =" font-family: 'Play', sans-serif;color:dodgerblue;"><u>ABOUT</u></h2></center>
-    <center><p id ="eve-about" style ="padding:10px;font-size:15px;">{{about}}</p></center>
-   <center><h3 class ="eve-heads" ng-if="flag" style =" color:#fff;;font-family: 'Play', sans-serif;"><u>Branch Heads</u></h3></center>
+    <center><p id ="eve-about" style ="color:#fff;padding:10px;font-size:15px;">{{about}}</p></center>
+   <center><h3 class ="eve-heads" ng-if="flag" style =" color:orange;;font-family: 'Play', sans-serif;"><u>Branch Heads</u></h3></center>
    <center><div ng-repeat="h in heads" style ="padding:5px;font-size:20px;">
    <div class ="card" style ="padding:4px;" ><br>
    <center><img src ={{h.url}} width="65%"height="65%"style ="border-radius:10px;">
