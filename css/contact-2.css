@@ -8,12 +8,21 @@ body{
   }
 /*  .container{
     /* background-color: #007ced; */
+<<<<<<< HEAD
+    background-color:lightseagreen;
+    width: 100%;
+      /* background: linear-gradient(to bottom, #007ced 1%,#cce7ff 100%); */
+      background: linear-gradient(to bottom, lightseagreen 1%,#cce7ff 100%);
+  }
+  /* #cloud-intro{
+=======
     /*background-color:lightseagreen;*/
     /*width: 100%;*/
        /*background: linear-gradient(to bottom, #007ced 1%,#cce7ff 100%); */
       /*background: linear-gradient(to bottom, lightseagreen 1%,#cce7ff 100%);*/
   /*}*/
   /*#cloud-intro{
+>>>>>>> d301b3ae845dddc88be5706bb038f1ea03260bfa
     position: relative;
     height: 100%;
     width:100%;
@@ -32,8 +41,13 @@ body{
       background-position: 1000px 200px, 1200px 300px, 1100px 250px;
     }
   
+<<<<<<< HEAD
+  }
+   */
+=======
   }*/
   
+>>>>>>> d301b3ae845dddc88be5706bb038f1ea03260bfa
   .contact-box
   {
     position:relative;
@@ -48,10 +62,10 @@ body{
     /* border : 2px solid black; */
   }
 
-  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+  /* @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
   body { background:rgb(30,30,40); }
   form { max-width:420px; margin:50px auto; }
-
+ */
 
 .feedback-input {
   color:#000;

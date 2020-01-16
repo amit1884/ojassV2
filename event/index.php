@@ -42,6 +42,9 @@
     border-left: 1px solid pink;
     padding-left: 15px;
     }
+    .hide-eah{
+      display:none;
+    }
     
 </style>
 
@@ -54,24 +57,25 @@
     <script type="text/javascript">
           
           var branches={
-            'AAKRITI':'../img/icons/akriti-01.png',
-            'Armageddon':'../img/icons/armageddon-01.png',
-            'ARTHASHASTRA':'../img/icons/arthashastra-01.png',
-            'AVARTAN':'../img/icons/avartan-01-01.png',
-            'Circuit_House': '../img/icons/CircuitHouse-01.png' ,
-            'Deus-X-Machina': '../img/icons/deus-x-machina-01.png' ,
-            'EXPOSICION': '../img/icons/exposcion-01.png',
-            'Live CS':'../img/icons/liveCS-01.png',
-            'NSCET':'../img/icons/NSCET-01.png',
-            'Neo Drishti':'../img/icons/neodrishti-01.png',
-            'No Ground Zone':'../img/icons/NoGroundZone-01.png',
-            'Paraphernalia':'../img/icons/paraphernalia-01.png',
-            'PRAYAS':'../img/icons/prayas-01.png',
-            'Produs':'../img/icons/akriti-01.png',
-            'Rise of Machines':'../img/icons/riseofmachines-01.png',
-            'Silicon Valley':'../img/icons/siliconvalley-01.png',
-            'VishwaCodegenesis':'../img/icons/vishwacodegenesis-01.png',
-            'School Events':'../img/icons/SCHOOL%20EVENTS-01.png'
+            'Aakriti':'../svg/eventsIcons/akriti.svg',
+            'Armageddon':'../svg/eventsIcons/armageddon.svg',
+            'Arthashastra':'../svg/eventsIcons/arthashastra.svg',
+            'Aavartan':'../svg/eventsIcons/avartan.svg',
+            'Circuit House': '../svg/eventsIcons/circuit_house.svg' ,
+            'Deus-X-Machina': '../svg/eventsIcons/deus_x_machina.svg' ,
+            'EXPOSICION': '../svg/eventsIcons/exposicion.svg',
+            'Live CS':'../svg/eventsIcons/live_cs.svg',
+            'NSCET':'../svg/eventsIcons/nscet.svg',
+            'Neo Drishti':'../svg/eventsIcons/neodrishti.svg',
+            'No Ground Zone':'../svg/eventsIcons/no_ground_zone.svg',
+            'NCFF':'../svg/eventsIcons/paraphernalia.svg',
+            'Prayas':'../svg/eventsIcons/prayas.svg',
+            'Produs':'../svg/eventsIcons/produs.svg',
+            'Rise of Machines':'../svg/eventsIcons/rise_of_machines.svg',
+            'Silicon Valley':'../svg/eventsIcons/silicon_valley.svg',
+            'Vishwa Code Genesis':'../svg/eventsIcons/vishwacodegenesis.svg',
+            'School Events':'../svg/eventsIcons/school_events.../svg',
+            'Checkered Flag':'../img/icons/checkeredflag-01.png'
           }
 
 
@@ -84,12 +88,15 @@
 
     <div class="navigator">
       <br>
+      <div class ="title-eve">
     <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo" /></a>
-    <span id="event_title"style =" font-family: 'Play', sans-serif;color:#000;"><?php echo str_replace("_"," ",$_GET['branch']) ?></span>
+    <span id="event_title"class ="event_title"style =" font-family: 'Play', sans-serif;color:#000;"><?php echo str_replace("_"," ",$_GET['branch']) ?></span></div>
     <br>
+    <div class ="nav-eve">
     <nav class =" menu-navigation-dark subevent"  id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
-    <a style="word-wrap: break-word;display:block;color:#fff;font-size:20px;padding-top:10px;margin:8px;" ng-repeat="event in events" href="#" class="event-name" name="{{event.name.split(' ').join('').split('.').join('')}}">
+    <a style="word-wrap: break-word;display:block;color:#fff;font-size:20px;padding-top:10px;margin:8px;" ng-repeat="event in events" href="#" id ="eve-name"class="event-name" name="{{event.name.split(' ').join('').split('.').join('')}}">
                       {{ event.name }}</a>
+                      </div>
     </div>
     <div class="menu-icon">
         <div class="line_one" style ="background-color:black;"></div>
@@ -101,14 +108,32 @@
     <br><center>
     <span id="event_title"style =" font-family: 'Play', sans-serif;color:#000;border-left:none;"><u><?php echo str_replace("_"," ",$_GET['branch']) ?></u></span>
     </center>
+    <br>
+
+
+    <div class ="event-abt-head">
+    <center><h2 class ="eve-abt" ng-if="flag"style =" font-family: 'Play', sans-serif;color:dodgerblue;"><u>ABOUT</u></h2></center>
+    <center><p id ="eve-about" style ="padding:10px;font-size:17px;">{{about}}</p></center>
+   <center><h3 class ="eve-heads" ng-if="flag" style =" color:#413e66;;font-family: 'Play', sans-serif;"><u>Branch Heads</u></h3></center>
+   <center><div ng-repeat="h in heads" style ="padding:5px;font-size:20px;">
+   <div class ="card" style ="padding:8px;height:auto;" ><br>
+   <center><img src ={{h.url}} width="65%"height="60%"style ="border-radius:10px;">
+   <center><h4 style ="color:dodgerblue">{{h.name}}</h4>
+    <p><i class ="fa fa-phone-alt"></i>&nbsp;&nbsp;{{h.cn}}</p>
+   <p> <i class="fab fa-whatsapp"></i>&nbsp;&nbsp;{{h.wn}}</p></center>
+       <br> </div>
+       <br>
+    </div></center>
+    </div>
     </div>
   
     <div class="row" >
           <div class="col-xs-12">
               <div class ="eve-loader">
-              <h4 class="fade-element-in" ng-if="!flag" style ="margin-top:100px;"><span>Loading...</span>
+              <h4 class="fade-element-in" ng-if="!flag" style ="font-size:30px;margin-top:30px;margin-bottom:10px;"><span>Loading...</span><br><br>
                 <div class ="cat-load">
-                <?php include_once 'cat.php';?>
+                <?php include_once '../evnt-loader.php';?>
+               
         </div>
 
         </h4>
@@ -272,6 +297,26 @@
     </div>
 <br><br>
 
+<script>
+$(document).ready(function(){
+    //hiding and showing the main details and sub event detail
+    $(".nav-eve").click(function(){
+      $(".event-abt-head").hide();
+      $(".top").show();
+    $(".mainarea").show();
+    });
+  });
+
+
+  $(document).ready(function(){
+   $(".title-eve").click(function(){
+    $(".event-abt-head").show();
+    $(".top").hide();
+    $(".mainarea").hide();
+   })
+  });
+
+</script>
   
 	<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 

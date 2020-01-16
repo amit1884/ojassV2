@@ -9,7 +9,7 @@
   box-sizing: border-box;
 } */
 body {
-  background: #eee;
+  background: white;
   overflow: scroll;
 }
 .card {
@@ -19,13 +19,13 @@ body {
  margin-bottom: 13%;
   border-radius: 2px;
   background: white;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+ /*  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); */
 }
 article {
   position: relative;
   font-family: 'Roboto', sans-serif;
   transition: all 0.3s;
-  background: #E8EAF6;
+  background:white;
   margin-left : 4%;
   margin-right :4%;
 }
@@ -36,11 +36,12 @@ article {
 } */
 h1 {
   position: relative;
-  background-color: #8cc1da;
+ /*  background:  linear-gradient(to right, #3366ff -7%, #00ffff 100%);; */
+ background-color: #8BC1DA;
   padding: 8px 25px;
   font-size: 20px;
   line-height: 30px;
-  color: #fff;
+  color: white;
   overflow: hidden;
   font-family: 'Play', sans-serif;
   border-radius:10px;
@@ -48,7 +49,11 @@ h1 {
 }
 h1:hover, .selected h1 {
   cursor: pointer;
+<<<<<<< HEAD
   background-color: #8cc1da;
+=======
+  background: #205C77;
+>>>>>>> 217d5b7956f093a0f6e6e39a355f1375da0e2d94
 }
 h1:before, h1:after {
   content: "";
@@ -203,7 +208,7 @@ h1:after {
     cursor: pointer;
     border-radius: 50%;
     transition: 0.3s border;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
   .image
   {
@@ -217,7 +222,7 @@ h1:after {
     margin-right: 0;
   }
   .multi-column-carousel .pagination-container .indicator.active {
-    border: 5px solid black;
+   /*  border: 5px solid black; */
   }
   .multi-column-carousel .viewport {
     width: 100%;
