@@ -3,22 +3,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://use.fontawesome.com/1d6c808dd3.js"></script>
-    <link rel="icon" href="images/logo.png" type="image" sizes="40px">
-    <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Jura|Rock+Salt" rel="stylesheet">
-  <link rel ="stylesheet" href ="css/animate.css">
-    <link rel ="stylesheet" href= "css/style.css">
-    <link rel ="stylesheet" href= "css/loader.css">
-    <link rel="stylesheet" href="scroll_icon/scroll.css">
-    <link rel ="stylesheet" href= "css/bootstrap.min.css">
-    <script type ="text/javascript" src ="js/jquery.js"></script>
-    <script type ="text/javascript" src ="js/index.js"></script>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <script src="https://use.fontawesome.com/1d6c808dd3.js"></script>
+      <link rel="icon" href="images/logo.png" type="image" sizes="40px">
+      <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Jura|Rock+Salt" rel="stylesheet">
+    <link rel ="stylesheet" href ="css/animate.css">
+      <link rel ="stylesheet" href= "css/style.css">
+      <link rel ="stylesheet" href= "css/loader.css">
+      <link rel="stylesheet" href="scroll_icon/scroll.css">
+      <link rel ="stylesheet" href= "css/bootstrap.min.css">
+      <script type ="text/javascript" src ="js/jquery.js"></script>
+      <script type ="text/javascript" src ="js/index.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
 <script src="scroll_icon/scroll.js"></script>
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/15979/footer-inject.jss"></script>
@@ -61,6 +61,9 @@
       color:#fff;
       font-family:"batman", sans-serif;
   }
+  .timer{
+    font-family:"batman", sans-serif;
+  }
  
   .about-btn{
    font-size:40px;
@@ -77,11 +80,11 @@
   }
  .fa-angle-double-down{
     font-size:40px;
-    color:#000;
+    color:#fff;
   }
   .logo-20{
     width:100%;
-    height:350px;
+    height:300px;
     margin-left:2%;
   }
   .feed-20{
@@ -145,14 +148,16 @@
 <img src ="svg/logo.svg" class ="logo-20">
 </center>
 </div>
+<!--timer-->
+<?php include_once 'timer.php';?>
 <!--theme-->
-<div class ="theme wow fadeIn" data-wow-delay="2s">
+<div class ="theme wow fadeIn" data-wow-delay="3s">
   <center>
   <h1 class="ml2">INDIC ERUDITION</h1>
 </center>
 </div>
 <center>
-  <div class ="downarr wow zoomIn"data-wow-delay="3s">
+  <div class ="downarr wow zoomIn"data-wow-delay="4s">
   <a href ="#pseudo-div">
     <i class="fa fa-angle-double-down animated bounce about-btn" style ="font-size:40px;"></i></a>
 </div><br><br>
@@ -191,7 +196,7 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
     duration: 2000,
     delay: (el, i) => 70*i
   })
-    }, 2000);
+    }, 3000);
     })
    
  
