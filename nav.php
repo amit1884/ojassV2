@@ -50,7 +50,7 @@
 		<div class="nav__content">
 			<ul class="nav__list">
 				<li class="nav__list-item active-nav"><a href="index.php"target="_blank" class="hover-target" style ="text-decoration:none;">HOME</a></li>
-				<li class="nav__list-item"><a href="event.php"target="_blank" class="hover-target" style ="text-decoration:none;">EVENTS</a></li>
+				<li class="nav__list-item"><a href="eventold.php"target="_blank" class="hover-target" style ="text-decoration:none;">EVENTS</a></li>
 				<li class="nav__list-item"><a href="notification.php" target="_blank"class="hover-target" style ="text-decoration:none;">NOTIFICATION</a></li>
                 <li class="nav__list-item"><a href="faq.php"target="_blank" class="hover-target" style ="text-decoration:none;">FAQs</a></li>
                 <li class="nav__list-item"><a href="sponsor.php"target="_blank" class="hover-target" style ="text-decoration:none;">SPONSORS</a></li>
