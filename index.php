@@ -80,9 +80,9 @@
     color:#000;
   }
   .logo-20{
-    width:350px;
+    width:100%;
     height:350px;
-    margin-left:-15px;
+    margin-left:2%;
   }
   .feed-20{
    display:block;
@@ -142,7 +142,7 @@
   </div>
   <div class ="image wow" data-wow-duration="1s">
   <center>
-<img src ="images/newlogo.png" class ="logo-20">
+<img src ="svg/logo.svg" class ="logo-20">
 </center>
 </div>
 <!--theme-->
