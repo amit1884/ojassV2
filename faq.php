@@ -108,7 +108,7 @@ Kishore : &nbsp;+91 89198 45029 . </b><br>We will get back to you soon.
 </div>
 </div>
 <div class ="foo-ter">
-    <?php include_once 'footer2.php';?>
+    <?php include_once 'footer.php';?>
 </div>
 </div>
 

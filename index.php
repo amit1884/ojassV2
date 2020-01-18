@@ -92,7 +92,7 @@
   #scroll_btn
   {
     position:fixed;
-     margin-left:38%; 
+    float:right;
   }
   </style>
   </head>
@@ -129,10 +129,12 @@
   <div class ="downarr wow zoomIn"data-wow-delay="4s">
   <a href ="#pseudo-div">
     <i class="fa fa-angle-double-down animated bounce about-btn" style ="font-size:40px;"></i></a>
-</div><br><br>
-  <!--  <a href ="#"  ><span id="scroll_id" class="arrow">up</span></a> -->
-  <a href="#" id="scroll_btn"><i style ="font-size:50px;z-index:100;" class="fa fa-angle-double-up"></i></a>
+</div>
 </center>
+<br><br>
+  <!--  <a href ="#"  ><span id="scroll_id" class="arrow">up</span></a> -->
+  <!-- <a href="#" id="scroll_btn"><i style ="font-size:50px;z-index:100;" class="fa fa-angle-double-up"></i></a> -->
+
 </div>
 <br>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
@@ -181,7 +183,7 @@ Ojass is the annual techno-management fest of NIT Jamshedpur. Started in the yea
 A three-day spectacle, Ojass also organizes many motivating guest lectures under the event cluster "Guru Gyan". Since its inception, Ojass has been receiving immense participation from the student community from all over India with the 2018 edition accounting for over 4000 participants. 
 </p>
 
-<?php include_once 'footer2.php';?>
+<?php include_once 'footer.php';?>
 </div>
 
 <script src ="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>

@@ -2,16 +2,17 @@
  #days,#hours,#minutes,#seconds{
     font-family:"batman", sans-serif;
     font-size:25px;
+    color:#fff;
   }
 </style>
 </head>
 <body>
 <div class ="container-fluid">
 <div class ="row text-center timer">
-<div class ="col-3 wow" data-wow-delay="2s"><h5 style ="font-family:'Inria Serif';">Days</h5><p id="days"></p></div>
-<div class ="col-3 wow" data-wow-delay="2s"><h5 style ="font-family:'Inria Serif';">Hrs</h5><p id="hours"></p></div>
-<div class ="col-3 wow" data-wow-delay="2s"><h5 style ="font-family:'Inria Serif';">Min</h5><p id="minutes"></p></div>
-<div class ="col-3 wow" data-wow-delay="2s"><h5 style ="font-family:'Inria Serif';">Sec</h5><p id="seconds"></p></div>
+<div class ="col-3 wow" data-wow-delay="2s"><h5 style ="font-family:'Inria Serif';color:#fff">Days</h5><p id="days"></p></div>
+<div class ="col-3 wow" data-wow-delay="2s"><h5 style ="font-family:'Inria Serif';color:#fff">Hrs</h5><p id="hours"></p></div>
+<div class ="col-3 wow" data-wow-delay="2s"><h5 style ="font-family:'Inria Serif';color:#fff">Min</h5><p id="minutes"></p></div>
+<div class ="col-3 wow" data-wow-delay="2s"><h5 style ="font-family:'Inria Serif';color:#fff">Sec</h5><p id="seconds"></p></div>
 </div>
 </div>
 <!-- <p id="demo" class ="timer text-center wow"data-wow-delay="2s"></p> -->

@@ -79,7 +79,7 @@
 </body>
 
 <!--footer-->
-<?php include_once 'footer2.php';?>
+<?php include_once 'footer.php';?>
   
 <script type="text/javascript">
 	AOS.init({

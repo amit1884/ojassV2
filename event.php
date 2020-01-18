@@ -170,6 +170,6 @@ body{
         );
 </script>
 <script type="text/javascript" src='js\animation.js'></script>
-<?php include_once 'footer2.php';?>
+<?php include_once 'footer.php';?>
 </body>
 </html>
