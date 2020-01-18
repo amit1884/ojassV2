@@ -1,14 +1,20 @@
 <style>
-p {
-  text-align: center;
-  font-size: 2em;
-  margin-top: 0px;
-}
+ #days,#hours,#minutes,#seconds{
+    font-family:"batman", sans-serif;
+    font-size:25px;
+  }
 </style>
 </head>
 <body>
-
-<p id="demo" class ="timer text-center wow"data-wow-delay="2s"></p>
+<div class ="container-fluid">
+<div class ="row text-center timer">
+<div class ="col-3 wow" data-wow-delay="2s"><h5 style ="font-family:'Inria Serif';">Days</h5><p id="days"></p></div>
+<div class ="col-3 wow" data-wow-delay="2s"><h5 style ="font-family:'Inria Serif';">Hrs</h5><p id="hours"></p></div>
+<div class ="col-3 wow" data-wow-delay="2s"><h5 style ="font-family:'Inria Serif';">Min</h5><p id="minutes"></p></div>
+<div class ="col-3 wow" data-wow-delay="2s"><h5 style ="font-family:'Inria Serif';">Sec</h5><p id="seconds"></p></div>
+</div>
+</div>
+<!-- <p id="demo" class ="timer text-center wow"data-wow-delay="2s"></p> -->
 
 <script>
 // Set the date we're counting down to
@@ -30,8 +36,10 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("days").innerHTML = days; 
+  document.getElementById("hours").innerHTML = hours; 
+  document.getElementById("minutes").innerHTML = minutes; 
+  document.getElementById("seconds").innerHTML = seconds; 
     
   // If the count down is over, write some text 
   if (distance < 0) {
@@ -42,6 +50,6 @@ var x = setInterval(function() {
 </script>
 <script>
 $(document).ready(()=>{
-$('#demo').addClass('zoomIn');
+$('.col-3').addClass('zoomIn');
 });
 </script>

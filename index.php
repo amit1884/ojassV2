@@ -61,9 +61,7 @@
       color:#fff;
       font-family:"batman", sans-serif;
   }
-  .timer{
-    font-family:"batman", sans-serif;
-  }
+  
  
   .about-btn{
    font-size:40px;
@@ -83,40 +81,11 @@
     color:#fff;
   }
   .logo-20{
-    width:100%;
-    height:300px;
+    width:95%;
+    height:250px;
     margin-left:2%;
   }
-  .feed-20{
-   display:block;
-   float:left;
-   position:fixed;
-   top:550px;
-   width:50px;
-   height:50px;
-   margin-left:10px;
-   /* z-index:9999; */
-   color:#413e66;
-   outline:none;
-   /* border:none; */
-   background:dodgerblue;
-   border-radius:50%;
-  }
-  .up-20{
-    display:block;
-   width:40px;
-   height:40px;
-   padding:2px;
-   position:absolute;
-   right:0;
-   margin-right:10px;
-   /* z-index:9999; */
-   color:#fff;
-   outline:none;
-   /* border:none; */
-   background:dodgerblue;
-   border-radius:20px 20px 0 0;
-  }
+
   #scroll_id {
     background: rgb(142, 193, 218);
   }
