@@ -3,7 +3,7 @@ body{
 }
 .accordion {
   font-size: 20px;
-  width: 30vw;
+  width: 50vw;
   margin:-1%;
   /* border-radius: 5px; */
 }
@@ -16,7 +16,7 @@ body{
 .accordion-header {
   padding: 1em 1em;
   background: rgb(1, 45, 88);
-  width:86%;
+  width:93%;
   margin:4%;
   border-radius:10px;
   color: white;
