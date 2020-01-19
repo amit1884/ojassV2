@@ -122,7 +122,7 @@
 
 <center><div style="color:#413F67;font-size:45px;font-family:batman, sans-serif;">TEAM</div></center>
 <br>
-<div class="card carousel"  style="border:0px;background: transparent;">
+<div class="card carousel"  style="border:0px;background: transparent;color:white;">
   <article>
   <h1 data-accordion-element-trigger> Core Team</h1>
     <div data-accordion-element-content >
@@ -133,43 +133,50 @@
 
            <div class="swiper-slide">
             <div style="height:86%;background-color:black;">
-            <img src="images/p&d/" style="margin-left:15%;width:60%;height:100%;">
+            <img src="images/core-team/ex-sec-akshay-min.jpg" style="margin-left:15%;width:60%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Azvxmaxdn</h3>       
+            <center><h3 style="font-family:batman, sans-serif;">Akshay</h3 ></center>
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
-            <img src="images/p&d/" style="margin-left:15%;width:65%;height:100%;">
+            <img src="images/core-team/ex-sec-d-ganesh-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">dvdAzmddan</h3>       
+            <center> <h3 style="font-family:batman, sans-serif;"  >Ganesh</h3 ></center> 
+            </div>
+ 
+             <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/core-team/finn-sec-anurag-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <center><h3 style="font-family:batman, sans-serif;" >Anurag</h3 ></center>       
+            </div>
+        
+            <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/core-team/gen-sec-jeet-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <center><h3 style="font-family:batman, sans-serif;">Jeet</h3 ></center>       
+            </div>
+        
+            <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/core-team/Joint_Sec_Chaitanya.png" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <center><h3 style="font-family:batman, sans-serif;" >Chaitanya</h3 ></center>       
+            </div>
+            <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/core-team/joint-tech-sec-rishikesh-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <center><h3 style="font-family:batman, sans-serif;">Rishikesh</h3 ></center>       
             </div>
 
-      <div class="swiper-slide">
-             <div style="height:86%;background-color:black;">
-            <img src="images/p&d/" style="margin-left:15%;width:65%;height:100%;">
-            </div>
-            <h3 style="margin-left:15%;">Amvzdavzn</h3>       
-            </div>
-        
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
-            <img src="images/p&d/" style="margin-left:15%;width:65%;height:100%;">
+            <img src="images/core-team/tech-sec-onkar-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">xb fAxmabffn</h3>       
-            </div>
-        
-            <div class="swiper-slide">
-             <div style="height:86%;background-color:black;">
-            <img src="images/p&d/" style="margin-left:15%;width:65%;height:100%;">
-            </div>
-            <h3 style="margin-left:15%;">Abxmdbadnd</h3>       
-            </div>
-            <div class="swiper-slide">
-             <div style="height:86%;background-color:black;">
-            <img src="images/p&d/" style="margin-left:15%;width:65%;height:100%;">
-            </div>
-            <h3 style="margin-left:15%;">Avxmvavdnv</h3>       
+            <center><h3 style="font-family:batman, sans-serif;">Onkar</h3 ></center>       
             </div>
     </div>
     <!-- !swiper slides -->
@@ -196,28 +203,28 @@
            <div style="height:86%;background-color:black;">
             <img src="images/p&d/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>        
+            <center><h3 style="font-family:batman, sans-serif;">Aman</h3 ></center>  
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/p&d/p&d-shatanik-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Shatanik</h3>       
+            <center><h3  style="font-family:batman, sans-serif;">Shatanik</h3 ></center>    
             </div>
   
            <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/p&d/p&d-subashish-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Subashish</h3>       
+            <center><h3 style="font-family:batman, sans-serif;" >Subashish</h3 ></center>    
             </div>
         
            <!--  <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/p&d/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3  >Aman</h3 >       
             </div> -->
         
          
@@ -246,28 +253,28 @@
            <div style="height:86%;background-color:black;">
             <img src="images/corporate-affairs/ca bijay-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Bijay</h3>        
+            <center><h3  style="font-family:batman, sans-serif;">Bijay</h3 ></center>        
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/corporate-affairs/ca nidhan-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Nidhan</h3>       
+            <center><h3 style="font-family:batman, sans-serif;" >Nidhan</h3 ></center>       
             </div>
 
       <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/corporate-affairs/ca sachin-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Sachin</h3>       
+            <center><h3 style="font-family:batman, sans-serif;" >Sachin</h3 ></center>       
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/corporate-affairs/ca shubham gaurav-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Shubham gaurav</h3>       
+            <center><h3 style="font-family:batman, sans-serif;" >Shubham gaurav</h3 ></center>       
             </div>
         
             
@@ -275,7 +282,7 @@
              <div style="height:86%;background-color:black;">
             <img src="images/corporate-affairs/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3  >Aman</h3 >       
             </div> -->
     </div>
     <!-- !swiper slides -->
@@ -302,35 +309,35 @@
            <div style="height:86%;background-color:black;">
             <img src="images/pr-team/kishore pr-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Kishore</h3>      
+            <center><h3 style="font-family:batman, sans-serif;" >Kishore</h3 ></center>     
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/pr-team/pr divyanush-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">divyanush</h3>       
+            <center><h3 style="font-family:batman, sans-serif;" >divyanush</h3 ></center>       
             </div>
 
       <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/pr-team/pr gaurav-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">gaurav</h3>       
+            <center><h3 style="font-family:batman, sans-serif;" >gaurav</h3 ></center>       
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/pr-team/pr prachi-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">prachi</h3>       
+            <center><h3 style="font-family:batman, sans-serif;" >prachi</h3 ></center>       
             </div>
         
             <!-- <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/p&d/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3  >Aman</h3 >       
             </div> -->
         
     </div>
@@ -358,41 +365,41 @@
            <div style="height:86%;background-color:black;">
             <img src="images/event-management/dheraj em-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">dheraj</h3>      
+            <center><h3 style="font-family:batman, sans-serif;" >dheraj</h3 ></center>     
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/event-management/em amarnath-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">amarnath</h3>       
+            <center><h3 style="font-family:batman, sans-serif;" >amarnath</h3 ></center>       
             </div>
 
       <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/event-management/em nikhil-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">nikhil</h3>       
+            <center><h3 style="font-family:batman, sans-serif;" >nikhil</h3 ></center>       
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/event-management/em pavan-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">pavan</h3>       
+            <center><h3 style="font-family:batman, sans-serif;" >pavan</h3 ></center>     
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/event-management/em raaman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">raaman</h3>       
+            <center><h3 style="font-family:batman, sans-serif;" >raaman</h3 ></center>       
             </div>
            <!--  <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/event-management/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3  >Aman</h3 >       
             </div> -->
     </div>
     <!-- !swiper slides -->
@@ -419,35 +426,35 @@
            <div style="height:86%;background-color:black;">
             <img src="images/hospitality/hospi mallikarjun-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">mallikarjun</h3>      
+            <center><h3 style="font-family:batman, sans-serif;" >mallikarjun</h3 ></center>      
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/hospitality/hospi sidhharth-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">sidhharth</h3>       
+            <center><h3 style="font-family:batman, sans-serif;"  >sidhharth</h3 ></center>       
             </div>
 
       <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/hospitality/hospita sanjeev-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">sanjeev</h3>       
+            <center><h3 style="font-family:batman, sans-serif;" >sanjeev</h3 ></center>       
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/hospitality/shashi hospitality-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">shashi</h3>       
+            <center><h3 style="font-family:batman, sans-serif;" >shashi</h3 ></center>       
             </div>
         
             <!-- <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/hospitality/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3  >Aman</h3 >       
             </div> -->
           
     </div>
@@ -475,21 +482,21 @@
            <div style="height:86%;background-color:black;">
             <img src="images/logistics/logis bhargav-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">bhargav</h3>      
+            <center><h3 style="font-family:batman, sans-serif;" >bhargav</h3 ></center>      
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/logistics/logis rahul-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">rahul</h3>       
+            <center><h3  style="font-family:batman, sans-serif;">rahul</h3 ></center>       
             </div>
 
       <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/logistics/logistics mohan-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">mohan</h3>       
+            <center><h3 style="font-family:batman, sans-serif;" >mohan</h3 ></center>       
             </div>
         
           
@@ -497,7 +504,7 @@
              <div style="height:86%;background-color:black;">
             <img src="images/logistics/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3  >Aman</h3 >       
             </div> -->
     </div>
     <!-- !swiper slides -->
@@ -524,21 +531,21 @@
            <div style="height:86%;background-color:black;">
             <img src="images/digital-pr/dpr amar-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">amar</h3>      
+            <center><h3 style="font-family:batman, sans-serif;" >amar</h3 ></center>      
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/digital-pr/dpr mehendi-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">mehendi</h3>       
+            <center><h3 style="font-family:batman, sans-serif;" >mehendi</h3 ></center>       
             </div>
 
       <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/digital-pr/dpr rhea-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">rhea</h3>       
+            <center><h3 style="font-family:batman, sans-serif;"  >rhea</h3 ></center>       
             </div>
         
           <!-- 
@@ -546,7 +553,7 @@
              <div style="height:86%;background-color:black;">
             <img src="images/digital-pr/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3  >Aman</h3 >       
             </div> -->
     </div>
     <!-- !swiper slides -->
@@ -573,28 +580,28 @@
            <div style="height:86%;background-color:black;">
             <img src="images/web-app/anirudh app-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">anirudh</h3>      
+            <center><h3 style="font-family:batman, sans-serif;"  >anirudh</h3 > </center>     
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/web-app/app naman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">naman</h3>       
+            <center> <h3  style="font-family:batman, sans-serif;">naman</h3 ></center>        
             </div>
 
              <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/web-app/web mohit-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">mohit</h3>       
+            <center> <h3 style="font-family:batman, sans-serif;" >mohit</h3 ></center>        
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/web-app/web shubham-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">shubham</h3>       
+            <center>  <h3  style="font-family:batman, sans-serif;">shubham</h3 ></center>        
             </div>
         
            
@@ -602,7 +609,7 @@
              <div style="height:86%;background-color:black;">
             <img src="images/web-app/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3  >Aman</h3 >       
             </div> -->
     </div>
     <!-- !swiper slides -->
@@ -629,14 +636,14 @@
            <div style="height:86%;background-color:black;">
             <img src="images/media-relations/media nivedita-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">nivedita</h3>      
+            <center> <h3 style="font-family:batman, sans-serif;" >nivedita</h3 ></center>       
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/media-relations/media usha-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">usha</h3>       
+            <center>  <h3 style="font-family:batman, sans-serif;" >usha</h3 ></center>        
             </div>
 
      <!-- 
@@ -644,7 +651,7 @@
              <div style="height:86%;background-color:black;">
             <img src="images/media-relations/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3  >Aman</h3 >       
             </div> -->
     </div>
     <!-- !swiper slides -->
@@ -671,14 +678,14 @@
            <div style="height:86%;background-color:black;">
             <img src="images/creative-team/creative sudhanshu-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">sudhanshu</h3>      
+            <center> <h3 style="font-family:batman, sans-serif;" >sudhanshu</h3 ></center>       
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/creative-team/pratik ranjan creative-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">pratik ranjan</h3>       
+            <center> <h3 style="font-family:batman, sans-serif;" >pratik ranjan</h3 ></center>        
             </div>
 
     
@@ -686,7 +693,7 @@
              <div style="height:86%;background-color:black;">
             <img src="images/creative-team/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3  >Aman</h3 >       
             </div> -->
     </div>
     <!-- !swiper slides -->
@@ -713,41 +720,41 @@
            <div style="height:86%;background-color:black;">
             <img src="images/robotics/robotic pavan-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">pavan</h3>      
+            <center>  <h3 style="font-family:batman, sans-serif;" >pavan</h3 > </center>      
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/robotics/robotics ketan-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">ketan</h3>       
+            <center>  <h3 style="font-family:batman, sans-serif;" >ketan</h3 ></center>        
             </div>
 
       <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/robotics/robotics praveen-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">praveen</h3>       
+            <center>  <h3 style="font-family:batman, sans-serif;" >praveen</h3 ></center>        
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/robotics/robotics sahil-min.jpg style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">sahil</h3>       
+            <center>  <h3 style="font-family:batman, sans-serif;" >sahil</h3 ></center>        
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/robotics/robotics shubham-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">shubham</h3>       
+            <center> <h3 style="font-family:batman, sans-serif;" >shubham</h3 ></center>        
             </div>
             <!-- <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/robotics/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3  >Aman</h3 >       
             </div> -->
     </div>
     <!-- !swiper slides -->
@@ -774,14 +781,14 @@
            <div style="height:86%;background-color:black;">
             <img src="images/decoration-team/deco manohar-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>      
+            <center>  <h3 style="font-family:batman, sans-serif;" >Aman</h3 ></center>       
             </div>
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
             <img src="images/decoration-team/deco parwez -min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <center>  <h3 style="font-family:batman, sans-serif;" >Aman</h3 > </center>       
             </div>
 
     
@@ -789,7 +796,7 @@
              <div style="height:86%;background-color:black;">
             <img src="images/decoration-team/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <h3 style="margin-left:15%;">Aman</h3>       
+            <h3  >Aman</h3 >       
             </div> -->
     </div>
     <!-- !swiper slides -->
@@ -804,6 +811,56 @@
     <!-- !pagination dots -->
     </div>
     
+  </article>
+  <article>
+  <h1 data-accordion-element-trigger> Workshops </h1>
+    <div data-accordion-element-content >
+    <div class="swiper-container">
+    
+    <!-- swiper slides -->
+    <div class="swiper-wrapper">
+
+           <div class="swiper-slide">
+           <div style="height:86%;background-color:black;">
+            <img src="images/workshops/workshop-bhargav-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <center><h3 style="font-family:batman, sans-serif;">Bhargav</h3 ></center>  
+            </div>
+        
+            <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/workshops/workshop-naman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <center><h3  style="font-family:batman, sans-serif;">Nman</h3 ></center>    
+            </div>
+  
+           <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/workshops/workshop-sandeep-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <center><h3 style="font-family:batman, sans-serif;" >Sandeep</h3 ></center>    
+            </div>
+        
+           <!--  <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/p&d/p&d-aman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <h3  >Aman</h3 >       
+            </div> -->
+        
+         
+    </div>
+    <!-- !swiper slides -->
+    
+    <!-- next / prev arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <!-- !next / prev arrows -->
+    
+    <!-- pagination dots -->
+ <!--    <div class="swiper-pagination"></div> -->
+    <!-- !pagination dots -->
+    </div>
   </article>
 </div>
 
