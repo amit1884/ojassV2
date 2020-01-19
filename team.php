@@ -21,27 +21,27 @@
   font-family: batman;
   src: url(batmfa__.ttf) format('truetype');
 }
-/* article h1{
+article h1{
     font-family: 'Play', sans-serif;
     font-weight:10;
     font-size:28px;
     text-align:center;
 }
- */
+
 .swiper-container {
     width: 100%;
     height:15rem;
-    margin-bottom:1rem;
+    margin-bottom:0.3rem;
 }
 .swiper-slide {
    /*  background-size: cover;
     background-position: 50%;
-    min-height: 80vh;
+    min-height: 80vh; */
     
-    display: flex; */
-  /*   align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    flex-direction: column; */
+    flex-direction: column;
 }
 
 .swiper-pagination {
@@ -82,14 +82,14 @@
     &:before {
         content: "";
         position: relative;
-        /* left: 0;
+        left: 0;
         top: 0;
         width: 100%;
-        height: 100%; */
+        height: 100%;
        /*  background: black; */
         opacity: .4;
     } }
-/*     h2 {
+    h2 {
         pointer-events: none;
         opacity: 0;
         color: #ffffff;
@@ -105,7 +105,7 @@
         transform: translateY(0%) scale(1);
         transition: 1s ease;
     }
-} */
+}
 
 
 
