@@ -5,12 +5,11 @@
     
     <link rel="stylesheet" href="team_new/team.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
     <!-- <script src="team_new/team.js"></script> -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.js"></script>
-   <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css"> -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css">
     <script src="https://cdn.jsdelivr.net/gh/cant89/gianni-accordion-js/dist/gianniAccordion.min.js"></script>
     <style>
  @font-face {
