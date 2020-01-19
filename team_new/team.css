@@ -1,7 +1,7 @@
 
  
  [data-accordion-element-content] {
-  height: auto;
+  height: max-content;
   overflow: hidden;
   transition: height 0.5s;
 }
