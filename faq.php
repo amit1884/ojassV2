@@ -52,18 +52,6 @@ Gaurav:   (+91-79924 25023)</b>
        </div>
   </div>
      <div class="accordion__item js-accordion-item">
-    <div class="accordion-header js-accordion-header">Still have doubts ?</div> 
-  <div class="accordion-body js-accordion-body">
-    <div class="accordion-body__contents">
-    Feel free to drop us a message at our Facebook page or contact :<br>
-<b>Gaurav Mridul : &nbsp;+91 79924 25023<br>
-Prachi :&nbsp; +91 74883 09597<br>
-Divyansh : &nbsp;+91 62990 79553<br>
-Kishore : &nbsp;+91 89198 45029 . </b><br>We will get back to you soon. 
-    </div>
-         </div>
-  </div>
-     <div class="accordion__item js-accordion-item">
     <div class="accordion-header js-accordion-header">What are the types of events in Ojass ?</div> 
   <div class="accordion-body js-accordion-body">
     <div class="accordion-body__contents">
@@ -105,10 +93,22 @@ Kishore : &nbsp;+91 89198 45029 . </b><br>We will get back to you soon.
     </div>
          </div>
   </div>
+  <div class="accordion__item js-accordion-item">
+    <div class="accordion-header js-accordion-header">Still have doubts ?</div> 
+  <div class="accordion-body js-accordion-body">
+    <div class="accordion-body__contents">
+    Feel free to drop us a message at our Facebook page or contact :<br>
+<b>Gaurav Mridul : &nbsp;+91 79924 25023<br>
+Prachi :&nbsp; +91 74883 09597<br>
+Divyansh : &nbsp;+91 62990 79553<br>
+Kishore : &nbsp;+91 89198 45029 . </b><br>We will get back to you soon. 
+    </div>
+         </div>
+  </div>
 </div>
 </div>
 <div class ="foo-ter">
-    <?php include_once 'footer2.php';?>
+    <?php include_once 'footer.php';?>
 </div>
 </div>
 

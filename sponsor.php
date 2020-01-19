@@ -88,7 +88,7 @@ filter: grayscale(0%);
 
        <br>
        
-<?php include_once 'footer2.php';?>
+<?php include_once 'footer.php';?>
 
   
 <script type="text/javascript">

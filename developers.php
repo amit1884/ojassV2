@@ -32,10 +32,10 @@
 			border-radius: 10px;
 		}
 		.member h4{
-			color: #413e66;
+			color: #fff;
 			font-family: 'Titillium Web', sans-serif;
 			margin:8px auto;
-			font-size:20px;
+			font-size:25px;
 			text-align:center;
 		}
 		
@@ -49,10 +49,13 @@
 		
       
 	}
+	body{
+  background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340);
+}
 </style>
 </head>
 <body style ="background-color: #1f2029;"><br><br><br><br>
-	<h1 class='header' style ="font-family:batman, sans-serif;color:#413e66;">
+	<h1 class='header' style ="font-family:batman, sans-serif;color:#fff;">
 		  <center>Developers</center>
 	</h1><br>
 	<div class='container'style="overflow-x:hidden;">
@@ -76,7 +79,7 @@
 </body>
 
 <!--footer-->
-<?php include_once 'footer2.php';?>
+<?php include_once 'footer.php';?>
   
 <script type="text/javascript">
 	AOS.init({

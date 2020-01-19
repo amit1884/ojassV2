@@ -3,8 +3,8 @@ body{
 }
 .accordion {
   font-size: 20px;
-  width: 30vw;
-  /* margin: 0 auto; */
+  width: 50vw;
+  margin:-1%;
   /* border-radius: 5px; */
 }
 
@@ -15,9 +15,9 @@ body{
 
 .accordion-header {
   padding: 1em 1em;
-  background: rgb(78, 111, 145);
-  width:87%;
-  margin:5px;
+  background: rgb(1, 45, 88);
+  width:93%;
+  margin:4%;
   border-radius:10px;
   color: white;
   cursor: pointer;
@@ -28,7 +28,7 @@ body{
 }
 
 .accordion__item {
-    border-bottom: 1px solid #fff;
+    /* border-bottom: 1px solid #fff; */
     margin-bottom: 15px;
 }
 
@@ -46,6 +46,9 @@ body{
   background: #fcfcfc;
   color: #353535;
   display: none;
+  width:93%;
+  border-radius:10px;
+  margin:4%
 }
 
 .accordion-body__contents {

@@ -805,7 +805,7 @@ article h1{
   </article>
 </div>
 <!-- <br><br> -->
-<?php include_once 'footer2.php';?>
+<?php include_once 'footer.php';?>
 </body>
 
 </html>
