@@ -2,7 +2,7 @@
  
  [data-accordion-element-content] {
   height: auto;
-  overflow: hidden;
+  overflow-x: hidden;
   transition: height 0.5s;
 }
 /* * {
@@ -30,11 +30,11 @@ article {
   margin-left : 4%;
   margin-right :4%;
 }
-/* article.selected {
+article.selected {
   transform: scale(1.1);
   box-shadow: 0 0 5px rgba(2, 2, 2, 0.4);
   z-index: 2;
-} */
+}
 h1 {
   position: relative;
  /*  background:  linear-gradient(to right, #3366ff -7%, #00ffff 100%);; */

@@ -124,7 +124,7 @@ article h1{
 <br>
 <div class="card carousel"  style="border:0px;background: transparent;color:white;">
   <article>
-  <h1 data-accordion-element-trigger> Core Team</h1>
+  <h1 data-accordion-element-trigger>  Core Team</h1>
     <div data-accordion-element-content >
   <div class="swiper-container">
     
@@ -189,6 +189,7 @@ article h1{
     <!-- pagination dots -->
  <!--    <div class="swiper-pagination"></div> -->
     <!-- !pagination dots -->
+    </div>
 </div>
   </article>
   <article>
@@ -238,7 +239,7 @@ article h1{
     
     <!-- pagination dots -->
  <!--    <div class="swiper-pagination"></div> -->
-    <!-- !pagination dots -->
+    <!-- !pagination dots --></div>
     </div>
   </article>
   <article>
@@ -294,7 +295,7 @@ article h1{
     
     <!-- pagination dots -->
  <!--    <div class="swiper-pagination"></div> -->
-    <!-- !pagination dots -->
+    <!-- !pagination dots --></div>
     </div>
   </article>
   <article>
@@ -347,7 +348,7 @@ article h1{
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
     <!-- !next / prev arrows -->
-    
+    </div>
     <!-- pagination dots -->
  <!--    <div class="swiper-pagination"></div> -->
     <!-- !pagination dots -->
@@ -408,7 +409,7 @@ article h1{
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
     <!-- !next / prev arrows -->
-    
+    </div>
     <!-- pagination dots -->
  <!--    <div class="swiper-pagination"></div> -->
     <!-- !pagination dots -->
@@ -464,7 +465,7 @@ article h1{
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
     <!-- !next / prev arrows -->
-    
+    </div>
     <!-- pagination dots -->
  <!--    <div class="swiper-pagination"></div> -->
     <!-- !pagination dots -->
@@ -513,7 +514,7 @@ article h1{
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
     <!-- !next / prev arrows -->
-    
+    </div>
     <!-- pagination dots -->
  <!--    <div class="swiper-pagination"></div> -->
     <!-- !pagination dots -->
@@ -562,7 +563,7 @@ article h1{
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
     <!-- !next / prev arrows -->
-    
+    </div>
     <!-- pagination dots -->
  <!--    <div class="swiper-pagination"></div> -->
     <!-- !pagination dots -->
@@ -618,7 +619,7 @@ article h1{
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
     <!-- !next / prev arrows -->
-    
+    </div>
     <!-- pagination dots -->
  <!--    <div class="swiper-pagination"></div> -->
     <!-- !pagination dots -->
@@ -660,7 +661,7 @@ article h1{
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
     <!-- !next / prev arrows -->
-    
+    </div>
     <!-- pagination dots -->
  <!--    <div class="swiper-pagination"></div> -->
     <!-- !pagination dots -->
@@ -702,7 +703,7 @@ article h1{
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
     <!-- !next / prev arrows -->
-    
+    </div>
     <!-- pagination dots -->
  <!--    <div class="swiper-pagination"></div> -->
     <!-- !pagination dots -->
@@ -763,7 +764,7 @@ article h1{
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
     <!-- !next / prev arrows -->
-    
+    </div>
     <!-- pagination dots -->
  <!--    <div class="swiper-pagination"></div> -->
     <!-- !pagination dots -->
@@ -805,7 +806,7 @@ article h1{
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
     <!-- !next / prev arrows -->
-    
+    </div>
     <!-- pagination dots -->
  <!--    <div class="swiper-pagination"></div> -->
     <!-- !pagination dots -->
@@ -856,7 +857,7 @@ article h1{
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
     <!-- !next / prev arrows -->
-    
+    </div>
     <!-- pagination dots -->
  <!--    <div class="swiper-pagination"></div> -->
     <!-- !pagination dots -->
