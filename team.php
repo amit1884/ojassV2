@@ -122,7 +122,7 @@ article h1{
 
 <center><div style="color:white;font-size:45px;font-family:batman, sans-serif;">TEAM</div></center>
 <br>
-<div class="card carousel"  >
+<div class="card carousel"  style="border:0px;background: transparent;color:white;">
   <article>
   <h1 data-accordion-element-trigger> Core Team</h1>
     <div data-accordion-element-content >
