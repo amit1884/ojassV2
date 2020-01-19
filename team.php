@@ -1,4 +1,4 @@
-<div style="background: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340);">
+
 <?php include_once 'nav.php';?>
 
 <head>
@@ -120,7 +120,7 @@ article h1{
 </head>
 <body style="background:transparent;"><br><br><br>
 
-<center><div style="color:#413F67;font-size:45px;font-family:batman, sans-serif;">TEAM</div></center>
+<center><div style="color:white;font-size:45px;font-family:batman, sans-serif;">TEAM</div></center>
 <br>
 <div class="card carousel"  style="border:0px;background: transparent;color:white;">
   <article>
@@ -867,7 +867,7 @@ article h1{
 
 <!-- <br><br> -->
 <?php include_once 'footer.php';?>
-</div><!-- footer -->
+
 </body>
 
 </html>

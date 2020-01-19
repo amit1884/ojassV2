@@ -11,12 +11,12 @@
 body {
   background: white;
   overflow: scroll;
-  
+  background: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340);"
 }
 .card {
   /* width: 67vh; */
   width: 100%;
- /*  margin: 5% auto; */
+  margin: 5% auto;
  margin-bottom: 13%;
   border-radius: 2px;
   /* background: white; */
