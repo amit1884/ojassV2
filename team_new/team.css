@@ -1,7 +1,7 @@
 
  
  [data-accordion-element-content] {
-  height: 260px;
+  height: auto;
   overflow: hidden;
   transition: height 0.5s;
 }
@@ -11,7 +11,7 @@
 body {
   background: white;
   overflow: scroll;
-  
+  background: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340);
 }
 .card {
   /* width: 67vh; */
@@ -19,14 +19,14 @@ body {
  /*  margin: 5% auto; */
  margin-bottom: 13%;
   border-radius: 2px;
-  background: white;
+  background: transparent;
  /*  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); */
 }
 article {
   position: relative;
   font-family: 'Roboto', sans-serif;
   transition: all 0.3s;
-  background:white;
+  background:transparent;
   margin-left : 4%;
   margin-right :4%;
 }
