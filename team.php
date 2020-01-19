@@ -1,3 +1,4 @@
+<div style="background: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340);">
 <?php include_once 'nav.php';?>
 
 <head>
@@ -20,13 +21,13 @@
   font-family: batman;
   src: url(batmfa__.ttf) format('truetype');
 }
-article h1{
+/* article h1{
     font-family: 'Play', sans-serif;
     font-weight:10;
     font-size:28px;
     text-align:center;
 }
-
+ */
 .swiper-container {
     width: 100%;
     height:15rem;
@@ -117,10 +118,11 @@ article h1{
 
 </style>
 </head>
-<body><br><br><br>
+<body style="background:transparent;"><br><br><br>
+
 <center><div style="color:#413F67;font-size:45px;font-family:batman, sans-serif;">TEAM</div></center>
 <br>
-<div class="card carousel"  style="background-color:white;border:0px;">
+<div class="card carousel"  style="border:0px;background: transparent;">
   <article>
   <h1 data-accordion-element-trigger> Core Team</h1>
     <div data-accordion-element-content >
@@ -804,8 +806,11 @@ article h1{
     
   </article>
 </div>
+
+
 <!-- <br><br> -->
 <?php include_once 'footer.php';?>
+</div><!-- footer -->
 </body>
 
 </html>
