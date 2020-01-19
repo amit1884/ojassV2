@@ -1,4 +1,4 @@
-
+<?php include_once 'nav.php';?>
 
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css.css">
@@ -805,7 +805,7 @@ article h1{
   </article>
 </div>
 <!-- <br><br> -->
-<?php include_once 'footer.php';?>
+
 </body>
 
 </html>
