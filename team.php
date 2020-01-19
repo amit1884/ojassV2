@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="team_new/team.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <!-- <script src="team_new/team.js"></script> -->
+    <script src="team_new/team.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.bcSwipe.js"></script>
@@ -805,7 +805,7 @@ article h1{
   </article>
 </div>
 <!-- <br><br> -->
-
+<?php include_once 'footer.php';?>
 </body>
 
 </html>
