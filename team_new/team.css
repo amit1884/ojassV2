@@ -32,8 +32,9 @@ article {
 }
 article.selected {
   transform: scale(1.1);
-  box-shadow: 0 0 5px rgba(2, 2, 2, 0.4);
+  /* box-shadow: 0 0 5px rgba(2, 2, 2, 0.4); */
   z-index: 2;
+  margin-bottom: 1em;
 }
 h1 {
   position: relative;

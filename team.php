@@ -2,19 +2,15 @@
 <?php include_once 'nav.php';?>
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css.css">
+    
     <link rel="stylesheet" href="team_new/team.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- <script src="team_new/team.js"></script> -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.bcSwipe.js"></script>
     <script src="js/jquery.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/cant89/gianni-accordion-js/dist/gianniAccordion.min.js"></script>
     <style>
  @font-face {
@@ -124,7 +120,7 @@ article h1{
 <br>
 <div class="card carousel"  style="border:0px;background: transparent;color:white;">
   <article>
-  <h1 data-accordion-element-trigger>  Core Team</h1>
+  <h1 data-accordion-element-trigger >  Core Team</h1>
     <div data-accordion-element-content >
   <div class="swiper-container">
     
@@ -887,11 +883,10 @@ https://github.com/cant89/gianni-accordion-js
 
 var myAccordion = new gianniAccordion({
   elements: ".card article",
-          trigger: "[data-accordion-element-trigger]",
-        content: "[data-accordion-element-content]",
+  trigger: "[data-accordion-element-trigger]",
+  content: "[data-accordion-element-content]"
 });
-
-myAccordion.on("elementSelected", (data)=>{
+myAccordion.on("elementSelected", function (data) {
   console.log("elementOpened", data);
 });
 </script>
