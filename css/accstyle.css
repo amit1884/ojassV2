@@ -1,5 +1,6 @@
 body{
-  background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340);
+   background-color:#94b5f1;
+  /* background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340); */
 }
 .accordion {
   font-size: 20px;
@@ -43,7 +44,7 @@ body{
 }
 
 .accordion-body {
-  background: #fcfcfc;
+  background: #f8fdf5;
   color: #353535;
   display: none;
   width:93%;

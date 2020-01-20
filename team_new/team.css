@@ -218,9 +218,9 @@ h1:after {
   .multi-column-carousel .pagination-container .indicator:last-child {
     margin-right: 0;
   }
-  .multi-column-carousel .pagination-container .indicator.active {
-   /*  border: 5px solid black; */
-  }
+  /* .multi-column-carousel .pagination-container .indicator.active {
+    border: 5px solid black;
+  } */
   .multi-column-carousel .viewport {
     width: 100%;
     overflow: hidden;

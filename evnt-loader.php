@@ -5,7 +5,7 @@
 
 body {
   padding: 0px;
-  background-color: #002031;
+  background: #5983cc;
 }
 
 .s2 {
