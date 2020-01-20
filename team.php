@@ -115,9 +115,9 @@ article h1{
 </head>
 <body style="background:transparent;"><br><br><br>
 
-<center><div style="color:white;font-size:45px;font-family:batman, sans-serif;">TEAM</div></center>
+<center><div style="color:#413E66;font-size:45px;font-family:batman, sans-serif;">TEAM</div></center>
 <br>
-<div class="card carousel"  style="border:0px;background: transparent;color:white;">
+<div class="card carousel"  style="border:0px;background: transparent;color:#413E66;">
   <article>
   <h1 data-accordion-element-trigger >  Core Team</h1>
     <div data-accordion-element-content >
