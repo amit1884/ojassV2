@@ -90,7 +90,7 @@
       <br>
       <div class ="title-eve">
     <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo" /></a>
-    <span id="event_title"class ="event_title"style =" font-size:20px;font-family: 'Play', sans-serif;color:#fff;"><?php echo str_replace("_"," ",$_GET['branch']) ?></span></div>
+    <span id="event_title"class ="event_title"style =" font-size:20px;font-family: 'Play', sans-serif;color:#000;"><?php echo str_replace("_"," ",$_GET['branch']) ?></span></div>
     <br>
     <div class ="nav-eve">
     <nav class =" menu-navigation-dark subevent"  id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
@@ -113,14 +113,14 @@
 
     <div class ="event-abt-head">
     <center><h2 class ="eve-abt" ng-if="flag"style =" font-family: 'Play', sans-serif;color:dodgerblue;"><u>ABOUT</u></h2></center>
-    <center><p id ="eve-about" style ="color:#fff;padding:10px;font-size:15px;">{{about}}</p></center>
+    <center><p id ="eve-about" style ="color:#000;padding:10px;font-size:15px;">{{about}}</p></center>
    <center><h3 class ="eve-heads" ng-if="flag" style =" color:orange;;font-family: 'Play', sans-serif;"><u>Branch Heads</u></h3></center>
    <center><div ng-repeat="h in heads" style ="padding:5px;font-size:20px;">
    <div class ="card" style ="padding:4px;" ><br>
    <center><img src ={{h.url}} width="65%"height="65%"style ="border-radius:10px;">
    <center><h4 style ="color:dodgerblue">{{h.name}}</h4>
-    <p style="color:#fff"><i class ="fa fa-phone-alt" style="color:#fff"></i>&nbsp;&nbsp;{{h.cn}}</p>
-   <p style="color:#fff"> <i class="fab fa-whatsapp" style="color:#fff"></i>&nbsp;&nbsp;{{h.wn}}</p></center>
+    <p style="color:#000"><i class ="fa fa-phone-alt" style="color:#000"></i>&nbsp;&nbsp;{{h.cn}}</p>
+   <p style="color:#000"> <i class="fab fa-whatsapp" style="color:#000"></i>&nbsp;&nbsp;{{h.wn}}</p></center>
        </div>
        <br>
     </div></center>
@@ -149,19 +149,19 @@
   <menu class ="sidebarmenu">
     
       <a class="c1 eve-icon20" href="#" name ="about" >
-        <span><i class="fa fa-address-book-o" style="color:#fff"></i></span>
+        <span><i class="fa fa-address-book-o" style="color:#000"></i></span>
       </a>
       <a class="c2 eve-icon20" href="#" name="detail">
-        <span>&nbsp;<i class="fa fa-info" style="color:#fff"></i></span>
+        <span>&nbsp;<i class="fa fa-info" style="color:#000"></i></span>
       </a>
       <a class="c3 eve-icon20" href="#" name="prizes">
-        <span><i class="fa fa-trophy" style="color:#fff"></i></span>
+        <span><i class="fa fa-trophy" style="color:#000"></i></span>
       </a>
       <a class="c4 eve-icon20" href="#" name ="rules">
-        <span><i class="fa fa-book" style="color:#fff"></i></span>
+        <span><i class="fa fa-book" style="color:#000"></i></span>
       </a>
       <a class="c5 eve-icon20" href="#" name ="coordinators">
-        <span><i class="fa fa-users" style="color:#fff"></i></span>
+        <span><i class="fa fa-users" style="color:#000"></i></span>
       </a>
   </menu>
 </nav>

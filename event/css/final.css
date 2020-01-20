@@ -1,16 +1,18 @@
 
 body{
-  background-image: linear-gradient(to right, #436baf, #4c62b0, #5a57af, #6a49aa, #7b38a1);
-    color:black;
+  /* background-image: linear-gradient(to right, #436baf, #4c62b0, #5a57af, #6a49aa, #7b38a1); */
+  background-color:#f5f8fd; 
+  color:black;
     overflow-x:hidden;
 }
 .card{
-  background-image: linear-gradient(to right, #2b2247, #3c3062, #4f3f7f, #624e9d, #765ebc);
+  background-color:#f5f8fd;
+  /* background-image: linear-gradient(to right, #2b2247, #3c3062, #4f3f7f, #624e9d, #765ebc); */
 }
 .mainarea{
     padding:50px;
     /* background-color: rgba(141, 196, 194, 0.2); */
-    color:#fff;
+    color:#000;
     width:100%;
     height:400px;
     overflow-y:scroll;
@@ -125,7 +127,8 @@ body{
   position: fixed;
   top: 0;
   left: -300px;
-  background-image: linear-gradient(to right, #43afa0, #2cacbb, #46a6cd, #739ed2, #9a93c9);
+  background-color: #7ea2e2;
+  /* background-image: linear-gradient(to right, #43afa0, #2cacbb, #46a6cd, #739ed2, #9a93c9); */
   float: left;
   z-index: 1000;
   transition-timing-function: ease;

@@ -8,8 +8,10 @@ include_once 'nav.php';
 <link rel = "stylesheet" href = "css/style_sponsors.css">
 <style>
   body{
-    width:100vw;
-    background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340);
+    /* width:100vw; */
+    overflow-x:hidden;
+    background-color:#94b5f1;
+    /* background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340); */
   }
   .white-panel {
     position:static!important; 

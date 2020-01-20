@@ -10,7 +10,8 @@
     <script src ="js/jquery.js"></script>
     <style>
     	.nav-colored {
-			background-image: linear-gradient(to bottom, #0b060c, #1a0b21, #220f36, #25124e, #1e1768);
+			background-color:#7ea2e2;
+			/* background-image: linear-gradient(to bottom, #0b060c, #1a0b21, #220f36, #25124e, #1e1768); */
     	 	animation-name: fadeIn;
     	 	animation-duration: 0.4s;
     	 }
@@ -35,7 +36,7 @@
 <body style ="overflow-x:hidden; margin:0!important;">
     <header class="cd-header" style ="margin-bottom:10px;">
 		<div class="header-wrapper">
-		<a href ="index.php"><img src ="svg/logowhite.svg" width ="70" height ="70" align="left" style ="cursor:pointer;margin-top:10px;"></a>
+		<a href ="index.php"><img src ="images/newlogo.png" width ="70" height ="70" align="left" style ="cursor:pointer;margin-top:10px;"></a>
 			<div class="nav-but-wrap">
 				<div class="menu-icon hover-target" id="menu-button">
 					<span class="menu-icon__line menu-icon__line-left"></span>

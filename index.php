@@ -32,8 +32,10 @@
 <style>
     body{
         overflow-x:hidden;
+        /* color:#fff; */
         color:#fff;
-        background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340);
+        background-color:#94b5f1;
+        /* background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340); */
     }
     html{
         scroll-behavior:smooth;
@@ -44,7 +46,8 @@
   .about{
     position:relative;
     font-size:18px;
-    color:#fff;
+    /* color:#fff; */
+    color:#000;
     margin:5px;
     line-height:1.5;
     letter-spacing:2;
@@ -58,7 +61,8 @@
       font-size:55px;
       text-align:center;
       font-weight:200px;
-      color:#fff;
+      /* color:#fff; */
+      color:#413e66;
       font-family:"batman", sans-serif;
   }
   
@@ -78,11 +82,11 @@
   }
  .fa-angle-double-down{
     font-size:40px;
-    color:#fff;
+    color:#000;
   }
   .logo-20{
-    width:95%;
-    height:250px;
+    width:92%;
+    height:320px;
     margin-left:2%;
   }
 
@@ -114,7 +118,7 @@
   </div>
   <div class ="image wow" data-wow-duration="1s">
   <center>
-<img src ="svg/logo.svg" class ="logo-20">
+<img src ="images/newlogo.png" class ="logo-20">
 </center>
 </div>
 <!--timer-->

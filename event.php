@@ -16,13 +16,14 @@
 <style>
 body{
         overflow-x:hidden;
-         background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340);
-         background-size:cover;
-         background-repeat:no-repeat;
+        background-color:#94b5f1;
+         /* background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340); */
+         /* background-size:cover;
+         background-repeat:no-repeat; */
 
       }
       .eve-logo{
-          border:1px solid #fff;
+          border:1px solid #000;
           border-radius:15px;
           width:100%;
           height:auto;
@@ -32,7 +33,7 @@ body{
           height:100%;
       }
       .row h4{
-          color:#fff;
+          color:#000;
           font-size:15px;
       }
      
