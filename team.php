@@ -126,6 +126,13 @@ article h1{
     <!-- swiper slides -->
     <div class="swiper-wrapper">
 
+            <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/core-team/tech-sec-onkar-min.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <center><h3 style="font-family:batman, sans-serif;">Onkar</h3 ></center>       
+            </div>
+            
            <div class="swiper-slide">
             <div style="height:86%;background-color:black;">
             <img src="images/core-team/ex-sec-akshay-min.jpg" style="margin-left:15%;width:60%;height:100%;">
@@ -167,12 +174,6 @@ article h1{
             <center><h3 style="font-family:batman, sans-serif;">Rishikesh</h3 ></center>       
             </div>
 
-            <div class="swiper-slide">
-             <div style="height:86%;background-color:black;">
-            <img src="images/core-team/tech-sec-onkar-min.jpg" style="margin-left:15%;width:65%;height:100%;">
-            </div>
-            <center><h3 style="font-family:batman, sans-serif;">Onkar</h3 ></center>       
-            </div>
     </div>
     <!-- !swiper slides -->
     
