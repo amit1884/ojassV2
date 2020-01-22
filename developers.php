@@ -70,7 +70,7 @@
 			<h4>Adarsh Gautam, CSE</h4>
 		</div>
 		<div class='member' data-aos='fade-left'>
-			<img src="images/3.jpg"height="280">
+			<img src="images/developers/ankit.jpg"height="280">
 			<h4>Ankit Choudhary, ME</h4>
 		</div>
 		<div class='member' data-aos='fade-right'>
