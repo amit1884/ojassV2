@@ -17,19 +17,52 @@
   <!-- Add Firebase products that you want to use -->
   <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+  <style>
+  .show
+  {
+      display:none;
+  }
+  </style>
 </head>
 <body>
 
 <div class="contact-box" style='position:unset; width:90%; margin: 0 auto;'>  
   <br><br><br>
     <center><h1 style="color:#413e66;font-size:30px;font-family:batman, sans-serif;">Get in touch</h1></center><br>
-    <form method="post" action="./contact.php" class="contactForm">      
-  <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-  <input name="email" type="email" class="feedback-input" placeholder="Email" />
-  <input name="subject" type="text" class="feedback-input" placeholder="Subject" />
-  <textarea name="message" class="feedback-input" style ="min-height:100px;"placeholder="Comment"></textarea>
-  <input type="submit"  value="submit" onsubmit="submitForm()" name="submit">
-</form>
+    <div class="form">
+                <!-- action="" method="post" role="form" -->
+                <!-- <p>Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique
+                  commodi harum aut temporibus.</p> -->
+
+                <form class="contactForm" method="post" action="./new-contact.php">
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control clear" id="name" placeholder="Your Name"
+                      data-rule="minlen:4" data-msg="* Please enter at least 4 chars" />
+                    <div class="validation" style="color:red;"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control clear" name="email" id="email" placeholder="Your Email"
+                      data-rule="email" data-msg="* Please enter a valid email" />
+                    <div class="validation" style="color:red;"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control clear" name="subject" id="subject" placeholder="Subject"
+                      data-rule="minlen:4" data-msg="* Please enter at least 4 chars of subject" />
+                    <div class="validation" style="color:red;"></div>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control clear" id="message" name="message" rows="5" data-rule="required"
+                      data-msg="* Please write something for us" placeholder="Message"></textarea>
+                    <div class="validation" style="color:red;"></div>
+                  </div>
+
+                  <div id="sendmessage" class="show" style="color:green;">Your message has been sent. Thank you!</div>
+                  <div id="errormessage" class="show" style="color:red;">Sorry Try Again! Your message has not been sent.</div>
+
+                  <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+                </form>
+                
+              </div>
 <br>
     </div>
     <?php include_once 'footer.php';?>
@@ -206,13 +239,12 @@ var feedbackRef = firebase.database().ref("feedback");
 document.querySelector(".contactForm").addEventListener("submit", submitForm);
 //submit form
 function submitForm(event) {
-  console.log("called ")
     event.preventDefault();
     var name = getInputVal("name");
     var email = getInputVal("email");
     var subject = getInputVal("subject");
     var message = getInputVal("message");
-    console.log(name + " " + email + " " + subject + " " + message)
+    /* console.log(name + " " + email + " " + subject + " " + message) */
     // console.log(name);
 
 
@@ -332,15 +364,13 @@ function submitForm(event) {
         success: function(msg) {
             // alert(msg);
             if (msg == "OK") {
-                $("#sendmessage").addClass("show");
-                $("#errormessage").removeClass("show");
+               
                 $(".contactForm")
                     .find("input, textarea")
                     .val("");
-            } else {
-                $("#sendmessage").removeClass("show");
-                $("#errormessage").addClass("show");
-                $("#errormessage").html(msg);
+               /*  $(".clear").innerHtml = " "; */
+               $('.contactForm').children('input').val('')
+            } else { 
             }
         }
     });
@@ -368,7 +398,7 @@ function submitForm(event) {
     setTimeout(function() { x.className = x.className.replace("show_snackbar", ""); }, 3000);
 
     //clearing input after submission
-    /* document.querySelector(".contactForm").reset(); */
+    document.querySelector(".contactForm").reset();
 }
 
 //function to get form value
@@ -376,6 +406,7 @@ function submitForm(event) {
 function getInputVal(id) {
     return document.getElementById(id).value;
 }
+
 
 //save feedback to firebase
 
@@ -386,6 +417,35 @@ function saveFeedback(name, email, subject, message) {
         email: email,
         subject: subject,
         message: message
+    }).then(()=>{
+        console.log('ersdrtfgyhuijokp');
+            // $("#sendmessage").addClass("show");
+            // $("#errormessage").removeClass("show");
+                // document.getElementsByClassName("form-control").value="";
+            console.log($('#name'))
+            document.getElementById('sendmessage').style.display = "block";
+            document.getElementById('name').value= "";
+            document.getElementById('email').value= "";
+            document.getElementById('message').value= "";
+            document.getElementById('subject').value= "";
+        // $('.form-control').each((e)=>{
+        //     console.log('123');
+        //     // console.log($(this));
+        //     console.log($(this).val());
+        //     // $(this).innerHTML="";
+            
+        
+        // })
+    }).catch((e)=>{
+
+            //  $("#sendmessage").removeClass("show");
+            //     $("#").addClass("show");
+            //     // $("#errormessage").html(msg);
+            console.log(e);
+            document.getElementById('errormessage').style.display = "block";
+            //console.log('jfashdfgaygf')
     });
 }
+
+
 </script>
