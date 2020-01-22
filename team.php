@@ -736,7 +736,7 @@ article h1{
         
             <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
-            <img src="images/robotics/robotics sahil-min.jpg "style="margin-left:15%;width:65%;height:100%;">
+            <img src="images/robotics/robotics sahil-min.jpg"style="margin-left:15%;width:65%;height:100%;">
             </div>
             <center>  <h3 style="font-family:batman, sans-serif;" >Sahil</h3 ></center>        
             </div>
