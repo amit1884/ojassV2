@@ -1,3 +1,4 @@
+<?php include_once 'nav.php';?>
 <!DOCTYPE html>
 <html lang='en'>
 <head>
@@ -45,7 +46,9 @@
     .hide-eah{
       display:none;
     }
-    
+    .show-top{
+      display:none;
+    }
 </style>
 
 
@@ -89,7 +92,7 @@
     <div class="navigator">
       <br>
       <div class ="title-eve">
-    <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo" /></a>
+    <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo"/></a>
     <span id="event_title"class ="event_title"style =" font-size:20px;font-family: 'Play', sans-serif;color:#000;"><?php echo str_replace("_"," ",$_GET['branch']) ?></span></div>
     <br>
     <div class ="nav-eve">
@@ -98,11 +101,12 @@
                       {{ event.name }}</a>
                       </div>
     </div>
-    <div class="menu-icon">
+    <!-- <div class="menu-icon">
+      <button>events</button>
         <div class="line_one" style ="background-color:black;"></div>
         <div class="line_two" style ="background-color:black;"></div>
         <div class="line_three" style ="background-color:black;"></div>
-    </div>
+    </div> -->
   <div class ="title-eve"><br>
     <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo" /></a>
     <br><center>
@@ -110,14 +114,16 @@
     </center>
     <br>
 
-
+<div class ="menu-icon">
+        <center><button ng-if="flag">Browse Events</button></center>
+        </div>
     <div class ="event-abt-head">
     <center><h2 class ="eve-abt" ng-if="flag"style =" font-family: 'Play', sans-serif;color:dodgerblue;"><u>ABOUT</u></h2></center>
     <center><p id ="eve-about" style ="color:#000;padding:10px;font-size:15px;">{{about}}</p></center>
    <center><h3 class ="eve-heads" ng-if="flag" style =" color:orange;;font-family: 'Play', sans-serif;"><u>Branch Heads</u></h3></center>
    <center><div ng-repeat="h in heads" style ="padding:5px;font-size:20px;">
    <div class ="card" style ="padding:4px;" ><br>
-   <center><img src ={{h.url}} width="65%"height="65%"style ="border-radius:10px;">
+   <center><img src ={{h.url}} width="65%"height="60px;"style ="border-radius:10px;">
    <center><h4 style ="color:dodgerblue">{{h.name}}</h4>
     <p style="color:#000"><i class ="fa fa-phone-alt" style="color:#000"></i>&nbsp;&nbsp;{{h.cn}}</p>
    <p style="color:#000"> <i class="fab fa-whatsapp" style="color:#000"></i>&nbsp;&nbsp;{{h.wn}}</p></center>
@@ -141,11 +147,26 @@
           </div>
         </div>
 
-
+          
         <div ng-repeat="event in events" class="event-wrapper main-display" id="{{event.name.split(' ').join('') | removeBrackets}}" style="display:none;">
+        <div class ="jumbotron top">
+        <div class ="container-fluid ">
+    <div class ="row text-center icon-row">
+      <div class ="col-1"></div>
+    <div class ="col-2 sidebarmenu"><a href="#" class="c1 eve-icon20" name ="about" >
+        <span style="padding:10px 15px;"><i class="fa fa-address-book-o" style="color:#413e66"></i></span></a></div>
+    <div class ="col-2 sidebarmenu"><a href="#" class="c2 eve-icon20" name ="detail">
+        <span style="padding:10px 20px;"><i class="fa fa-info" style="color:#413e66"></i></span></a></div>
+    <div class ="col-2 sidebarmenu"><a href="#"  class="c3 eve-icon20"name ="prizes" >
+        <span style="padding:10px 12px;"><i class="fa fa-trophy" style="color:#413e66"></i></span></a></div>
+    <div class ="col-2 sidebarmenu"><a href="#" class="c4 eve-icon20" name ="rules" >
+        <span style="padding:10px 15px;"><i class="fa fa-book" style="color:#413e66"></i></span></a></div>
+    <div class ="col-2 sidebarmenu"><a href="#" class="c5 eve-icon20" name ="coordinators" >
+        <span style="padding:10px 13px;"><i class="fa fa-users" style="color:#413e66"></i></span></a></div>
+        </div>
+        </div>
         
-        
-        <nav class="top">
+        <!-- <nav class="top">
   <menu class ="sidebarmenu">
     
       <a class="c1 eve-icon20" href="#" name ="about" >
@@ -164,7 +185,7 @@
         <span><i class="fa fa-users" style="color:#000"></i></span>
       </a>
   </menu>
-</nav>
+</nav> -->
         
         <div class="row">
           <div class="col-xs-12 mainarea">
@@ -295,6 +316,7 @@
       <!--bottom event-->  
       </div>
     </div>
+        </div>
 <br><br>
 
 <script>
@@ -314,7 +336,13 @@ $(document).ready(function(){
     $(".top").hide();
     $(".mainarea").hide();
    })
-  });
+  // });
+  // //toggle icon row
+  // $(document).ready(function(){
+    $(".menu-icon_1").click(function(){
+      $(".top").delay(15000).toggleClass("show-top");
+    })
+  })
 
 </script>
   

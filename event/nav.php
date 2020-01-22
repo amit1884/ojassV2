@@ -36,9 +36,8 @@
 <body style ="overflow-x:hidden; margin:0!important;">
     <header class="cd-header" style ="margin-bottom:10px;">
 		<div class="header-wrapper">
-		<a href ="index.php"><img src ="images/newlogo.png" width ="70" height ="70" align="left" style ="cursor:pointer;margin-top:10px;"></a>
 			<div class="nav-but-wrap">
-				<div class="menu-icon hover-target" id="menu-button">
+				<div class="menu-icon_1 hover-target" id="menu-button">
 					<span class="menu-icon__line menu-icon__line-left"></span>
 					<span class="menu-icon__line"></span>
 					<span class="menu-icon__line menu-icon__line-right"></span>
@@ -47,16 +46,16 @@
 		</div>				
 	</header>
 
-	<div class="nav">
+	<div class="nav_1">
 		<div class="nav__content">
 			<ul class="nav__list">
-				<li class="nav__list-item active-nav"><a href="index.php" class="hover-target" style ="text-decoration:none;">HOME</a></li>
-				<li class="nav__list-item"><a href="event.php" class="hover-target" style ="text-decoration:none;">EVENTS</a></li>
-				<li class="nav__list-item"><a href="notification.php" class="hover-target" style ="text-decoration:none;">NOTIFICATION</a></li>
-                <li class="nav__list-item"><a href="faq.php" class="hover-target" style ="text-decoration:none;">FAQs</a></li>
-                <li class="nav__list-item"><a href="sponsor.php" class="hover-target" style ="text-decoration:none;">SPONSORS</a></li>
-                <li class="nav__list-item"><a href="team.php" class="hover-target" style ="text-decoration:none;">TEAM</a></li>
-				<li class="nav__list-item"><a href="contact.php" class="hover-target" style ="text-decoration:none;">CONTACT US</a></li>
+				<li class="nav__list-item active-nav"><a href="index.php"target="_blank" class="hover-target" style ="text-decoration:none;">HOME</a></li>
+				<li class="nav__list-item"><a href="event.php"target="_blank" class="hover-target" style ="text-decoration:none;">EVENTS</a></li>
+				<li class="nav__list-item"><a href="notification.php" target="_blank"class="hover-target" style ="text-decoration:none;">NOTIFICATION</a></li>
+                <li class="nav__list-item"><a href="faq.php"target="_blank" class="hover-target" style ="text-decoration:none;">FAQs</a></li>
+                <li class="nav__list-item"><a href="sponsor.php"target="_blank" class="hover-target" style ="text-decoration:none;">SPONSORS</a></li>
+                <li class="nav__list-item"><a href="team.php"target="_blank" class="hover-target" style ="text-decoration:none;">TEAM</a></li>
+				<li class="nav__list-item"><a href="contact.php" target="_blank"class="hover-target" style ="text-decoration:none;">CONTACT US</a></li>
 			</ul>
 		</div>
 	</div>		
@@ -127,7 +126,7 @@
 		var menuItems = undefined;
 		var init = function init() {
 			body = document.querySelector('body');
-			menu = document.querySelector('.menu-icon');
+			menu = document.querySelector('.menu-icon_1');
 			menuItems = document.querySelectorAll('.nav__list-item');
 			applyListeners();
 		};

@@ -26,7 +26,7 @@ body{
 
 
 /* icon nav*/
-.top {
+/* .top {
     width : 100%;
     margin-top:10px;
     overflow:hidden;
@@ -43,21 +43,20 @@ body{
   .sidebarmenu{
       width:100%;
       margin-left:-3%
+  } */
+  .icon-row{
+    height:50px;
   }
   .sidebarmenu .eve-icon20 {
-    position: relative;
-    display : inline-block;
-    text-align : center;
-    margin-right:11px;
+    margin: 0 10px;
     text-decoration: none;
-    width  : 15%;
-    height : 55px;
+    width  : 100%;
   }
   
   .eve-icon20 span {
     display : block;
-    font-size : 26px;
-    padding : 10px 10px;
+    font-size : 24px;
+    /* padding : 10px 14px; */
     color   : #413e66;
     position: absolute;
     top : 0;
@@ -101,10 +100,6 @@ body{
   .c5:before  {
     background-color: #407ded;
   }
-  
-  
-  /* Top 
-  ********************/
   .top 
   .eve-icon20:before {
     top    : 0;
@@ -170,7 +165,7 @@ body{
 .nav_tab:hover {
   transition: ease 0.35s;
 }
-.menu-icon {
+/* .menu-icon {
   width: auto;
   height: 35px;
   position: fixed;
@@ -180,7 +175,7 @@ body{
   margin: 10px 0;
   padding: 10px;
   z-index: 1002;
-}
+} */
 .menu-text {
   color: #fff;
   width: 150px;
@@ -222,6 +217,8 @@ body{
     margin-left:120px;
     font-size:80px;
     color:#413e66;
+    z-index:99999;
+    
 }
 .cat-load{
     margin-left:-60px;

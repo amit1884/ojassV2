@@ -6,6 +6,7 @@
 body {
   padding: 0px;
   background: #5983cc;
+  
 }
 
 .s2 {
