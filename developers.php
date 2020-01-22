@@ -1,7 +1,7 @@
 <?php include_once 'nav.php';?>
 <html>
 	<head>
-		<title>DEVELOPER|OJASS'20</title>
+		<title>DEVELOPERS|OJASS'20</title>
 
 <link rel ="stylesheet" href ="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
@@ -26,6 +26,10 @@
   font-family: batman;
   src: url(batmfa__.ttf) format('truetype');
 }
+		.member{
+			max-width: 85%;
+			margin:auto;
+		}
 
 		.member img{
 			width:100%;
@@ -70,7 +74,7 @@
 			<h4>Adarsh Gautam, CSE</h4>
 		</div>
 		<div class='member' data-aos='fade-left'>
-			<img src="images/3.jpg"height="280">
+			<img src="images/developers/ankit.jpg"height="280">
 			<h4>Ankit Choudhary, ME</h4>
 		</div>
 		<div class='member' data-aos='fade-right'>
