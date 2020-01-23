@@ -220,6 +220,7 @@ a:hover {
 	transition: opacity .2s ease, -webkit-transform .3s ease;
 	transition: opacity .2s ease, transform .3s ease;
 	transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
+	padding-top:15px;
 	margin-top: 0;
 	margin-bottom: 0;
 }

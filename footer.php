@@ -1,9 +1,14 @@
 <link href ="css/bootstrap.min.css" rel ="stylesheet">
+<!-- style ="background:#7ea2e2" -->
 <style>
   .foot{
     margin: 6px auto;
   }
-    /* background-image: linear-gradient(to bottom, #0b060c, #1a0b21, #220f36, #25124e, #1e1768); */
+   .foo-ter{
+     background-image:url('images/footer.jpg');
+     background-size:cover;
+     background-repeat:no-repeat;
+   } 
 #oj-20{
     color:#413e66;
     font-size:27px;
@@ -13,7 +18,7 @@
     padding:20%;
 }
 </style>
-<div class ="container-fluid foo-ter" style ="background:#7ea2e2">
+<div class ="container-fluid foo-ter" >
 <div class ="row text-center">
 <div class ="col-12 foot"><img src ="images/OJ'20 LOGO.png" style='width:80%; margin:12px auto; height:auto;'><!-- <span id ="oj-20">OJASS'20</span> --></div><br><br>
 <!-- <div class ="col-12"><i class="fa fa-map-marker " style="font-size: 16px;color:#000"></i><a style="font-family: 'Jura', sans-serif;color:#000;font-weight:700;"> NIT Jamshedpur</a></div><br>

@@ -49,6 +49,17 @@
     .show-top{
       display:none;
     }
+    .brw-btn{
+      background:#1bb1dc;
+      border:none;
+      border-radius: 3px;
+      padding: 4px 15px;
+      color:#fff;
+    }
+    .jumbotron{
+      padding:0;
+      background:transparent;
+    }
 </style>
 
 
@@ -113,17 +124,18 @@
     <span id="event_title"style ="  font-size:32px;font-family: 'Play',sans-serif;color:#000;border-left:none;"><u><?php echo str_replace("_"," ",$_GET['branch']) ?></u></span>
     </center>
     <br>
-
-<div class ="menu-icon">
-        <center><button ng-if="flag">Browse Events</button></center>
-        </div>
     <div class ="event-abt-head">
     <center><h2 class ="eve-abt" ng-if="flag"style =" font-family: 'Play', sans-serif;color:dodgerblue;"><u>ABOUT</u></h2></center>
     <center><p id ="eve-about" style ="color:#000;padding:10px;font-size:15px;">{{about}}</p></center>
+          
+        <div class ="menu-icon">
+        <center><button class ="brw-btn"ng-if="flag">Browse Events</button></center>
+        </div>
+          <br>
    <center><h3 class ="eve-heads" ng-if="flag" style =" color:orange;;font-family: 'Play', sans-serif;"><u>Branch Heads</u></h3></center>
    <center><div ng-repeat="h in heads" style ="padding:5px;font-size:20px;">
    <div class ="card" style ="padding:4px;" ><br>
-   <center><img src ={{h.url}} width="65%"height="60px;"style ="border-radius:10px;">
+   <center><img src ={{h.url}} width="75%"height="250px;"style ="border-radius:10px;">
    <center><h4 style ="color:dodgerblue">{{h.name}}</h4>
     <p style="color:#000"><i class ="fa fa-phone-alt" style="color:#000"></i>&nbsp;&nbsp;{{h.cn}}</p>
    <p style="color:#000"> <i class="fab fa-whatsapp" style="color:#000"></i>&nbsp;&nbsp;{{h.wn}}</p></center>
@@ -152,42 +164,22 @@
         <div class ="jumbotron top">
         <div class ="container-fluid ">
     <div class ="row text-center icon-row">
-      <div class ="col-1"></div>
-    <div class ="col-2 sidebarmenu"><a href="#" class="c1 eve-icon20" name ="about" >
+      <!-- <div class ="col-1"></div> -->
+    <div class ="col sidebarmenu"><a href="#" class="c1 eve-icon20" name ="about" >
         <span style="padding:10px 15px;"><i class="fa fa-address-book-o" style="color:#413e66"></i></span></a></div>
-    <div class ="col-2 sidebarmenu"><a href="#" class="c2 eve-icon20" name ="detail">
-        <span style="padding:10px 20px;"><i class="fa fa-info" style="color:#413e66"></i></span></a></div>
-    <div class ="col-2 sidebarmenu"><a href="#"  class="c3 eve-icon20"name ="prizes" >
+    <div class ="col sidebarmenu "><a href="#" class="c2 eve-icon20" name ="detail">
+        <span style="padding:15px 20px;"><i class="fa fa-info" style="color:#413e66"></i></span></a></div>
+    <div class ="col sidebarmenu "><a href="#"  class="c3 eve-icon20"name ="prizes" >
         <span style="padding:10px 12px;"><i class="fa fa-trophy" style="color:#413e66"></i></span></a></div>
-    <div class ="col-2 sidebarmenu"><a href="#" class="c4 eve-icon20" name ="rules" >
+    <div class ="col sidebarmenu "><a href="#" class="c4 eve-icon20" name ="rules" >
         <span style="padding:10px 15px;"><i class="fa fa-book" style="color:#413e66"></i></span></a></div>
-    <div class ="col-2 sidebarmenu"><a href="#" class="c5 eve-icon20" name ="coordinators" >
+    <div class ="col sidebarmenu "><a href="#" class="c5 eve-icon20" name ="coordinators" >
         <span style="padding:10px 13px;"><i class="fa fa-users" style="color:#413e66"></i></span></a></div>
         </div>
         </div>
         
-        <!-- <nav class="top">
-  <menu class ="sidebarmenu">
-    
-      <a class="c1 eve-icon20" href="#" name ="about" >
-        <span><i class="fa fa-address-book-o" style="color:#000"></i></span>
-      </a>
-      <a class="c2 eve-icon20" href="#" name="detail">
-        <span>&nbsp;<i class="fa fa-info" style="color:#000"></i></span>
-      </a>
-      <a class="c3 eve-icon20" href="#" name="prizes">
-        <span><i class="fa fa-trophy" style="color:#000"></i></span>
-      </a>
-      <a class="c4 eve-icon20" href="#" name ="rules">
-        <span><i class="fa fa-book" style="color:#000"></i></span>
-      </a>
-      <a class="c5 eve-icon20" href="#" name ="coordinators">
-        <span><i class="fa fa-users" style="color:#000"></i></span>
-      </a>
-  </menu>
-</nav> -->
         
-        <div class="row">
+        <div class="row text-center">
           <div class="col-xs-12 mainarea">
             <div class="row text-center">
               <div class="col-xs-12" id='stuffname'></div>
@@ -195,7 +187,7 @@
             <div class="row">
             
               <div class="col-xs-12">
-                <div class="details">
+                <div class="details text-center">
                   
                   <!-- Tabs for 1st Sub Event -->
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} about" style="display:none;">
@@ -229,11 +221,11 @@
 
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} prizes" style="display:none;">
                 
-                    <h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;text-align:center;margin-left:150px;">Prizes</h4>
+                    <h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;text-align:center;">Prizes</h4>
                    
                         
                    
-                        <div class="txtdetail">
+                        <div class="txtdetail text-center">
                           <!-- Condition for normal Prizes -->
                     <ul ng-if="!event.prize.Firstyear && !event.prize.firstyear && event.name!='CodeMania' && event.name!='CODESENSE'">
                       <li ng-repeat="(key,val) in event.prize">{{key | capitalize}}: &#x20b9; {{val}}</li>
@@ -299,11 +291,11 @@
                   </div>
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} coordinators" style="display:none;">
                   
-                    <h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;margin-left:60px;">Event Heads</h4>
-                    
+                    <center><h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;">Event Heads</h4></center>
+                    <br>
                     <div class="row text-center" ng-repeat="c in event.coordinators">
-                      <div class="col-xs-6" style ="padding:15px;margin-left:15px;">{{c.name}}</div>
-                      <div class="col-xs-6" style ="padding:15px;margin-left:15px;">{{c.phone}}</div>
+                   <div class="col-12" style ="font-size:18px;font-weight:400">{{c.name}}</div><br>
+                      <div class="col-12" style ="font-size:15px;"><i class ="fa fa-phone-alt" style="color:#000;font-size:14px;"></i>&nbsp;&nbsp;{{c.phone}}</div>
                     </div>
                   </div>
 </div>
@@ -340,7 +332,10 @@ $(document).ready(function(){
   // //toggle icon row
   // $(document).ready(function(){
     $(".menu-icon_1").click(function(){
-      $(".top").delay(15000).toggleClass("show-top");
+      $(".top").toggleClass("show-top");
+    })
+    $(".menu-icon_1").click(function(){
+      $(".event-abt-head").toggleClass("show-top");
     })
   })
 
