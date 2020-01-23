@@ -67,7 +67,8 @@ body{
 }
 
 .accordion__item > .accordion-header:after {
-  content: "\276F";
+  content: "";
+  /* content: "\276F"; */
   font-family: IonIcons;
   font-size: 1.2em;
   float: right;

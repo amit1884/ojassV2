@@ -39,18 +39,7 @@
     </div>
           </div>
   </div>
-     <div class="accordion__item js-accordion-item">
-    <div class="accordion-header js-accordion-header">How to register for Campus Ambassador ? And what are the benefits of becoming Campus Ambassador?</div> 
-  <div class="accordion-body js-accordion-body">
-    <div class="accordion-body__contents">
-    You will get yourself registered free in the Ojass if you bring 20+ registrations. Also you will get free accommodation, ojass t-shirt, kits and goodies. You will get a work experience of leadership and management and for that we will award a campus certificate. <br>To Register for Campus Ambassador :<br>
-<b>Click here!</b><br>
-For further queries, feel free to contact-<br>
-<b>Prachi:  (+91-74883 09597)<br>
-Gaurav:   (+91-79924 25023)</b>
-    </div>
-       </div>
-  </div>
+     
      <div class="accordion__item js-accordion-item">
     <div class="accordion-header js-accordion-header">What are the types of events in Ojass ?</div> 
   <div class="accordion-body js-accordion-body">
@@ -92,6 +81,18 @@ Gaurav:   (+91-79924 25023)</b>
     Yes,we do give participation certificate for the registered candidates. 
     </div>
          </div>
+  </div>
+  <div class="accordion__item js-accordion-item">
+    <div class="accordion-header js-accordion-header">How to register for Campus Ambassador ? And what are the benefits of becoming Campus Ambassador?</div> 
+  <div class="accordion-body js-accordion-body">
+    <div class="accordion-body__contents">
+    You will get yourself registered free in the Ojass if you bring 20+ registrations. Also you will get free accommodation, ojass t-shirt, kits and goodies. You will get a work experience of leadership and management and for that we will award a campus certificate. <br>To Register for Campus Ambassador :<br>
+<b>Click here!</b><br>
+For further queries, feel free to contact-<br>
+<b>Prachi:  (+91-74883 09597)<br>
+Gaurav:   (+91-79924 25023)</b>
+    </div>
+       </div>
   </div>
   <div class="accordion__item js-accordion-item">
     <div class="accordion-header js-accordion-header">Still have doubts ?</div> 

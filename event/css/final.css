@@ -16,7 +16,7 @@ body{
     width:100%;
 }
 .txtdetail{
-  width:100%;
+  /* width:95vw; */
   height:500px;
   overflow-y:scroll;
 }

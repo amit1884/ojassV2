@@ -1,5 +1,5 @@
 <div class="loader"></div>
-<?php include_once 'nav.php';?>
+<?php include_once 'navhome.php';?>
 <br>
 <!DOCTYPE html>
 <html lang="en">
@@ -50,8 +50,8 @@
     /* color:#fff; */
     color:#000;
     margin:5px;
-    line-height:1.5;
-    letter-spacing:2;
+    line-height:1.3;
+    letter-spacing:1.5;
     text-align:center;
   }
   @font-face {
@@ -86,11 +86,13 @@
     color:#000;
   }
   .logo-20{
-    width:92%;
-    height:320px;
+    width:80%;
+    height:280px;
     margin-left:2%;
   }
-
+  .abt-jumbo{
+    background:#f5f8fd;
+  }
   #scroll_id {
     background: rgb(142, 193, 218);
   }
@@ -99,7 +101,7 @@
     position:fixed;
     float:right;
   }
-  .wrapper {
+  /* .wrapper {
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -256,9 +258,9 @@
   100% {
     transform: scale(1) skew(-200deg);
   }
-}
+} */
 /* preloader */
-.loader {
+/* .loader {
     position: fixed;
     left: 0px;
     top: 0px;
@@ -267,14 +269,14 @@
     z-index: 9999;
     background: url('images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
     opacity: .8;
-}
+} */
   </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
 $(window).load(function() {
     $(".loader").fadeOut("slow");
 });
-</script>
+</script> -->
   </head>
   <body>
 <br><br>
@@ -353,13 +355,14 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
   <div id ="pseudo-div" style ="height:90px;"></div>
 
   <div id="abt" class ="abt-foo">
+  <div class ="abt-jumbo">
 <h2 id  ="about-id" style ="  font-family:batman, sans-serif;color:#000;"><center><u>ABOUT</u><center></h2>
 
 <p class= "about" >
 Ojass is the annual techno-management fest of NIT Jamshedpur. Started in the year 2004, Ojass assembles a wide range of events comprising every genre of engineering, management and even film-making with the aim to foster and boost cogent engineering practices in the nation and stimulate the future generation to dream big. Certified Workshops in diversed fields are conducted every year before the fest to help students understand the different technology trends in the market.
 A three-day spectacle, Ojass also organizes many motivating guest lectures under the event cluster "Guru Gyan". Since its inception, Ojass has been receiving immense participation from the student community from all over India with the 2018 edition accounting for over 4000 participants. 
 </p>
-
+</div>
 <?php include_once 'footer.php';?>
 </div>
 

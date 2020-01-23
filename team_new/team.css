@@ -39,7 +39,7 @@ article.selected {
 h1 {
   position: relative;
  /*  background:  linear-gradient(to right, #3366ff -7%, #00ffff 100%);; */
- background-color: #8BC1DA;
+ background: rgb(1, 45, 88);
   padding: 8px 25px;
   font-size: 20px;
   line-height: 30px;
