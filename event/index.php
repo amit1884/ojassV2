@@ -11,6 +11,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <script src="https://kit.fontawesome.com/9a416a1cca.js" crossorigin="anonymous"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-sanitize.js"></script>
   <link rel="stylesheet" href="css/final.css">
     <script src ="js/jquery.js"></script>
     <style>
@@ -61,7 +62,9 @@
       background:transparent;
     }
 </style>
+<script>
 
+</script>
 
     <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
 
@@ -112,6 +115,10 @@
                       {{ event.name }}</a>
                       </div>
     </div>
+
+
+    
+
     <!-- <div class="menu-icon">
       <button>events</button>
         <div class="line_one" style ="background-color:black;"></div>
@@ -126,8 +133,9 @@
     <br>
     <div class ="event-abt-head">
     <center><h2 class ="eve-abt" ng-if="flag"style =" font-family: 'Play', sans-serif;color:dodgerblue;"><u>ABOUT</u></h2></center>
-    <center><p id ="eve-about" style ="color:#000;padding:10px;font-size:15px;">{{about}}</p></center>
-          
+    <center><p id ="eve-about" style ="color:#000;padding:10px;font-size:15px;"ng-bind-html="about">
+  </p></center>
+
         <div class ="menu-icon">
         <center><button class ="brw-btn"ng-if="flag">Browse Events</button></center>
         </div>
@@ -219,9 +227,9 @@
                     </div>
                   </div>
 
-                  <div class="{{event.name.split(' ').join('') | removeBrackets}} prizes" style="display:none;">
+                  <div class="{{event.name.split(' ').join('') | removeBrackets}} prizes text-center;" style="display:none;width:90vw;overflow-x:hidden;">
                 
-                    <h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;text-align:center;">Prizes</h4>
+                    <h4  style="font-weight:900;color:dodgerblue;text-decoration: underline;text-align:center;">Prizes</h4>
                    
                         
                    
@@ -230,7 +238,10 @@
                     <ul ng-if="!event.prize.Firstyear && !event.prize.firstyear && event.name!='CodeMania' && event.name!='CODESENSE'">
                       <li ng-repeat="(key,val) in event.prize">{{key | capitalize}}: &#x20b9; {{val}}</li>
                     </ul>
-                    
+                    <!-- <ul ng-if="event.name=='FIFA19'">
+                    <li>Level 1</li>
+                    <li>Level 2</li>
+                    </ul> -->
                     <ul ng-if="event.name=='CodeMania'">
                 	    <li>First: &#x20b9;{{event.prize.first}}</li>
                 	    <li>Second: &#x20b9;{{event.prize.second}}</li>
@@ -294,8 +305,8 @@
                     <center><h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;">Event Heads</h4></center>
                     <br>
                     <div class="row text-center" ng-repeat="c in event.coordinators">
-                   <div class="col-12" style ="font-size:18px;font-weight:400">{{c.name}}</div><br>
-                      <div class="col-12" style ="font-size:15px;"><i class ="fa fa-phone-alt" style="color:#000;font-size:14px;"></i>&nbsp;&nbsp;{{c.phone}}</div>
+                   <div class="col-6" style ="font-size:15px;font-weight:400">{{c.name}}</div>
+                      <div class="col-6" style ="font-size:15px;"><i class ="fa fa-phone-alt" style="color:#000;font-size:14px;"></i>&nbsp;&nbsp;{{c.phone}}</div>
                     </div>
                   </div>
 </div>
