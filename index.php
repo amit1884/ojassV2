@@ -72,6 +72,9 @@
    font-size:40px;
     color:#000;
   }
+.abt-foo{
+    display:none;
+  }
   .main-header-20{
    min-height:90vh;
    background-image:url('images\intro-bg.jpg');
@@ -279,6 +282,9 @@ $(window).load(function() {
 </script> -->
   </head>
   <body>
+  <div id= "loader-wrapper">
+  <img src ="svg/copper-loader.gif">
+  </div>
 <br><br>
   <div class ="main-header-20">
   <div class ="head" style ="margin-left:15%;">
