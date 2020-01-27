@@ -11,10 +11,10 @@ body{
 }
 .mainarea{
     padding:15px 40px;
-    /* background-color: rgba(141, 196, 194, 0.2); */
+    background-color: rgba(141, 196, 194, 0.2);
     color:#000;
     width:100%;
-    height:500px;
+    height:400px;
     overflow-y:scroll;
 }
 .menu-navigation-dark a{
