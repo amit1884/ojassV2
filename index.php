@@ -35,7 +35,10 @@
         overflow-x:hidden;
         /* color:#fff; */
         color:#fff;
-        background-color:#94b5f1;
+        /* background-color:#94b5f1; */
+        /* background-image:url('images/ojassback.jpeg');
+        background-size:100% 50%;
+        background-repeat:no-repeat; */
         /* background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340); */
     }
     html{
@@ -286,6 +289,7 @@ $(window).load(function() {
   <img src ="svg/copper-loader.gif">
   </div>
 <br><br>
+<!-- <img src ="images/ojassback.jpeg"style ="z-index:-1;width:100vw;height:105vh;margin-top:-6%;"> -->
   <div class ="main-header-20">
   <div class ="head" style ="margin-left:15%;">
   <div class =" head-wow  wow " data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">O</div>
@@ -303,7 +307,7 @@ $(window).load(function() {
 </center>
 </div>
 <!--timer-->
-<?php include_once 'timer.php';?>
+<?php  include_once 'timer.php';?>
 <!--theme-->
 <div class ="theme wow fadeIn" data-wow-delay="3s">
   <center>
@@ -317,8 +321,6 @@ $(window).load(function() {
 </div>
 </center>
 <br><br>
-  <!--  <a href ="#"  ><span id="scroll_id" class="arrow">up</span></a> -->
-  <!-- <a href="#" id="scroll_btn"><i style ="font-size:50px;z-index:100;" class="fa fa-angle-double-up"></i></a> -->
 
 </div>
 <br>
@@ -380,19 +382,7 @@ A three-day spectacle, Ojass also organizes many motivating guest lectures under
  
 });
     </script>
-<script>
-jQuery(window).scroll(function() {
 
-    if (jQuery(this).scrollTop()> 100)
-     {
-        jQuery('#scroll_btn').fadeIn();
-     }
-    else
-     {
-      jQuery('#scroll_btn').fadeOut();
-     }
- });
-  </script>
   <script>
     new WOW().init();
     </script>
