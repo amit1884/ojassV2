@@ -269,7 +269,7 @@
 
                       <b ng-if="event.name=='Hack-De-Science'">Web</b>
 
-                      <b ng-if="event.name=='FIFA\'19'">Level&nbsp; 1</b>: <br>
+                      <b ng-if="event.name=='FIFA\'19'">1v1</b>: <br>
 
                       <b ng-if="event.name!='Hack-De-Science' && event.name!='FIFA\'19'">First year</b>: <br>
                       <li ng-repeat="(key,val) in event.prize.firstyear">
@@ -278,7 +278,7 @@
 
                       <b ng-if="event.name=='Hack-De-Science'">App</b>
 
-                      <b ng-if="event.name=='FIFA\'19'">Level&nbsp;2</b>: <br>
+                      <b ng-if="event.name=='FIFA\'19'">2v2</b>: <br>
 
                       <b ng-if="event.name!='Hack-De-Science'  && event.name!='FIFA\'19' ">Second year</b>: <br>
                       <li ng-repeat="(key,val) in event.prize.secondyear" >
