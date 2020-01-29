@@ -6,7 +6,8 @@
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <script src ="js/jquery.js"></script>
 </head>
-<body style ="background-color: #1f2029;">
+
+<body>
 
 <br><br><br><br>
 <!-- <h1 style ="font-family: 'Play', sans-serif;"><center><u>FAQs</u></center></h1>
@@ -38,30 +39,7 @@
     </div>
           </div>
   </div>
-     <div class="accordion__item js-accordion-item">
-    <div class="accordion-header js-accordion-header">How to register for Campus Ambassador ? And what are the benefits of becoming Campus Ambassador?</div> 
-  <div class="accordion-body js-accordion-body">
-    <div class="accordion-body__contents">
-    You will get yourself registered free in the Ojass if you bring 20+ registrations. Also you will get free accommodation, ojass t-shirt, kits and goodies. You will get a work experience of leadership and management and for that we will award a campus certificate. <br>To Register for Campus Ambassador :<br>
-Click here!
-For further queries, feel free to contact-
-Prachi:  (+91-74883 09597)
-Gaurav:   (+91-79924 25023)
-    </div>
-       </div>
-  </div>
-     <div class="accordion__item js-accordion-item">
-    <div class="accordion-header js-accordion-header">Still have doubts ?</div> 
-  <div class="accordion-body js-accordion-body">
-    <div class="accordion-body__contents">
-    Feel free to drop us a message at our Facebook page or contact :<br>
-Gaurav Mridul : +91 79924 25023<br>
-Prachi : +91 74883 09597<br>
-Divyansh : +91 62990 79553<br>
-Kishore : +91 89198 45029 . <br>We will get back to you soon. 
-    </div>
-         </div>
-  </div>
+     
      <div class="accordion__item js-accordion-item">
     <div class="accordion-header js-accordion-header">What are the types of events in Ojass ?</div> 
   <div class="accordion-body js-accordion-body">
@@ -104,10 +82,34 @@ Kishore : +91 89198 45029 . <br>We will get back to you soon.
     </div>
          </div>
   </div>
+  <div class="accordion__item js-accordion-item">
+    <div class="accordion-header js-accordion-header">How to register for Campus Ambassador ? And what are the benefits of becoming Campus Ambassador?</div> 
+  <div class="accordion-body js-accordion-body">
+    <div class="accordion-body__contents">
+    You will get yourself registered free in the Ojass if you bring 20+ registrations. Also you will get free accommodation, ojass t-shirt, kits and goodies. You will get a work experience of leadership and management and for that we will award a campus certificate. <br>To Register for Campus Ambassador :<br>
+<b>Click here!</b><br>
+For further queries, feel free to contact-<br>
+<b>Prachi:  (+91-74883 09597)<br>
+Gaurav:   (+91-79924 25023)</b>
+    </div>
+       </div>
+  </div>
+  <div class="accordion__item js-accordion-item">
+    <div class="accordion-header js-accordion-header">Still have doubts ?</div> 
+  <div class="accordion-body js-accordion-body">
+    <div class="accordion-body__contents">
+    Feel free to drop us a message at our Facebook page or contact :<br>
+<b>Gaurav Mridul : &nbsp;+91 79924 25023<br>
+Prachi :&nbsp; +91 74883 09597<br>
+Divyansh : &nbsp;+91 62990 79553<br>
+Kishore : &nbsp;+91 89198 45029 . </b><br>We will get back to you soon. 
+    </div>
+         </div>
+  </div>
 </div>
 </div>
 <div class ="foo-ter">
-    <?php include_once 'footer2.php';?>
+    <?php include_once 'footer.php';?>
 </div>
 </div>
 

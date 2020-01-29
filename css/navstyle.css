@@ -4,7 +4,7 @@
 body{
 	
 	color: #000;
-	background-color:#f5f8fd;
+	/* background: linear-gradient(45deg, #501755 0%, #2d1854 100%);; */
 	overflow-x: hidden;
 	-webkit-transition: all 300ms linear;
 	transition: all 300ms linear;
@@ -33,7 +33,8 @@ a:hover {
 	transition: all 300ms linear;
 }
 .cursor{
-	background-color: #000;
+	/* background-color: #fff; */
+	background-color:#000;
 	height: 0;
 	width: 0;
 	z-index: 99999;
@@ -52,12 +53,12 @@ a:hover {
 	border:none
 }
 .cursor2{
-	border: 2px solid #000;
-	box-shadow: 0 0 22px rgba(0, 0, 0, 0.6);
+	border: 2px solid #fff;
+	box-shadow: 0 0 22px rgba(248, 244, 244, 0.6);
 }
 .cursor2.hover{
-	background: rgb(5, 5, 5);
-	box-shadow: 0 0 12px rgba(12, 12, 12, 0.2);
+	background: rgb(255, 247, 247);
+	box-shadow: 0 0 12px rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 1200px){
@@ -80,8 +81,8 @@ a:hover {
 	text-align: center;
 	font-size: 10vw;
 	line-height: 1;
-	color: rgba(200,200,200,.1);
-	background: linear-gradient(rgba(200,200,200,0), rgba(200,200,200,0.07));
+	color: rgb(250, 246, 246);
+	background: linear-gradient(rgb(255, 247, 247), rgba(200,200,200,0.07));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: 900;
@@ -122,7 +123,8 @@ a:hover {
 	height: 2px;
 	width: 30px;
 	display: block;
-	background-color:#000;;
+	/* background-color:#fff;; */
+	background-color:#000;
 	margin-bottom: 7px;
 	cursor: pointer;
 	-webkit-transition: background-color .5s ease, -webkit-transform .2s ease;
@@ -158,8 +160,8 @@ a:hover {
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	/* background:rgba(92, 81, 150, 0.9);   nav back */
-	background:#b6caec;
+	/*background:rgba(24, 18, 49, 0.9);   /*nav back*/
+	background: #7ea2e2;;
 	border-bottom-left-radius: 100%;
 	border-bottom-right-radius: 100%;
 	z-index: -1;
@@ -171,10 +173,12 @@ a:hover {
           transform: translateY(-100%);
 }
 .nav:after {
-	/* background: rgba(93, 88, 172, 0.8); nav back */
-	background:#c3d0e6;
+	/* background: rgba(29, 27, 51, 0.8); /*nav back */
+	background: #7ea2e2;
+	/* background: #5983cc; */
 	-webkit-transition-delay: 0s;
-          transition-delay: 0s;
+		  transition-delay: 0s;
+		 
 }
 .nav:before {
 	-webkit-transition-delay: .2s;
@@ -203,7 +207,8 @@ a:hover {
           transition-delay: 0.8s;
 	opacity: 0;
 	text-align: center;
-	color: #000;
+	/* color: #fff; */
+	color:#000;
 	overflow: hidden; 
 	font-family: 'Poppins', sans-serif;
 	font-size: 30px;
@@ -215,17 +220,20 @@ a:hover {
 	transition: opacity .2s ease, -webkit-transform .3s ease;
 	transition: opacity .2s ease, transform .3s ease;
 	transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
+	
 	margin-top: 0;
 	margin-bottom: 0;
 }
 .nav__list-item a{ 
 	position: relative;
 	text-decoration: none;
-	color: #000;  /* nav  text*/
+	/*color: #fff;  /* nav  text*/
+	color:#000;
 	overflow: hidden; 
 	cursor: pointer;
 	padding-left: 5px;
 	padding-right: 5px;
+	padding-top:15px;
 	font-weight: 700;
 	z-index: 2;
 	display: inline-block;
@@ -240,7 +248,8 @@ a:hover {
 	width: 0;
 	height: 0;
 	opacity: 0;
-	background-color: #000;
+	/* background-color: #fff; */
+	background-color:#000;
 	z-index: 1;
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear; 
@@ -252,7 +261,7 @@ a:hover {
 	width: 100%;
 }
 .nav__list-item a:hover{
-	color: rgb(5, 5, 5);
+	color: rgb(15, 15, 15);
 }
 .nav__list-item.active-nav a{
 	color: rgb(8, 8, 8);
@@ -267,7 +276,8 @@ body.nav-active .nav__content {
 	visibility: visible;
 }
 body.nav-active .menu-icon__line {
-	background-color: #000;
+	/* background-color: #fff; */
+	background-color:#000;
 	-webkit-transform: translate(0px, 0px) rotate(-45deg);
           transform: translate(0px, 0px) rotate(-45deg);
 }

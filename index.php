@@ -1,24 +1,25 @@
+<div class="loader"></div>
 <?php include_once 'nav.php';?>
 <br>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://use.fontawesome.com/1d6c808dd3.js"></script>
-    <link rel="icon" href="images/logo.png" type="image" sizes="40px">
-    <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css?family=Jura|Rock+Salt" rel="stylesheet">
-  <link rel ="stylesheet" href ="css/animate.css">
-    <link rel ="stylesheet" href= "css/style.css">
-    <link rel ="stylesheet" href= "css/loader.css">
-    <link rel="stylesheet" href="scroll_icon/scroll.css">
-    <link rel ="stylesheet" href= "css/bootstrap.min.css">
-    <script type ="text/javascript" src ="js/jquery.js"></script>
-    <script type ="text/javascript" src ="js/index.js"></script>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <script src="https://use.fontawesome.com/1d6c808dd3.js"></script>
+      <link rel="icon" href="images/logo.png" type="image" sizes="40px">
+      <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Jura|Rock+Salt" rel="stylesheet">
+    <link rel ="stylesheet" href ="css/animate.css">
+      <link rel ="stylesheet" href= "css/style.css">
+      <link rel ="stylesheet" href= "css/loader.css">
+      <!-- <link rel="stylesheet" href="scroll_icon/scroll.css"> -->
+      <link rel ="stylesheet" href= "css/bootstrap.min.css">
+      <script type ="text/javascript" src ="js/jquery.js"></script>
+      <script type ="text/javascript" src ="js/index.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
 <script src="scroll_icon/scroll.js"></script>
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/15979/footer-inject.jss"></script>
@@ -32,8 +33,8 @@
 <style>
     body{
         overflow-x:hidden;
+        /* color:#fff; */
         color:#fff;
-        background:#f5f8fd;
     }
     html{
         scroll-behavior:smooth;
@@ -44,10 +45,11 @@
   .about{
     position:relative;
     font-size:18px;
-    color:black;
+    /* color:#fff; */
+    color:#000;
     margin:5px;
-    line-height:1.5;
-    letter-spacing:2;
+    line-height:1.3;
+    letter-spacing:1.5;
     text-align:center;
   }
   @font-face {
@@ -58,13 +60,18 @@
       font-size:55px;
       text-align:center;
       font-weight:200px;
+      /* color:#fff; */
       color:#413e66;
       font-family:"batman", sans-serif;
   }
+  
  
   .about-btn{
    font-size:40px;
     color:#000;
+  }
+.abt-foo{
+    display:none;
   }
   .main-header-20{
    min-height:90vh;
@@ -80,39 +87,12 @@
     color:#000;
   }
   .logo-20{
-    width:350px;
-    height:350px;
-    margin-left:-15px;
+    width:80%;
+    height:280px;
+    margin-left:2%;
   }
-  .feed-20{
-   display:block;
-   float:left;
-   position:fixed;
-   top:550px;
-   width:50px;
-   height:50px;
-   margin-left:10px;
-   /* z-index:9999; */
-   color:#413e66;
-   outline:none;
-   /* border:none; */
-   background:dodgerblue;
-   border-radius:50%;
-  }
-  .up-20{
-    display:block;
-   width:40px;
-   height:40px;
-   padding:2px;
-   position:absolute;
-   right:0;
-   margin-right:10px;
-   /* z-index:9999; */
-   color:#fff;
-   outline:none;
-   /* border:none; */
-   background:dodgerblue;
-   border-radius:20px 20px 0 0;
+  .abt-jumbo{
+    background:#f5f8fd;
   }
   #scroll_id {
     background: rgb(142, 193, 218);
@@ -120,15 +100,34 @@
   #scroll_btn
   {
     position:fixed;
-     margin-left:38%; 
+    float:right;
   }
+  
+/* preloader */
+/* .loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+} */
   </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <!-- <script type="text/javascript">
+$(window).load(function() {
+    $(".loader").fadeOut("slow");
+});
+</script> -->
   </head>
   <body>
-  <!-- <div id ="loader-wrapper">
-<img src="svg\copper-loader.gif">
-</div> -->
+  <div id= "loader-wrapper">
+  <img src ="svg/copper-loader.gif">
+  </div>
 <br><br>
+<!-- <img src ="images/ojassback.jpeg"style ="z-index:-1;width:100vw;height:105vh;margin-top:-6%;"> -->
   <div class ="main-header-20">
   <div class ="head" style ="margin-left:15%;">
   <div class =" head-wow  wow " data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">O</div>
@@ -145,20 +144,22 @@
 <img src ="images/newlogo.png" class ="logo-20">
 </center>
 </div>
+<!--timer-->
+<?php  include_once 'timer.php';?>
 <!--theme-->
-<div class ="theme wow fadeIn" data-wow-delay="2s">
+<div class ="theme wow fadeIn" data-wow-delay="3s">
   <center>
   <h1 class="ml2">INDIC ERUDITION</h1>
 </center>
 </div>
 <center>
-  <div class ="downarr wow zoomIn"data-wow-delay="3s">
+  <div class ="downarr wow zoomIn"data-wow-delay="4s">
   <a href ="#pseudo-div">
     <i class="fa fa-angle-double-down animated bounce about-btn" style ="font-size:40px;"></i></a>
-</div><br><br>
-  <!--  <a href ="#"  ><span id="scroll_id" class="arrow">up</span></a> -->
-  <a href="#" id="scroll_btn"><i style ="font-size:50px;z-index:100;" class="fa fa-angle-double-up"></i></a>
+</div>
 </center>
+<br><br>
+
 </div>
 <br>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
@@ -191,7 +192,7 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
     duration: 2000,
     delay: (el, i) => 70*i
   })
-    }, 2000);
+    }, 3000);
     })
    
  
@@ -200,14 +201,15 @@ textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='let
   <div id ="pseudo-div" style ="height:90px;"></div>
 
   <div id="abt" class ="abt-foo">
+  <div class ="abt-jumbo">
 <h2 id  ="about-id" style ="  font-family:batman, sans-serif;color:#000;"><center><u>ABOUT</u><center></h2>
 
 <p class= "about" >
 Ojass is the annual techno-management fest of NIT Jamshedpur. Started in the year 2004, Ojass assembles a wide range of events comprising every genre of engineering, management and even film-making with the aim to foster and boost cogent engineering practices in the nation and stimulate the future generation to dream big. Certified Workshops in diversed fields are conducted every year before the fest to help students understand the different technology trends in the market.
 A three-day spectacle, Ojass also organizes many motivating guest lectures under the event cluster "Guru Gyan". Since its inception, Ojass has been receiving immense participation from the student community from all over India with the 2018 edition accounting for over 4000 participants. 
 </p>
-
-<?php include_once 'footer2.php';?>
+</div>
+<?php include_once 'footer.php';?>
 </div>
 
 <script src ="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
@@ -218,19 +220,7 @@ A three-day spectacle, Ojass also organizes many motivating guest lectures under
  
 });
     </script>
-<script>
-jQuery(window).scroll(function() {
 
-    if (jQuery(this).scrollTop()> 100)
-     {
-        jQuery('#scroll_btn').fadeIn();
-     }
-    else
-     {
-      jQuery('#scroll_btn').fadeOut();
-     }
- });
-  </script>
   <script>
     new WOW().init();
     </script>

@@ -1,8 +1,11 @@
-
+body{
+   background-color:#94b5f1;
+  /* background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340); */
+}
 .accordion {
   font-size: 20px;
-  width: 30vw;
-  /* margin: 0 auto; */
+  width: 50vw;
+  margin:-1%;
   /* border-radius: 5px; */
 }
 
@@ -13,20 +16,20 @@
 
 .accordion-header {
   padding: 1em 1em;
-  background: rgb(78, 111, 145);
-  width:87%;
-  margin:5px;
+  background: rgb(1, 45, 88);
+  width:93%;
+  margin:4%;
   border-radius:10px;
   color: white;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 18px;
   /* letter-spacing: .em; */
   transition: all .3s;
   /* text-transform: uppercase; */
 }
 
 .accordion__item {
-    border-bottom: 1px solid #fff;
+    /* border-bottom: 1px solid #fff; */
     margin-bottom: 15px;
 }
 
@@ -41,9 +44,12 @@
 }
 
 .accordion-body {
-  background: #fcfcfc;
+  background: #f8fdf5;
   color: #353535;
   display: none;
+  width:93%;
+  border-radius:10px;
+  margin:4%
 }
 
 .accordion-body__contents {
@@ -61,7 +67,8 @@
 }
 
 .accordion__item > .accordion-header:after {
-  content: "\276F";
+  content: "";
+  /* content: "\276F"; */
   font-family: IonIcons;
   font-size: 1.2em;
   float: right;

@@ -3,51 +3,12 @@ body{
     height: 100%;
     min-height: 500px;
     margin: 0;
-   
+    background-color:#94b5f1;
+    /* background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340); */
     overflow-x:hidden;
   }
-/*  .container{
-    /* background-color: #007ced; */
-<<<<<<< HEAD
-    background-color:lightseagreen;
-    width: 100%;
-      /* background: linear-gradient(to bottom, #007ced 1%,#cce7ff 100%); */
-      background: linear-gradient(to bottom, lightseagreen 1%,#cce7ff 100%);
-  }
-  /* #cloud-intro{
-=======
-    /*background-color:lightseagreen;*/
-    /*width: 100%;*/
-       /*background: linear-gradient(to bottom, #007ced 1%,#cce7ff 100%); */
-      /*background: linear-gradient(to bottom, lightseagreen 1%,#cce7ff 100%);*/
-  /*}*/
-  /*#cloud-intro{
->>>>>>> d301b3ae845dddc88be5706bb038f1ea03260bfa
-    position: relative;
-    height: 100%;
-    width:100%;
-    overflow:hidden;
-    background: url(https://static.radulescu.me/examples/clouds/clouds1000.png);
-    background: url(https://static.radulescu.me/examples/clouds/clouds1000.png) 0 200px,
-                url(https://static.radulescu.me/examples/clouds/clouds1200_1.png) 0 300px,
-                url(https://static.radulescu.me/examples/clouds/clouds1000_blur3.png) 100px 250px;
-      animation: wind 20s linear infinite;
-  }
-  @keyframes wind{
-    0% {
-      background-position: 0 200px, 0 300px, 100px 250px;
-    }
-    100% {
-      background-position: 1000px 200px, 1200px 300px, 1100px 250px;
-    }
+
   
-<<<<<<< HEAD
-  }
-   */
-=======
-  }*/
-  
->>>>>>> d301b3ae845dddc88be5706bb038f1ea03260bfa
   .contact-box
   {
     position:relative;
@@ -56,16 +17,10 @@ body{
     top:10%;
     left: 2%;
     right: 2%;
-   /*  padding: 3%; */
-    /* margin-left:10%; */
-   /*  margin: 5%; */
-    /* border : 2px solid black; */
+
   }
 
-  /* @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-  body { background:rgb(30,30,40); }
-  form { max-width:420px; margin:50px auto; }
- */
+  
 
 .feedback-input {
   color:#000;
@@ -74,8 +29,10 @@ body{
   font-size: 20px;
   border-radius: 5px;
   line-height: 22px;
+  border:none;
+  outline:none;
   background-color: transparent;
-  border:2px solid #413F67;
+  border-bottom:2px solid #000;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -84,7 +41,7 @@ body{
   outline:0;
 }
 
-.feedback-input:focus { border:2px solid #413F67; }
+.feedback-input:focus { border-bottom:2px solid #000; }
 
 textarea {
   height: 150px;
@@ -95,7 +52,8 @@ textarea {
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#413F67;
+  background-color:#413e66;
+  /* background-image: linear-gradient(to bottom, #0b060c, #1a0b21, #220f36, #25124e, #1e1768); */
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -107,4 +65,4 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#CC4949; }
+[type="submit"]:hover {background-image: linear-gradient(to bottom, #0b060c, #1a0b21, #220f36, #25124e, #1e1768);; }
