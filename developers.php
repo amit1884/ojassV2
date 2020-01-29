@@ -78,7 +78,7 @@
 			<h4>Ankit Choudhary, ME</h4>
 		</div>
 		<div class='member' data-aos='fade-right'>
-			<img src="images/developers/masood.jpeg"height="280">
+			<img src="images/developers/Masood.jpeg"height="280">
 			<h4>Masood, EE</h4>
 		</div>
 	</div>
