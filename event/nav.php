@@ -49,13 +49,13 @@
 	<div class="nav_1">
 		<div class="nav__content">
 			<ul class="nav__list">
-				<li class="nav__list-item active-nav"><a href="../index.php" class="hover-target" style ="text-decoration:none;">HOME</a></li>
-				<li class="nav__list-item"><a href="../event.php" class="hover-target" style ="text-decoration:none;">EVENTS</a></li>
-				<li class="nav__list-item"><a href="../notification.php" class="hover-target" style ="text-decoration:none;">NOTIFICATION</a></li>
-                <li class="nav__list-item"><a href="../faq.php" class="hover-target" style ="text-decoration:none;">FAQs</a></li>
-                <li class="nav__list-item"><a href="../sponsor.php" class="hover-target" style ="text-decoration:none;">SPONSORS</a></li>
-                <li class="nav__list-item"><a href="../team.php" class="hover-target" style ="text-decoration:none;">TEAM</a></li>
-				<li class="nav__list-item"><a href="../contact.php" class="hover-target" style ="text-decoration:none;">CONTACT US</a></li>
+				<li class="nav__list-item active-nav"><a href="../index.php" class="hover-target" style ="text-decoration:none;padding-bottom:15px;">HOME</a></li>
+				<li class="nav__list-item"><a href="../event.php" class="hover-target" style ="text-decoration:none;padding-bottom:15px;">EVENTS</a></li>
+				<li class="nav__list-item"><a href="../notification.php" class="hover-target" style ="text-decoration:none;padding-bottom:15px;">NOTIFICATION</a></li>
+                <li class="nav__list-item"><a href="../faq.php" class="hover-target" style ="text-decoration:none;padding-bottom:15px;">FAQs</a></li>
+                <li class="nav__list-item"><a href="../sponsor.php" class="hover-target" style ="text-decoration:none;padding-bottom:15px;">SPONSORS</a></li>
+                <li class="nav__list-item"><a href="../team.php" class="hover-target" style ="text-decoration:none;padding-bottom:15px;">TEAM</a></li>
+				<li class="nav__list-item"><a href="../contact.php" class="hover-target" style ="text-decoration:none;padding-bottom:15px;">CONTACT US</a></li>
 			</ul>
 		</div>
 	</div>		

@@ -8,7 +8,7 @@
   <link rel="shortcut icon" href="../img/small_black.png">
   <link href ="css/fontawesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet"> 
-  <link rel ="stylesheet" href ="css/bootstrap.min.css">
+  <link rel ="stylesheet" href ="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <script src="https://kit.fontawesome.com/9a416a1cca.js" crossorigin="anonymous"></script>
@@ -16,6 +16,9 @@
   <link rel="stylesheet" href="css/final.css">
     <script src ="js/jquery.js"></script>
     <style>
+    ul{
+      list-style:none;
+    }
     .logo_light {
         width: 50px;
     }
@@ -32,7 +35,7 @@
     /* .backbtn{
       display:none;
     } */
-    .navbar-brand {
+    /* .navbar-brand {
         padding: 0 15px;
     }
 
@@ -43,7 +46,7 @@
 
     .vertical_social {
         background-color: #191919;
-    }
+    } */
 
     #event_title {
       text-transform: uppercase;
@@ -142,7 +145,7 @@
     <i class="fas fa-arrow-circle-left " id="backbtn" style ="font-size:30px;display:none;"></i>
 
     </center>
-    <br>
+   
     <div class ="event-abt-head">
     <center><h2 class ="eve-abt" ng-if="flag"style =" font-family: 'Play', sans-serif;color:dodgerblue;"><u>ABOUT</u></h2></center>
     <center><p id ="eve-about" style ="color:#000;padding:10px;font-size:15px;"ng-bind-html="about">
@@ -186,15 +189,15 @@
     <div class ="row  icon-row">
       <!-- <div class ="col-1"></div> -->
     <div class ="col sidebarmenu"><a href="#" class="c1 eve-icon20" name ="about" >
-        <span style="padding:10px 15px;"><i class="fa fa-address-book-o" style="color:#413e66"></i></span></a></div>
+        <span style="padding:10px 20px;"><i class="fa fa-address-book-o" style="color:#413e66"></i></span></a></div>
     <div class ="col sidebarmenu "><a href="#" class="c2 eve-icon20" name ="detail">
-        <span style="padding:15px 20px;"><i class="fa fa-info" style="color:#413e66"></i></span></a></div>
+        <span style="padding:15px 25px;"><i class="fa fa-info" style="color:#413e66"></i></span></a></div>
     <div class ="col sidebarmenu "><a href="#"  class="c3 eve-icon20"name ="prizes" >
-        <span style="padding:10px 12px;"><i class="fa fa-trophy" style="color:#413e66"></i></span></a></div>
+        <span style="padding:10px 18px;"><i class="fa fa-trophy" style="color:#413e66"></i></span></a></div>
     <div class ="col sidebarmenu "><a href="#" class="c4 eve-icon20" name ="rules" >
-        <span style="padding:10px 15px;"><i class="fa fa-book" style="color:#413e66"></i></span></a></div>
+        <span style="padding:10px 18px;"><i class="fa fa-book" style="color:#413e66"></i></span></a></div>
     <div class ="col sidebarmenu "><a href="#" class="c5 eve-icon20" name ="coordinators" >
-        <span style="padding:10px 13px;"><i class="fa fa-users" style="color:#413e66"></i></span></a></div>
+        <span style="padding:10px 20px;"><i class="fa fa-users" style="color:#413e66"></i></span></a></div>
         </div>
         </div>
         
@@ -241,7 +244,7 @@
 
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} prizes text-center;" style="display:none;width:90vw;overflow-x:hidden;">
                 
-                    <h4  style="font-weight:900;color:dodgerblue;text-decoration: underline;text-align:center;">Prizes</h4>
+                    <h4  style="font-weight:900;color:dodgerblue;text-decoration: underline;text-align:center;" class ="text-center">Prizes</h4>
                    
                         
                    
@@ -251,18 +254,18 @@
                       <li ng-repeat="(key,val) in event.prize">{{key | capitalize}}: &#x20b9; {{val}}</li>
                     </ul>
                     
-                    <ul ng-if="event.name=='CodeMania'">
+                    <ul ng-if="event.name=='CodeMania'"style=" margin-left:-10%">
                 	    <li>First: &#x20b9;{{event.prize.first}}</li>
-                	    <li>Second: &#x20b9;{{event.prize.second}}</li>
+                	    <li>Second:&#x20b9;{{event.prize.second}}</li>
                 	    <li>Third: &#x20b9;{{event.prize.third}}</li>
-                	    <li>Fourth: &#x20b9;{{event.prize.fourth}}</li>
+                	    <li>Fourth:&#x20b9;{{event.prize.fourth}}</li>
                 	    <li>Fifth: &#x20b9;{{event.prize.fifth}}</li>
                 	    <li>Sixth: &#x20b9;{{event.prize.sixth}}</li>
-                	    <b><li>Total: &#x20b9;{{event.prize.total}}</li></b>
+                	 <b><li>Total: &#x20b9;{{event.prize.total}}</li></b>
                 		<!--<li ng-repeat="(key,val) in current.prize">{{key}}: &#x20b9;{{val}}</li>-->
                 	</ul>
                 	
-                	<ul ng-if="event.name=='CODESENSE'">
+                	<ul ng-if="event.name=='CODESENSE'" class ="text-center">
                 	    <li>First: &#x20b9;{{event.prize.first}}</li>
                 	    <li>Second: &#x20b9;{{event.prize.second}}</li>
                 	    <li>Third: &#x20b9;{{event.prize.third}}</li>
@@ -317,11 +320,11 @@
                   </div>
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} coordinators text-center" style="display:none;">
                   
-                  <h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;">Event Heads</h4>
+                  <h4  style="font-weight:900;color:dodgerblue;text-decoration: underline;margin-left:30%">Event Heads</h4>
                     <br>
-                    <div class="row " ng-repeat="c in event.coordinators" style="display:flex;justify-content:center;">
-                   <div class="col-6 " style ="font-size:15px;font-weight:400">{{c.name}}</div>
-                      <div class="col-6" style ="font-size:15px;"></i>&nbsp;&nbsp;{{c.phone}}</div>
+                    <div class="row text-center" ng-repeat="c in event.coordinators" >
+                   <div class="col-8 " style ="font-size:15px;font-weight:400;margin-bottom:10px">{{c.name}}</div>
+                      <div class="col-4" style ="font-size:15px;margin-bottom:10px"></i>&nbsp;&nbsp;{{c.phone}}</div>
                     </div>
                   </div>
 </div>
