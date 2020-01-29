@@ -19,6 +19,10 @@
     .logo_light {
         width: 50px;
     }
+    @font-face {
+  font-family: batman;
+  src: url(batmfa__.ttf) format('truetype');
+}
 
     #navbar-top {
         height: 85px;
@@ -132,9 +136,9 @@
   <div class ="title-eve"><br>
     <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo" /></a>
     <br><center>
-    <span id="event_title"style ="  font-size:32px;font-family: 'Play',sans-serif;color:#000;border-left:none;"><u><?php echo str_replace("_"," ",$_GET['branch']) ?></u></span>
-<br>
-    <h5 class="subevt" id="subevnt"></h5>
+    <span id="event_title"style ="  font-size:28px;font-family:batman, sans-serif; ;color:#413e66;border-left:none;"><?php echo str_replace("_"," ",$_GET['branch']) ?></span>
+<br><br> 
+   <u> <h4 class="subevt" id="subevnt" style ="font-family: 'Play',sans-serif;"></h4></u>
     <i class="fas fa-arrow-circle-left " id="backbtn" style ="font-size:30px;display:none;"></i>
 
     </center>
