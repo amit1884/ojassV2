@@ -25,6 +25,9 @@
         padding: 10px 0px;
         background-color: #f5f8fd;
     }
+    /* .backbtn{
+      display:none;
+    } */
     .navbar-brand {
         padding: 0 15px;
     }
@@ -130,6 +133,7 @@
     <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo" /></a>
     <br><center>
     <span id="event_title"style ="  font-size:32px;font-family: 'Play',sans-serif;color:#000;border-left:none;"><u><?php echo str_replace("_"," ",$_GET['branch']) ?></u></span>
+    <br><i class="fas fa-arrow-circle-left " id="backbtn"  style ="font-size:30px;display:none;"></i>
     </center>
     <br>
     <div class ="event-abt-head">
@@ -304,13 +308,13 @@
                         </div>
 
                   </div>
-                  <div class="{{event.name.split(' ').join('') | removeBrackets}} coordinators" style="display:none;">
+                  <div class="{{event.name.split(' ').join('') | removeBrackets}} coordinators text-center" style="display:none;">
                   
-                    <center><h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;">Event Heads</h4></center>
+                  <h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;">Event Heads</h4>
                     <br>
-                    <div class="row text-center" ng-repeat="c in event.coordinators">
-                   <div class="col-6" style ="font-size:15px;font-weight:400">{{c.name}}</div>
-                      <div class="col-6" style ="font-size:15px;"><i class ="fa fa-phone-alt" style="color:#000;font-size:14px;"></i>&nbsp;&nbsp;{{c.phone}}</div>
+                    <div class="row " ng-repeat="c in event.coordinators">
+                   <div class="col-6 " style ="font-size:15px;font-weight:400">{{c.name}}</div>
+                      <div class="col-6" style ="font-size:15px;"></i>&nbsp;&nbsp;{{c.phone}}</div>
                     </div>
                   </div>
 </div>
@@ -332,6 +336,7 @@ $(document).ready(function(){
     $(".nav-eve").click(function(){
       $(".event-abt-head").hide();
       $(".top").show();
+      $('#backbtn').show();
     $(".mainarea").show();
     });
   });
@@ -341,6 +346,7 @@ $(document).ready(function(){
    $(".title-eve").click(function(){
     $(".event-abt-head").show();
     $(".top").hide();
+    $('#backbtn').hide();
     $(".mainarea").hide();
    })
   // });

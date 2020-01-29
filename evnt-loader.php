@@ -8,7 +8,6 @@ body {
   background: #413e66;
   
 }
-
 .s2 {
   position: absolute;
   height: 100px;
