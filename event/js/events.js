@@ -11,9 +11,12 @@ $(document).ready(function(){
 
 		$('*').removeClass('selected');
 		$(this).addClass('selected');
-		var eventname=$(this).attr('name');
-		eventname=eventname.replace(/\s/g, '').replace(/\(|\)/g, '').replace(/&/g,"").replace(/'/g, '').replace(/!/g,"").replace(/,/g,"");
+		var eventname=$(this).text();
+		$('.subevt').html(eventname);
 		console.log(eventname);
+		eventname=eventname.replace(/\s/g, '').replace(/\(|\)/g, '').replace(/&/g,"").replace(/'/g, '').replace(/!/g,"").replace(/,/g,"");
+		
+		
 		$('.event-wrapper').hide();
 		$('.event-wrapper').filter('#'+eventname).fadeIn();
 		$('.'+eventname+'.about').fadeIn();

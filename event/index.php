@@ -133,7 +133,10 @@
     <a href="../" ><img class="logo_light" src="img/newlogo.png" alt="logo" /></a>
     <br><center>
     <span id="event_title"style ="  font-size:32px;font-family: 'Play',sans-serif;color:#000;border-left:none;"><u><?php echo str_replace("_"," ",$_GET['branch']) ?></u></span>
-    <br><i class="fas fa-arrow-circle-left " id="backbtn"  style ="font-size:30px;display:none;"></i>
+<br>
+    <h5 class="subevt" id="subevnt"></h5>
+    <i class="fas fa-arrow-circle-left " id="backbtn" style ="font-size:30px;display:none;"></i>
+
     </center>
     <br>
     <div class ="event-abt-head">
@@ -176,7 +179,7 @@
         <div ng-repeat="event in events" class="event-wrapper main-display" id="{{event.name.split(' ').join('') | removeBrackets}}" style="display:none;">
         <div class ="jumbotron top">
         <div class ="container-fluid ">
-    <div class ="row text-center icon-row">
+    <div class ="row  icon-row">
       <!-- <div class ="col-1"></div> -->
     <div class ="col sidebarmenu"><a href="#" class="c1 eve-icon20" name ="about" >
         <span style="padding:10px 15px;"><i class="fa fa-address-book-o" style="color:#413e66"></i></span></a></div>
@@ -312,7 +315,7 @@
                   
                   <h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;">Event Heads</h4>
                     <br>
-                    <div class="row " ng-repeat="c in event.coordinators">
+                    <div class="row " ng-repeat="c in event.coordinators" style="display:flex;justify-content:center;">
                    <div class="col-6 " style ="font-size:15px;font-weight:400">{{c.name}}</div>
                       <div class="col-6" style ="font-size:15px;"></i>&nbsp;&nbsp;{{c.phone}}</div>
                     </div>
@@ -337,6 +340,7 @@ $(document).ready(function(){
       $(".event-abt-head").hide();
       $(".top").show();
       $('#backbtn').show();
+      $('#subevnt').show();
     $(".mainarea").show();
     });
   });
@@ -347,6 +351,7 @@ $(document).ready(function(){
     $(".event-abt-head").show();
     $(".top").hide();
     $('#backbtn').hide();
+    $('#subevnt').hide();
     $(".mainarea").hide();
    })
   // });
