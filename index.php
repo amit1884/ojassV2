@@ -1,5 +1,5 @@
 <div class="loader"></div>
-<?php include_once 'navhome.php';?>
+<?php include_once 'nav.php';?>
 <br>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +16,7 @@
     <link rel ="stylesheet" href ="css/animate.css">
       <link rel ="stylesheet" href= "css/style.css">
       <link rel ="stylesheet" href= "css/loader.css">
-      <link rel="stylesheet" href="scroll_icon/scroll.css">
+      <!-- <link rel="stylesheet" href="scroll_icon/scroll.css"> -->
       <link rel ="stylesheet" href= "css/bootstrap.min.css">
       <script type ="text/javascript" src ="js/jquery.js"></script>
       <script type ="text/javascript" src ="js/index.js"></script>
@@ -35,11 +35,6 @@
         overflow-x:hidden;
         /* color:#fff; */
         color:#fff;
-        /* background-color:#94b5f1; */
-        /* background-image:url('images/ojassback.jpeg');
-        background-size:100% 50%;
-        background-repeat:no-repeat; */
-        /* background-image: linear-gradient(to bottom, #c112eb, #891dc2, #571a97, #2c126b, #080340); */
     }
     html{
         scroll-behavior:smooth;
@@ -107,164 +102,7 @@
     position:fixed;
     float:right;
   }
-  /* .wrapper {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  background-color: #55C1FA;
-  animation-name: bodyLight;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  transition-timing-function: linear;
-  font-family: Roboto;
-}
-.triangle {
-  margin: auto;
-  border-style: solid;
-  border-width: 0 125px 216.5px 125px;
-  border-color: transparent transparent #F2F2F0 transparent;
-  animation-name: triangleMove;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  transition-timing-function: linear;
-}
-.triangle:after {
-  position: absolute;
-  top: 11.5px;
-  left: -114px;
-  display: block;
-  content: '';
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 115px 199.2px 115px;
-  border-color: transparent transparent #090909 transparent;
-}
-.triangle-wrap {
-  margin: auto;
-  position: relative;
-  width: 250px;
-  height: 217px;
-}
-.triangle--main {
-  position: relative;
-  z-index: 10;
-}
-.triangle--red {
-  left: 0;
-  top: 0;
-  position: absolute !important;
-  border-color: transparent transparent red transparent;
-  animation-delay: 0.5s;
-}
-.triangle--blue {
-  left: 0;
-  top: 0;
-  position: absolute !important;
-  border-color: transparent transparent blue transparent;
-  animation-delay: 0.3s;
-}
-.triangle__text {
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  text-align: center;
-  z-index: 9999;
-  text-transform: uppercase;
-  font-size: 30px;
-  font-weight: 700;
-  padding: 10px;
-  background-color: #090909;
-  letter-spacing: 20px;
-  animation-name: textAnim;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  transition-timing-function: linear;
-}
-@keyframes bodyLight {
-  30% {
-    filter: invert(14%);
-  }
-  40% {
-    filter: invert(10%);
-  }
-  50% {
-    filter: invert(7%);
-  }
-  60% {
-    filter: invert(10%);
-  }
-  70% {
-    filter: invert(12%);
-  }
-  80% {
-    filter: invert(9%);
-  }
-  90% {
-    filter: invert(14%);
-  }
-  100% {
-    filter: invert(11%);
-  }
-}
-@keyframes triangleMove {
-  10% {
-    transform: translateX(10px);
-    filter: blur(3px);
-  }
-  20% {
-    transform: translateX(4px);
-    filter: blur(0);
-  }
-  30% {
-    transform: translateX(-5px) skew(0deg);
-    filter: blur(3px);
-  }
-  40% {
-    transform: translateX(7px);
-    filter: blur(0);
-  }
-  50% {
-    transform: translateX(3px);
-  }
-  60% {
-    transform: translateX(2px);
-    filter: blur(5px);
-  }
-  70% {
-    transform: translateX(-2px);
-    filter: blur(0);
-  }
-  80% {
-    transform: translateX(3px);
-    filter: blur(2px);
-  }
-  90% {
-    transform: translateX(-3px);
-  }
-  100% {
-    transform: translateX(3px);
-  }
-}
-@keyframes textAnim {
-  10% {
-    transform: scale(1.2) skew(180deg);
-  }
-  11% {
-    transform: scale(1) skew(180deg);
-  }
-  70% {
-    transform: scale(1) skew(-300deg);
-    filter: blur(1px);
-  }
-  99% {
-    transform: scale(1) skew(200deg);
-  }
-  100% {
-    transform: scale(1) skew(-200deg);
-  }
-} */
+  
 /* preloader */
 /* .loader {
     position: fixed;
