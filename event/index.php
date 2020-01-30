@@ -320,10 +320,10 @@
                   </div>
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} coordinators text-center" style="display:none;">
                   
-                  <h4  style="font-weight:900;color:dodgerblue;text-decoration: underline;margin-left:31%">Event Heads</h4>
+                  <h4  style="font-weight:900;color:dodgerblue;text-decoration: underline;margin-left:25%">Event Heads</h4>
                     <br>
                     <div class="row text-center" ng-repeat="c in event.coordinators" >
-                   <div class="col-8 " style ="font-size:15px;font-weight:400;margin-bottom:10px;padding-left:45px;">{{c.name}}</div>
+                   <div class="col-8 " style ="font-size:15px;font-weight:400;margin-bottom:10px;">{{c.name}}</div>
                       <div class="col-4" style ="font-size:15px;margin-bottom:10px"></i>&nbsp;&nbsp;{{c.phone}}</div>
                     </div>
                   </div>
