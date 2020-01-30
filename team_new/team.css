@@ -51,7 +51,11 @@ h1 {
 }
 h1:hover, .selected h1 {
   cursor: pointer;
+<<<<<<< HEAD
+  background-color: #8cc1da;
+=======
   background: #205C77;
+>>>>>>> 217d5b7956f093a0f6e6e39a355f1375da0e2d94
 }
 h1:before, h1:after {
   content: "";
