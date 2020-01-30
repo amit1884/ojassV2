@@ -242,16 +242,16 @@
                     </div>
                   </div>
 
-                  <div class="{{event.name.split(' ').join('') | removeBrackets}} prizes text-center;" style="display:none;width:90vw;overflow-x:hidden;">
+                  <div class="{{event.name.split(' ').join('') | removeBrackets}} prizes text-center;" style="display:none;width:80vw;overflow-x:hidden;">
                 
-                    <h4  style="font-weight:900;color:dodgerblue;text-decoration: underline;text-align:center;" class ="text-center">Prizes</h4>
+                    <h4  style="font-weight:900;color:dodgerblue;text-decoration: underline; margin-left:16%;">Prizes</h4>
                    
                         
                    
                         <div class="txtdetail text-center">
                           <!-- Condition for normal Prizes -->
-                    <ul ng-if="!event.prize.Firstyear && !event.prize.firstyear && event.name!='CodeMania' && event.name!='CODESENSE' &&event.name!='FIFA\'19'">
-                      <li ng-repeat="(key,val) in event.prize">{{key | capitalize}}: &#x20b9; {{val}}</li>
+                    <ul ng-if="!event.prize.Firstyear && !event.prize.firstyear && event.name!='CodeMania' && event.name!='CODESENSE' &&event.name!='FIFA\'19'" style ="list-style:none;">
+                      <li ng-repeat="(key,val) in event.prize"class ="text-center">{{key | capitalize}}: &#x20b9; {{val}}</li>
                     </ul>
                     
                     <ul ng-if="event.name=='CodeMania'"style=" margin-left:-10%">
@@ -283,7 +283,7 @@
 
                       <b ng-if="event.name=='Hack-De-Science'">Web</b>
 
-                      <b ng-if="event.name=='FIFA\'19'">1v1</b>:<br>
+                      <b ng-if="event.name=='FIFA\'19'">1v1</b>
 
                       <b ng-if="event.name!='Hack-De-Science' && event.name!='FIFA\'19'">First year</b>: <br>
                       <li ng-repeat="(key,val) in event.prize.firstyear">
@@ -292,7 +292,7 @@
 
                       <b ng-if="event.name=='Hack-De-Science'">App</b>
 
-                      <b ng-if="event.name=='FIFA\'19'">2v2</b>: <br>
+                      <b ng-if="event.name=='FIFA\'19'">2v2</b>
 
                       <b ng-if="event.name!='Hack-De-Science'  && event.name!='FIFA\'19' ">Second year</b>: <br>
                       <li ng-repeat="(key,val) in event.prize.secondyear" >
@@ -320,10 +320,10 @@
                   </div>
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} coordinators text-center" style="display:none;">
                   
-                  <h4  style="font-weight:900;color:dodgerblue;text-decoration: underline;margin-left:30%">Event Heads</h4>
+                  <h4  style="font-weight:900;color:dodgerblue;text-decoration: underline;margin-left:31%">Event Heads</h4>
                     <br>
                     <div class="row text-center" ng-repeat="c in event.coordinators" >
-                   <div class="col-8 " style ="font-size:15px;font-weight:400;margin-bottom:10px">{{c.name}}</div>
+                   <div class="col-8 " style ="font-size:15px;font-weight:400;margin-bottom:10px;padding-left:45px;">{{c.name}}</div>
                       <div class="col-4" style ="font-size:15px;margin-bottom:10px"></i>&nbsp;&nbsp;{{c.phone}}</div>
                     </div>
                   </div>
