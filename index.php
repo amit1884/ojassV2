@@ -235,7 +235,6 @@ $(window).load(function(){
   });
   $('#abt').remove(this);
 });
-
 });
   </script>
   
