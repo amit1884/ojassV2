@@ -253,7 +253,7 @@
                     <ul ng-if="!event.prize.Firstyear && !event.prize.firstyear && event.name!='CodeMania' && event.name!='CODESENSE' &&event.name!='FIFA\'19'&&event.name!='LENS VIEW'" style ="list-style:none;">
                       <li ng-repeat="(key,val) in event.prize"class ="text-center">{{key | capitalize}}: &#x20b9; {{val}}</li>
                     </ul>
-                   <ul ng-if="event.name=='LENS VIEW'"> <!--lens view changed prizes-->
+                   <ul ng-if="event.name=='LENS VIEW'"> 
                       <li>First: &#x20b9;4000</li>
                 	    <li>Second:&#x20b9;3000</li>
                 	    <li>Third: &#x20b9;1500</li>
@@ -322,18 +322,18 @@
                      
                     </div>
                         </div>
-                      </div>
+                    
                   </div>
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} coordinators text-center" style="display:none;width:90vw;">
                   
                   <h4  style="font-weight:900;color:dodgerblue;text-decoration: underline;margin-left:10%;">Event Heads</h4>
                     <br>
                     <div class="row text-center" ng-repeat="c in event.coordinators" >
-                   <div class="col-7 text-center" style ="font-size:15px;font-weight:500;margin-bottom:10px;">{{c.name}}</div>
-                      <div class="col-5" style ="font-size:15px;margin-bottom:10px"></i>&nbsp;&nbsp;{{c.phone}}</div>
+                   <div class="col-6 text-center" style ="font-size:15px;font-weight:500;margin-bottom:10px;padding-left:50px;">{{c.name}}</div>
+                      <div class="col-6" style ="font-size:15px;margin-bottom:10px"></i>&nbsp;&nbsp;{{c.phone}}</div>
                     </div>
                   </div>
-</div>
+                </div>
               </div>
             </div>
           </div>
