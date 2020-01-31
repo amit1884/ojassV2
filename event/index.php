@@ -250,10 +250,16 @@
                    
                         <div class="txtdetail text-center">
                           <!-- Condition for normal Prizes -->
-                    <ul ng-if="!event.prize.Firstyear && !event.prize.firstyear && event.name!='CodeMania' && event.name!='CODESENSE' &&event.name!='FIFA\'19'" style ="list-style:none;">
+                    <ul ng-if="!event.prize.Firstyear && !event.prize.firstyear && event.name!='CodeMania' && event.name!='CODESENSE' &&event.name!='FIFA\'19'&&event.name!='LENS VIEW'" style ="list-style:none;">
                       <li ng-repeat="(key,val) in event.prize"class ="text-center">{{key | capitalize}}: &#x20b9; {{val}}</li>
                     </ul>
-                    
+                   <ul ng-if="event.name=='LENS VIEW'"> <!--lens view changed prizes-->
+                      <li>First: &#x20b9;4000</li>
+                	    <li>Second:&#x20b9;3000</li>
+                	    <li>Third: &#x20b9;1500</li>
+                	    <li>1 Consolation:&#x20b9;1000</li>
+                	    <li>Total: &#x20b9;9500</li>
+                   </ul>
                     <ul ng-if="event.name=='CodeMania'"style=" margin-left:-10%">
                 	    <li>First: &#x20b9;{{event.prize.first}}</li>
                 	    <li>Second:&#x20b9;{{event.prize.second}}</li>
