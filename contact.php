@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/contact-2.css">
   <title>Contact Us</title>
+  <script src="https://codepen.io/fbrz/pen/9a3e4ee2ef6dfd479ad33a2c85146fc1.js"></script>
+  <script type ="text/javascript" src ="js/jquery.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
 
   <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
@@ -22,10 +24,106 @@
   {
       display:none;
   }
+
+  @import "bourbon";
+
+/* Demo Styles */
+
+#content {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 80%;
+  max-width: 978px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+/* The Loader */
+/* .holder {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: #ECE5DF;
+}
+
+.preloader {
+  position: absolute;
+  width: 10%;
+  height: 0%;
+  padding-bottom: 10%;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.preloader div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  overflow: hidden;
+  animation: animatePreloader 1s infinite linear;
+  transform-origin: 50% 100%;
+}
+.preloader div:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  border: 3px solid #333;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.preloader div:nth-child(2) {
+  width: 60%;
+  height: 60%;
+  top: 20%;
+  animation: animatePreloader 0.5s infinite linear;
+}
+@keyframes animatePreloader {
+  0% {
+    transform: translateX(-50%) translateY(-50%) rotateZ(0deg);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotateZ(360deg);
+  }
+} */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+}
   </style>
+ <!--  <script language="javascript" type="text/javascript">
+     $(window).load(function() {
+     $('.loader').hide();
+  });
+</script> -->
+
 </head>
 <body>
 
+<!-- <div class="loader">
+<div class="holder">
+  <div class="preloader"><div></div><div></div></div>
+</div>
+</div> -->
+<div class="se-pre-con"></div>
 <div class="contact-box" style='position:unset; width:90%; margin: 0 auto;'>  
   <br><br><br>
     <center><h1 style="color:#413e66;font-size:30px;font-family:batman, sans-serif;">Get in touch</h1></center><br>
@@ -449,3 +547,4 @@ function saveFeedback(name, email, subject, message) {
 
 
 </script>
+

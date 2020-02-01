@@ -312,7 +312,7 @@
                   
                   <h4 class="text-center" style="font-weight:900;color:dodgerblue;text-decoration: underline;">Event Heads</h4>
                     <br>
-                    <div class="row " ng-repeat="c in event.coordinators">
+                    <div class="row " ng-repeat="c in event.coordinators" style="display:flex;justify-content:center;flex-direction:row!important;">
                    <div class="col-6 " style ="font-size:15px;font-weight:400">{{c.name}}</div>
                       <div class="col-6" style ="font-size:15px;"></i>&nbsp;&nbsp;{{c.phone}}</div>
                     </div>
