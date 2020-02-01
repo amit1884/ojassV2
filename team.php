@@ -682,9 +682,15 @@ article h1{
              <div style="height:86%;background-color:black;">
             <img src="images/creative-team/pratik ranjan creative-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <center> <h3 style="font-family:batman, sans-serif;" >Pratik ranjan</h3 ></center>        
+            <center> <h3 style="font-family:batman, sans-serif;" >Pratik Singh</h3 ></center>        
             </div>
-
+            
+            <div class="swiper-slide">
+             <div style="height:86%;background-color:black;">
+            <img src="images/test.jpg" style="margin-left:15%;width:65%;height:100%;">
+            </div>
+            <center> <h3 style="font-family:batman, sans-serif;" >Pratik Ranjan</h3 ></center>        
+            </div>
     
            <!--  <div class="swiper-slide">
              <div style="height:86%;background-color:black;">
