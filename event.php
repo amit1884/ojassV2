@@ -87,75 +87,73 @@ body{
 </div>
 <h4>Deus-X-Machina</h4></a>
 </div>
-<div class ="col-4 text-center" data-aos='flip-down'>
+<!-- <div class ="col-4 text-center" data-aos='flip-down'>
 <div  class ="eve-logo">
 <a href ="event/index.php?branch=Exposicion"><img src='svg\eventsIcons\exposicion.svg'class ="img-responsive">
 </div>
 <h4>Exposicion</h4></a>
-</div>
-<div class ="col-4 text-center" data-aos='flip-right'>
+</div> -->
+<div class ="col-4 text-center" data-aos='flip-down'>
 <div  class ="eve-logo">
 <a href ="event/index.php?branch=Live CS"><img src='svg\eventsIcons\live_cs.svg'class ="img-responsive">
 </div>
 <h4>Live CS</h4></a>
 </div>
-<div class ="col-4 text-center" data-aos='fade-up-left'>
+<div class ="col-4 text-center" data-aos='flip-right'>
 <div  class ="eve-logo">
 <a href ="event/index.php?branch=NCFF"><img src='svg\eventsIcons\paraphernalia.svg'class ="img-responsive">
 </div>
 <h4>NCFF</h4></a>
 </div>
-<div class ="col-4 text-center" data-aos='fade-up'>
+<div class ="col-4 text-center" data-aos='fade-up-left'>
 <div  class ="eve-logo">
 <a href ="event/index.php?branch=NSCET"><img src='svg\eventsIcons\nscet.svg'class ="img-responsive">
 </div>
 <h4>NSCET</h4></a>
 </div>
-<div class ="col-4 text-center" data-aos='fade-up-right'>
+<div class ="col-4 text-center" data-aos='fade-up'>
 <div  class ="eve-logo">
 <a href ="event/index.php?branch=Neo Drishti"><img src='svg\eventsIcons\neodrishti.svg'class ="img-responsive">
 </div>
 <h4>Neo Drishti</h4></a>
 </div>
-<div class ="col-4 text-center" data-aos='zoom-in-left'>
+<div class ="col-4 text-center" data-aos='fade-up-right'>
 <div  class ="eve-logo">
 <a href ="event/index.php?branch=No Ground Zone"><img src='svg\eventsIcons\no_ground_zone.svg'class ="img-responsive">
 </div>
 <h4>No Ground Zone</h4></a>
 </div>
-<div class ="col-4 text-center" data-aos='zoom-in-up'>
+<div class ="col-4 text-center" data-aos='zoom-in-left'>
 <div  class ="eve-logo">
 <a href ="event/index.php?branch=Prayas"><img src='svg\eventsIcons\prayas.svg'class ="img-responsive">
 </div>
 <h4>Prayas</h4></a>
 </div>
-<div class ="col-4 text-center" data-aos='zoom-in-right'>
+<div class ="col-4 text-center" data-aos='zoom-in-up'>
 <div  class ="eve-logo">
-<a href ="event/index.php?branch=Produs"><img src='svg\eventsIcons\produs.svg'class ="img-responsive">
+<a href ="event/index.php?branch=Produs"><img src='svg\eventsIcons\new-pie.jpg'class ="img-responsive"style ="padding:10px;">
 </div>
 <h4>Produs</h4></a>
 </div>
-<div class ="col-4 text-center" data-aos='fade-down-left'>
+<div class ="col-4 text-center" data-aos='zoom-in-right'>
 <div  class ="eve-logo">
 <a href ="event/index.php?branch=Rise of Machines"><img src='svg\eventsIcons\rise_of_machines.svg'class ="img-responsive">
 </div>
 <h4>Rise of Machines</h4></a>
 </div>
-<div class ="col-4 text-center" data-aos='zoom-in-up'>
+<div class ="col-4 text-center" data-aos='fade-down-left'>
 <div  class ="eve-logo">
 <a href ="event/index.php?branch=School Events"><img src='svg\eventsIcons\school_events.svg'class ="img-responsive">
 </div>
 <h4>School Events</h4></a>
 </div>
-<div class ="col-4 text-center" data-aos='fade-down-right'>
+<div class ="col-4 text-center" data-aos='zoom-in-up'>
 <div  class ="eve-logo" >
 <a href ="event/index.php?branch=Silicon Valley"><img src='svg\eventsIcons\silicon_valley.svg'class ="img-responsive">
 </div>
 <h4>Silicon Valley</h4></a>
 </div>
-<div class ="col-4 text-center" >
-</div>
-<div class ="col-4 text-center" data-aos='zoom-in-down'>
+<div class ="col-4 text-center" data-aos='fade-down-right'>
 <div  class ="eve-logo" >
 <a href ="event/index.php?branch=Vishwa Code Genesis"><img src='svg\eventsIcons\vishwacodegenesis.svg'class ="img-responsive">
 </div>
