@@ -1,4 +1,4 @@
-<div class="loader"></div>
+<!-- <div class="loader"></div> -->
 <?php include_once 'nav.php';?>
 <br>
 <!DOCTYPE html>
@@ -30,18 +30,16 @@
     Alatsi|Alfa+Slab+One|Bitter|Inria+Serif|Lakki+Reddy|
     Lobster|Merriweather|Playfair+Display|Righteous&display=swap" rel="stylesheet"> 
     <title>OJASS'20</title>
-<style>
-    body{
-        overflow-x:hidden;
-        /* color:#fff; */
-        color:#fff;
-    }
-    html{
-        scroll-behavior:smooth;
-    }
-    .arrow:after{
-      margin-left: -11px;
-    }
+    <style>
+    .abt-foo{
+    display:none;
+  }
+  .head-img{
+      margin-top:-7%;
+      height:110vh;
+      width:100vw;
+  }
+ 
   .about{
     position:relative;
     font-size:18px;
@@ -52,156 +50,34 @@
     letter-spacing:1.5;
     text-align:center;
   }
-  @font-face {
-  font-family: batman;
-  src: url(batmfa__.ttf) format('truetype');
-}
-  .head{
-      font-size:55px;
-      text-align:center;
-      font-weight:200px;
-      /* color:#fff; */
-      color:#413e66;
-      font-family:"batman", sans-serif;
-  }
-  
- 
-  .about-btn{
-   font-size:40px;
-    color:#000;
-  }
-.abt-foo{
-    display:none;
-  }
-  .main-header-20{
-   min-height:90vh;
-   background-image:url('images\intro-bg.jpg');
-    
-  }
-  a{
-    text-decoration:none;
-    
-  }
- .fa-angle-double-down{
+  .fa-angle-double-down{
     font-size:40px;
     color:#000;
-  }
-  .logo-20{
-    width:80%;
-    height:280px;
-    margin-left:2%;
   }
   .abt-jumbo{
     background:#f5f8fd;
   }
-  #scroll_id {
-    background: rgb(142, 193, 218);
-  }
-  #scroll_btn
-  {
-    position:fixed;
-    float:right;
-  }
-  
-/* preloader */
-/* .loader {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url('images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
-    opacity: .8;
-} */
+  @font-face {
+  font-family: batman;
+  src: url(batmfa__.ttf) format('truetype');
+}
   </style>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <!-- <script type="text/javascript">
-$(window).load(function() {
-    $(".loader").fadeOut("slow");
-});
-</script> -->
-  </head>
   <body>
   <div id= "loader-wrapper">
   <img src ="svg/copper-loader.gif">
   </div>
-<br><br>
-<!-- <img src ="images/ojassback.jpeg"style ="z-index:-1;width:100vw;height:105vh;margin-top:-6%;"> -->
-  <div class ="main-header-20">
-  <div class ="head" style ="margin-left:15%;">
-  <div class =" head-wow  wow " data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">O</div>
-        <div class =" head-wow  wow " data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">J</div>
-        <div class =" head-wow  wow " data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">A</div>
-        <div class =" head-wow  wow " data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">S</div>
-        <div class =" head-wow  wow " data-wow-duration="2s" data-wow-delay="1s"style ="font-size:45px;float:left">S</div>
-        <div class =" head-wow  wow " data-wow-duration="3s" data-wow-delay="1s"style ="font-size:45px;float:left">'</div>
-        <div class =" head-wow  wow " data-wow-duration="3s" data-wow-delay="1s"style ="font-size:45px;float:left">2</div>
-        <div class =" head-wow  wow " data-wow-duration="3s" data-wow-delay="1s"style ="font-size:45px;float:left">0</div>
-  </div>
-  <div class ="image wow" data-wow-duration="1s">
-  <center>
-<img src ="images/newlogo.png" class ="logo-20">
-</center>
-</div>
-<!--timer-->
-<?php  include_once 'timer.php';?>
-<!--theme-->
-<div class ="theme wow fadeIn" data-wow-delay="3s">
-  <center>
-  <h1 class="ml2">INDIC ERUDITION</h1>
-</center>
-</div>
-<center>
+ <img src ="images\ojasslightback.jpeg" class ="head-img"> 
+
+ <center>
   <div class ="downarr wow zoomIn"data-wow-delay="4s">
   <a href ="#pseudo-div">
     <i class="fa fa-angle-double-down animated bounce about-btn" style ="font-size:40px;"></i></a>
 </div>
 </center>
-<br><br>
-
-</div>
-<br>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<style>
-  .ml2 {
-  font-weight: 200;
-  font-size: 40px;
-  color:orange;
-  font-family:'Inria Serif';
-}
-
-.ml2 .letter {
-  display: inline-block;
-  line-height: 1em;
-}
-  </style>
-  <script>
-    $(document).ready(function(){
-
-      setTimeout(() => {
-      var textWrapper = document.querySelector('.ml2');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-  anime.timeline({loop: false})
-  .add({
-    targets: '.ml2 .letter',
-    scale: [4,1],
-    opacity: [0,1],
-    translateZ: 0,
-    easing: "easeOutExpo",
-    duration: 2000,
-    delay: (el, i) => 70*i
-  })
-    }, 3000);
-    })
-   
- 
-    </script>
-  </center>
   <div id ="pseudo-div" style ="height:90px;"></div>
 
-  <div id="abt" class ="abt-foo">
-  <div class ="abt-jumbo">
+<div id="abt" class ="abt-foo">
+<div class ="abt-jumbo">
 <h2 id  ="about-id" style ="  font-family:batman, sans-serif;color:#000;"><center><u>ABOUT</u><center></h2>
 
 <p class= "about" >
@@ -213,30 +89,29 @@ A three-day spectacle, Ojass also organizes many motivating guest lectures under
 </div>
 
 <script src ="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
-    <script>
-   $(document).ready(function(){
-  $('.image').addClass('zoomIn');
-  $('.head-wow').addClass('rollIn');
- 
-});
-    </script>
-
   <script>
-    new WOW().init();
-    </script>
+ $(document).ready(function(){
+$('.image').addClass('zoomIn');
+$('.head-wow').addClass('rollIn');
+
+});
+  </script>
+
+<script>
+  new WOW().init();
+  </script>
 
 
 <script>
 jQuery(document).ready(function($) {  
 
 $(window).load(function(){
-	$('#loader-wrapper').fadeOut('slow',function(){$(this).remove();
-  $('#abt').removeClass('abt-foo')
-  });
-  $('#abt').remove(this);
+  $('#loader-wrapper').fadeOut('slow',function(){$(this).remove();
+$('#abt').removeClass('abt-foo')
+});
+$('#abt').remove(this);
 });
 });
-  </script>
-  
-</body>
-</html>
+</script>
+  </body>
+  </html>
