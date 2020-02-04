@@ -262,10 +262,10 @@ article h1{
 </head>
 <body style="background:transparent;"><br><br><br>
 
-<div id="loading-wrapper">
+<!-- <div id="loading-wrapper">
   <div id="loading-text">LOADING</div>
   <div id="loading-content"></div>
-</div>
+</div> -->
 
 <center><div style="color:#413E66;font-size:45px;font-family:batman, sans-serif;">TEAM</div></center>
 <br>
