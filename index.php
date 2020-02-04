@@ -87,7 +87,7 @@ canvas {
 }
 .about-btn{
   position:absolute;
-  top:93vh;
+  top:86vh;
   z-index:10;
   left:47%;
 }
