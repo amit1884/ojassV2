@@ -80,9 +80,10 @@ canvas {
 
 .particles {
 	position: absolute;
+  top:0;
 	background-color: transparent;
 	width: 100%;
-	height: 90%;
+	height: 100%;
 	z-index: 5;
 }
 .about-btn{
