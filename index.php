@@ -23,7 +23,7 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
 <script src="scroll_icon/scroll.js"></script>
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/15979/footer-inject.jss"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     <!--fonts-->
     
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|
@@ -31,12 +31,19 @@
     Lobster|Merriweather|Playfair+Display|Righteous&display=swap" rel="stylesheet"> 
     <title>OJASS'20</title>
     <style>
+     html{
+        scroll-behavior:smooth;
+    }
+    body{
+      overflow-x:hidden;
+
+    }
     .abt-foo{
     display:none;
   }
   .head-img{
       margin-top:-7%;
-      height:110vh;
+      height:100vh;
       width:100vw;
   }
  
@@ -57,22 +64,47 @@
   .abt-jumbo{
     background:#f5f8fd;
   }
+  .downarr{
+      position:fixed:
+    top:50vh;
+  }
   @font-face {
   font-family: batman;
   src: url(batmfa__.ttf) format('truetype');
 }
+
+canvas {
+	display: block;
+	vertical-align: bottom;
+}
+
+.particles {
+	position: absolute;
+	background-color: transparent;
+	width: 100%;
+	height: 90%;
+	z-index: 5;
+}
+.about-btn{
+  position:absolute;
+  top:93vh;
+  z-index:10;
+  left:47%;
+}
+
+
   </style>
   <body>
+  <div id="particles" class="particles"></div>
+
   <div id= "loader-wrapper">
   <img src ="svg/copper-loader.gif">
   </div>
  <img src ="images\ojasslightback.jpeg" class ="head-img"> 
 
  <center>
-  <div class ="downarr wow zoomIn"data-wow-delay="4s">
-  <a href ="#pseudo-div">
-    <i class="fa fa-angle-double-down animated bounce about-btn" style ="font-size:40px;"></i></a>
-</div>
+  <a href ="#pseudo-div" class= "text-center">
+  <i class="fa fa-angle-double-down animated bounce about-btn" style ="font-size:40px;"></i></a>
 </center>
   <div id ="pseudo-div" style ="height:90px;"></div>
 
@@ -101,7 +133,28 @@ $('.head-wow').addClass('rollIn');
   new WOW().init();
   </script>
 
+<script>
 
+particlesJS('particles', {
+	'particles': {
+		'number': {
+			'value': 100
+		},
+		'color': {
+			'value': '#fff'
+		},
+		'opacity': {
+			'value': 0.8
+		},
+		'size': {
+			'value': 4
+		},
+		'line_linked': {
+			'color': '#fff'
+		}
+	}
+});
+</script>
 <script>
 jQuery(document).ready(function($) {  
 
