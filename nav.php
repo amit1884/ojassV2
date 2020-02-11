@@ -54,7 +54,7 @@
 				<li class="nav__list-item"><a href="event.php" class="hover-target" style ="text-decoration:none;padding-top:15px;">EVENTS</a></li>
 				<li class="nav__list-item"><a href="notification.php" class="hover-target" style ="text-decoration:none;padding-top:15px;">NOTIFICATION</a></li>
                 <li class="nav__list-item"><a href="faq.php" class="hover-target" style ="text-decoration:none;padding-top:15px;">FAQs</a></li>
-                <li class="nav__list-item"><a href="sponsor.php" class="hover-target" style ="text-decoration:none;padding-top:15px;">SPONSORS</a></li>
+                <!-- <li class="nav__list-item"><a href="sponsor.php" class="hover-target" style ="text-decoration:none;padding-top:15px;">SPONSORS</a></li> -->
                 <li class="nav__list-item"><a href="team.php" class="hover-target" style ="text-decoration:none;padding-top:15px;">TEAM</a></li>
 				<li class="nav__list-item"><a href="contact.php" class="hover-target" style ="text-decoration:none;padding-top:15px;">CONTACT US</a></li>
 			</ul>
