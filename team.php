@@ -986,7 +986,7 @@ article h1{
              <div style="height:86%;background-color:black;">
             <img src="images/workshops/workshop-naman-min.jpg" style="margin-left:15%;width:65%;height:100%;">
             </div>
-            <center><h3  style="font-family:batman, sans-serif;">Nman</h3 ></center>    
+            <center><h3  style="font-family:batman, sans-serif;">Naman</h3 ></center>    
             </div>
   
            <div class="swiper-slide">
