@@ -123,7 +123,7 @@ h1 {
   <div class="preloader"><div></div><div></div></div>
 </div>
 </div> -->
-<div class="se-pre-con"></div>
+<!-- <div class="se-pre-con"></div>-->
 <div class="contact-box" style='position:unset; width:90%; margin: 0 auto;'>  
   <br><br><br>
     <center><h1 style="color:#413e66;font-size:30px;font-family:batman, sans-serif;">Get in touch</h1></center><br>
