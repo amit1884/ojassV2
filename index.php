@@ -101,7 +101,7 @@ canvas {
   <div id= "loader-wrapper">
   <img src ="svg/copper-loader.gif">
   </div>
- <img src ="images\ojasslightback.jpeg" class ="head-img"> 
+ <img src ="images\latestback.jpg" class ="head-img"> 
 
  <center>
   <a href ="#pseudo-div" class= "text-center">
